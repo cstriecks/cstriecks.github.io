@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/cstriecks
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cstriecks.github.io
+  * I am cstriecks (https://keybase.io/cstriecks) on keybase.
+  * I have a public key ASDs4rNTrtUzYEe9gSnOc7b5lQTkjMGd1_vmMBoKpfOK7wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201ace2ca1791d2e0213f52e4313ee627d402b51f76ff36a83597b986788367e430a",
+      "host": "keybase.io",
+      "kid": "0120ece2b353aed5336047bd8129ce73b6f99504e48cc19dd7fbe6301a0aa5f38aef0a",
+      "uid": "e5f21bc140fed7cad06fee93ea7a5c19",
+      "username": "cstriecks"
+    },
+    "merkle_root": {
+      "ctime": 1516656603,
+      "hash": "a3dd0cb5387b12d5ad9a2a9421226b10d47f9f65646d78c7cd0c723501262522a38339db00cf64ef12e4fd94677c11db4d4e212e64ce56e187a3520b3939664e",
+      "hash_meta": "5ef061439606508c0a1f127e45cbe9d1c60ab666434b2a1b86c1751d86eca0d8",
+      "seqno": 1957679
+    },
+    "service": {
+      "hostname": "cstriecks.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.39"
+  },
+  "ctime": 1516656620,
+  "expire_in": 504576000,
+  "prev": "6416ce6c9ddfe83be21011ad2526df12ddbe0ef17e4fb1d2bed382c1ada7b76e",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7OKzU67VM2BHvYEpznO2+ZUE5IzBndf75jAaCqXziu8Kp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMWFjZTJjYTE3OTFkMmUwMjEzZjUyZTQzMTNlZTYyN2Q0MDJiNTFmNzZmZjM2YTgzNTk3Yjk4Njc4ODM2N2U0MzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWNlMmIzNTNhZWQ1MzM2MDQ3YmQ4MTI5Y2U3M2I2Zjk5NTA0ZTQ4Y2MxOWRkN2ZiZTYzMDFhMGFhNWYzOGFlZjBhIiwidWlkIjoiZTVmMjFiYzE0MGZlZDdjYWQwNmZlZTkzZWE3YTVjMTkiLCJ1c2VybmFtZSI6ImNzdHJpZWNrcyJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxNjY1NjYwMywiaGFzaCI6ImEzZGQwY2I1Mzg3YjEyZDVhZDlhMmE5NDIxMjI2YjEwZDQ3ZjlmNjU2NDZkNzhjN2NkMGM3MjM1MDEyNjI1MjJhMzgzMzlkYjAwY2Y2NGVmMTJlNGZkOTQ2NzdjMTFkYjRkNGUyMTJlNjRjZTU2ZTE4N2EzNTIwYjM5Mzk2NjRlIiwiaGFzaF9tZXRhIjoiNWVmMDYxNDM5NjA2NTA4YzBhMWYxMjdlNDVjYmU5ZDFjNjBhYjY2NjQzNGIyYTFiODZjMTc1MWQ4NmVjYTBkOCIsInNlcW5vIjoxOTU3Njc5fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNzdHJpZWNrcy5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zOSJ9LCJjdGltZSI6MTUxNjY1NjYyMCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI2NDE2Y2U2YzlkZGZlODNiZTIxMDExYWQyNTI2ZGYxMmRkYmUwZWYxN2U0ZmIxZDJiZWQzODJjMWFkYTdiNzZlIiwic2Vxbm8iOjI2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQF3k/DoASk36YBkpUscI0fUiKfenJNG4iDod0bAYPoNVWHMrFQ/jDXvF8Hm0O7KRZ1f8sfQQHkSggViVHp5bXgeoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDTvGx7iDIwJXHp0gxErv7vpxFRb/WATNWlzb6hUakSXqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cstriecks
+
+==================================================================
