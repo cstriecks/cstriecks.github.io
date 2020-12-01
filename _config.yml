@@ -126,11 +126,11 @@ scholar:
 
   last_name: Striecks
 
-  style: apa
+  style: ieee-with-url
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: cs.bib
   bibliography_template: bib
 
   replace_strings: true
