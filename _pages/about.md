@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 description: Researcher in cryptography at <a href="https://www.ait.ac.at/themen/cyber-security/cryptography/" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> in Vienna.
-
 profile:
   align: right
   image: profile-cs.jpg
@@ -17,9 +16,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My research focus lies in the field of advanced cryptographic building blocks with strong provable security guarantees for securing modern connected systems (e.g., the Internet of things, cloud computing, and secure distributed communication) with an emphasis on real-world and versatile cryptographic features (e.g., forward-secret, fine-grained, and post-quantum cryptography).
+Researcher in cryptography at <a href="https://www.ait.ac.at/themen/cyber-security/cryptography/" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> in Vienna, Austria.
 
-I received my PhD in cryptography from the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> with a focus on strong security guarantees for the cryptographic building blocks identity-based encryption, digital signatures, and revocation schemes.
+My research focus lies in the field of novel cryptographic building blocks with strong provable security guarantees for securing modern connected systems (e.g., the Internet of things, cloud computing, and secure communication). The emphasis is on usable and versatile cryptographic features (particularly towards forward-secret, fine-grained, and post-quantum cryptography).
+
+In 2015, I received my PhD in cryptography from the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> with a focus on strong security guarantees for the cryptographic building blocks identity-based encryption, digital signatures, and revocation schemes.
 
 Standardization activities include <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> within <a href="http://www.etsi.org/technologies-clusters/technologies/cyber-security" target="_blank" rel="noopener">ETSI TC CYBER</a> (on standardizing Attribute-Based Encryption for access control and data privacy). Furthermore, I am part of the <a href="https://www.enisa.europa.eu" target="_blank" rel="noopener">ENISA</a> List of Experts for field B: ICT Security Standardisation and Certification in category 1) Applied Cryptography (Algorithms, Protocols, Standards).
 
