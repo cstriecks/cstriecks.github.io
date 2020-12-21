@@ -19,7 +19,7 @@
     {% else %}
       <div class="title">{{entry.title}}</div>
       <div class="author">
-        {% for author in entry.author_array %}
+        with {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
               <em>{{author.first}} {{author.last}}</em>
@@ -58,12 +58,14 @@
       {% elsif entry.type == "inproceedings" %}
         <em>{{entry.booktitle}}</em>
       {% endif %}
-<!--      {% if entry.year %}
+<!--
+     {% if entry.year %}
         {{entry.year}}
       {% endif %} 
 -->
       </div>
     {% endif %}
+
 
     <div class="links">
     {% if entry.abstract %}
@@ -104,6 +106,9 @@
       {% else %}
       <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
       {% endif %}
+    {% endif %}
+    {% if entry.talk %}
+      <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk</a>
     {% endif %}
     {% if entry.slides %}
       {% if entry.slides contains '://' %}
