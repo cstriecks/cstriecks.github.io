@@ -24,7 +24,11 @@
             {% if author.last == site.scholar.last_name %}
               <em>{{author.first}} {{author.last}}</em>
             {% else %}
-              {{author.first}} {{author.last}}
+              {% if site.data.coauthors[author.last] %}
+                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                {% else %}
+                  {{author.first}} {{author.last}}
+                {% endif %}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
