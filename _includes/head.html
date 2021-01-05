@@ -5,6 +5,25 @@
 <title>{% if site.title == blank %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% endif %}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
 <meta name="description" content="{{ site.description }}">
 
+<!-- JSON-LD Schema Generator -->
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "person",
+  "name": "Christoph Striecks",
+  "jobTitle": "Cryptography researcher in the Cyber Security team at AIT Austrian Institute of Technology in Vienna, Austria.",
+  "url": "https://cstriecks.github.io",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "AIT Austrian Institute of Technology, Giefinggasse 4",
+    "addressLocality": "Vienna",
+    "postalCode": "1210",
+    "addressCountry": "Austria"
+  },
+  "email": "Christoph.Striecks@ait.ac.at"
+}
+ </script>
+
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
 <meta property="og:site_name" content="{{ site.description }}" />

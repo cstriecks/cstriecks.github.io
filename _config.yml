@@ -8,7 +8,7 @@ middle_name:
 last_name: Striecks
 email: Christoph.Striecks@ait.ac.at
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Christoph Striecks, cryptography researcher at AIT Austrian Institute of Technology, Vienna.
+  Researcher in cryptography in the Cyber Security Group at AIT Austrian Institute of Technology, Vienna.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -31,7 +31,7 @@ footer_fixed: false
 # Display links to the page with a preview object on social media.
 # To achieve this, change serve_og_meta to true and then provide the URL of the
 # preview image as the value of og_image.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -46,13 +46,13 @@ orcid_id: 0000-0003-4724-8022 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Christoph_Striecks # your profile on ResearchGate
 blogger_url: # your blogger URL
 keybase_username: cstriecks # your keybase user name
 
 contact_note: # You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: # out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog

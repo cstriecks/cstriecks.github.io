@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Researcher in cryptography at <a href="https://www.ait.ac.at/themen/cyber-security/cryptography/" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> in Vienna.
+description: Cryptography researcher in the Cyber Security team at AIT Austrian Institute of Technology in Vienna, Austria.
 profile:
   align: right
   image: profile-cs.jpg
@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Researcher in the <a href="https://www.ait.ac.at/themen/cyber-security/team/" target="_blank" rel="noopener">cyber security group</a> at <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> in Vienna, Austria.
+Cryptography researcher in the <a href="https://www.ait.ac.at/themen/cyber-security/team/" target="_blank" rel="noopener">Cyber Security team</a> at <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> in Vienna, Austria.
 
 My research focus lies in the field of novel cryptographic building blocks with strong provable security guarantees for modern connected systems (e.g., the Internet of things, cloud computing, secure communication, and distributed ledgers). The emphasis is on strong versatile cryptographic features while preserving usability and efficiency of the system (particularly towards forward-secret, fine-grained, and post-quantum cryptography).
 
