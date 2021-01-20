@@ -2,8 +2,8 @@
 layout: page
 permalink: /talks/
 title: talks
-description: Recent talks in reversed chronological order.
-years: [2020, 2019]
+description: Recent talks (since 2019) in reversed chronological order.
+years: [2021, 2020, 2019]
 nav: true
 ---
 
