@@ -25,7 +25,21 @@
 
 -- 2021
 
-@inproceedings{DBLP:conf/asiacrypt/CiniRSS20,
+@article{SS21,
+  abbr      = {IACR},
+  author    = {Daniel Slamanig},
+  abstract  = {Updatable encryption (UE; CRYPTO 2013) is a symmetric encryption primitive that allows to periodically rotate encryption keys without the need to decrypt and re-encrypt already encrypted data. This is achieved by means of an update token that allows to perform the ciphertext update. In existing UE constructions, the update token thereby allows bi-directional updates of keys and ciphertexts, which leads to undesired information leakage and rather involved security models. A recent work by Jiang (ASIACRYPT 2020) shows that in the currently strongest UE model due to Boyd et al. (CRYPTO 2020), UE with bi-directional key and ciphertext updates implies schemes with uni-directional ones. While this might suggests that uni-directionality does not add security, we show that this rather stems from a defective security model and in an adequate model uni-directionality is indeed stronger. Irrespective of this fact, even uni-directional UE schemes still do not capture the intuitive security requirements expected from UE. To overcome this leakage problem and obtain natural security guarantees, UE schemes with so-called no-directional key updates are necessary, i.e., where tokens can solely update ciphertexts and only in one direction. However, it stayed unclear whether such UE schemes can be constructed and this tasks is presented as a challenging open problem in both aforementioned works. In this work, we resolve these issues and present the first UE constructions with uni- and even no-directional key updates. We show that such UE schemes can be constructed in the standard model via the notion of dual system groups from the standard d-Lin assumption in prime-order bilinear groups. Our approach of constructing UE significantly departs from previous ones and in particular views UE from the perspective of puncturable encryption (Green and Miers, S&P 2015). Towards constructing UE, as an stepping stone, we introduce a variant of puncturable encryption that additionally support puncturing of ciphertexts. This turns out to be a useful abstraction on our way to construct UE and may be of independent interest.},
+  title     = {Puncture 'Em All: Stronger Updatable Encryption with No-Directional Key Updates},
+  journal   = {{IACR} Cryptologic ePrint Archive 2021/268},
+  volume    = {2021},
+  pages     = {268},
+  year      = {2021},
+  url       = {https://eprint.iacr.org/2021/268},
+  eprint    = {https://eprint.iacr.org/2021/268.pdf},
+  selected  = {false}
+}
+
+@inproceedings{CRSST21,
   author    = {Valerio Cini and
                Sebastian Ramacher and
                Daniel Slamanig and
@@ -58,7 +72,7 @@
   title     = {Bloom Filter Encryption and Applications to Efficient Forward-Secret
                0-RTT Key Exchange},
   abstract  = {Forward secrecy is considered an essential design goal of modern key establishment (KE) protocols, such as TLS 1.3, for example. Furthermore, efficiency considerations such as zero round-trip time (0-RTT), where a client is able to send cryptographically protected payload data along with the very first KE message, are motivated by the practical demand for secure low-latency communication. For a long time, it was unclear whether protocols that simultaneously achieve 0-RTT and full forward secrecy exist. Only recently, the first forward-secret 0-RTT protocol was described by Günther et al. (EUROCRYPT 2017). It is based on Puncturable Encryption. Forward secrecy is achieved by “puncturing” the secret key after each decryption operation, such that a given ciphertext can only be decrypted once (cf. also Green and Miers, S&P 2015). Unfortunately, their scheme is completely impractical, since one puncturing operation takes between 30 seconds and several minutes for reasonable security and deployment parameters, such that this solution is only a first feasibility result, but not efficient enough to be deployed in practice. In this paper, we introduce a new primitive that we term Bloom Filter Encryption (BFE), which is derived from the probabilistic Bloom filter data structure. We describe different constructions of BFE schemes, and show how these yield new puncturable encryption mechanisms with extremely efficient puncturing. Most importantly, a puncturing operation only involves a small number of very efficient computations, plus the deletion of certain parts of the secret key, which outperforms previous constructions by orders of magnitude. This gives rise to the first forward-secret 0-RTT protocols that are efficient enough to be deployed in practice. We believe that BFE will find applications beyond forward-secret 0-RTT protocols.},
-  journal   = {Journal of Cryptology, to appear},
+  journal   = {Journal of Cryptology, accepted},
   year      = {2021},
   eprint    = {https://eprint.iacr.org/2018/199.pdf},
   selected  = {false}
