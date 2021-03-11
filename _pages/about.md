@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Cryptography researcher in the <a href="https://www.ait.ac.at/themen/cyber-security/team/" target="_blank" rel="noopener">Cyber Security team</a> at <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> in Vienna, Austria.
 
-My research focus lies in the field of novel cryptographic building blocks with strong provable security guarantees for modern connected systems (e.g., the Internet of things, cloud computing, secure communication, and distributed ledgers). The emphasis is on strong versatile cryptographic features while preserving usability and efficiency of the system (particularly towards forward-secret, identity-based, and post-quantum cryptography).
+My research focus lies in the field of novel cryptographic building blocks with strong provable security guarantees for modern connected systems (e.g., the Internet of things (IoT), cloud computing, secure communication, and distributed ledgers). The emphasis is on strong versatile cryptographic features while preserving usability and efficiency of the system (particularly towards forward-secret, identity-based, and post-quantum cryptography).
 
 In 2015, I received my PhD (Dr. rer. nat.) in cryptography from the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> on tightly secure identity-based encryption, short digital signatures, and modular revocation schemes. Main teaching activities included Algorithms I (lab, SS 2015) and IT security (lab, SS 2013). 
 
