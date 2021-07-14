@@ -1,6 +1,7 @@
 ---
 ---
 
+-- Reference entry
 @string{aps = {American Physical Society,}}
 
 @article{PhysRev.47.777,
@@ -24,6 +25,16 @@
 }
 
 -- 2021
+
+@inproceedings{MCSBSMVKHSL21,
+  abbr      = {SAFECOMP},
+  author    = {Nadja Marko and Joaquim Maria Castella Triginer and Tobias Braun and Reinhard Schwarz and Stefan Marksteiner and Alexandr Vasenev and Joerg Kemmerich and Hayk Hamazaryan and Lijun Shan and Claire Loiseaux},
+  abstract  = {Vehicle systems engineering experiences new challenges with vehicle electrification, advanced driving systems, and connected vehicles. Modern architectural designs cope with an increasing number of functionalities integrated into complex Electric/Electronic (E/E) systems. Such complexity is extended, adding V2X (Vehicle-to-everything) communication systems, which provide remote communication services that collect, store, and manipulate confidential data. The impact on Safety, Security, and Privacy (SSP) of these new advanced technological systems requires the implementation of new processes during their development phase. Therefore, new product development strategies need to be implemented to integrate SSP mechanism across the entire product development lifecycle. The European H2020 ECSEL project SECREDAS proposes an innovative solution for Safety, Security and Privacy specifically for automated systems. The project outlines the shortcomings of existing SSP approaches and proposes its own approach to implementing SSP mechanism for the emerging technologies. This approach includes a reference architecture with SSP features implemented by a set of reusable Design Patterns (DPs) along with their associated technology elements. This guideline proposes rules for developing new architectural Safety, Security, and Privacy implementations in a product under development using Design Patterns.},
+  title     = {Guideline for Architectural Safety, Security and Privacy Implementations Using Design Patterns: SECREDAS Approach},
+  booktitle = {Computer Safety, Reliability, and Security. SAFECOMP 2021 Workshops, to be published},
+  year      = {2021},
+  selected  = {false}
+}
 
 @article{DBLP:journals/joc/DGJSS21,
   author    = {David Derler and
@@ -62,7 +73,7 @@
                Erkan Tairi},
   abstract  = {Cryptographic objects with updating capabilities have been proposed by Bellare, Goldreich, and Goldwasser (CRYPTO'94) under the umbrella of incremental cryptography. They have recently seen increased interest, motivated by theoretical questions (Ananth et al., EC'17) as well as concrete practical motivations (Lehmann et al., EC'18; Groth et al. CRYPTO'18; Klooß et al., EC'19). In this work, the form of updatability we are particularly interested in is that primitives are key-updatable and allow to update old cryptographic objects, e.g., signatures or message authentication codes, from the old key to the updated key at the same time without requiring full access to the new key (i.e., only via a so-called update token). Inspired by the rigorous study of updatable encryption by Lehmann and Tackmann (EC'18) and Boyd et al. (CRYPTO'20), we introduce a definitional framework for updatable signatures (USs) and message authentication codes (UMACs). We discuss several applications demonstrating that such primitives can be useful in practical applications, especially around key rotation in various domains, as well as serve as building blocks in other cryptographic schemes. We then turn to constructions and our focus there is on ones that are secure and practically efficient. In particular, we provide generic constructions from key-homomorphic primitives (signatures and PRFs) as well as direct constructions. This allows us to instantiate these primitives from various assumptions such as DDH or CDH (latter in bilinear groups), or the (R)LWE and the SIS assumptions. As an example, we obtain highly practical US schemes from BLS signatures or UMAC schemes from the Naor-Pinkas-Reingold PRF.},
   title     = {Updatable Signatures and Message Authentication Codes},
-  booktitle = {International Conference on Practice and Theory of Public-Key Cryptography (PKC) 2021, accepted},
+  booktitle = {International Conference on Practice and Theory of Public-Key Cryptography (PKC) 2021},
   url       = {https://pkc.iacr.org/2021/},
   eprint    = {https://eprint.iacr.org/2021/365.pdf},
   year      = {2021},
