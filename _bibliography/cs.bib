@@ -26,6 +26,19 @@
 
 -- 2021
 
+@inproceedings{CJSS21,
+  author    = {Peter Chvojka and
+               Tibor Jager and
+               Daniel Slamanig},
+  abstract  = {Timed-release encryption (TRE) makes it possible to send messages "into the future" such that a pre-determined amount of time needs to pass before a message can be accessed. The most prominent construction is based on sequential squaring in RSA groups, proposed by Rivest et al. in 1996. Malavolta and Thyagarajan (CRYPTO'19) recently introduced an interesting variant of TRE called homomorphic time-lock puzzles (HTLPs), making TRE more versatile and greatly extending its applications. Here one considers multiple independently generated puzzles and the homomorphic evaluation of a circuit over these puzzles. Solving the so obtained puzzle yields the output of a circuit evaluated on the messages locked by the original puzzles. We observe that viewing HTLPs more abstractly gives rise to a simple generic construction of homomorphic TRE (HTRE) that is not necessarily based on sequential squaring, but can be instantiated based on any TLP, such as those based on one-way functions and the LWE assumption (via randomized encodings). This construction has slightly different properties, but provides essentially the same functionality for applications. It makes TRE versatile and can be used beyond HTRE, for instance to construct timed-release functional encryption. Interestingly, it achieves a new "solve one, get many for free" property, which supports that an arbitrary number of independently time-locked (homomorphically evaluated) messages can all be obtained simultaneously after solving only a single puzzle. This puzzle is independent of the number of time-locked messages and thus achieves optimal amortized cost. As a second contribution we define and construct sequential TLPs as a particularly useful generalization of TLPs and TRE. Such puzzles can be solved sequentially in a way that solving a puzzle additionally considers the previous solution and the time required to solve the puzzle is determined by the difference in the time parameters. When instantiated from sequential squaring, this allows to realize public "sequential squaring services", where everyone can time-lock messages, but only one entity needs to perform the computations required to solve puzzles. Thus, this removes the burden of wasting computational resources by every receiver and makes TRE economically and ecologically more sustainable.},
+  title     = {Versatile and Sustainable Timed-Release Encryption and Sequential Time-Lock Puzzles},
+  booktitle = {26th European Symposium on Research in Computer Security (ESORICS) 2021 (accepted)},
+  url       = {https://esorics2021.athene-center.de},
+  eprint    = {https://eprint.iacr.org/2020/739.pdf},
+  year      = {2021},
+  selected  = {false}
+}
+
 @inproceedings{MCSBSMVKHSL21,
   abbr      = {SAFECOMP},
   author    = {Nadja Marko and Joaquim Maria Castella Triginer and Tobias Braun and Reinhard Schwarz and Stefan Marksteiner and Alexandr Vasenev and Joerg Kemmerich and Hayk Hamazaryan and Lijun Shan and Claire Loiseaux},
@@ -159,21 +172,6 @@
   booktitle = {Computer Safety, Reliability, and Security. {SAFECOMP} 2020 Workshops -- DECSoS 2020, DepDevOps 2020, {USDAI} 2020, and {WAISE} 2020, Lisbon, Portugal, September 15, 2020},
   year      = {2020},
   pdf       = {https://link.springer.com/chapter/10.1007/978-3-030-55583-2_3},
-  selected  = {false}
-}
-
-@article{DBLP:journals/iacr/ChvojkaJSS20,
-  abbr      = {IACR},
-  author    = {Peter Chvojka and
-               Tibor Jager and
-               Daniel Slamanig},
-  title     = {Generic Constructions of Incremental and Homomorphic Timed-Release Encryption},
-  journal   = {{IACR} Cryptologic ePrint Archive 2020/739},
-  volume    = {2020},
-  pages     = {739},
-  year      = {2020},
-  url       = {https://eprint.iacr.org/2020/739},
-  eprint       = {https://eprint.iacr.org/2020/739.pdf},
   selected  = {false}
 }
 
