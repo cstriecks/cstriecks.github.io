@@ -20,14 +20,14 @@
       <div class="title">{{entry.title}}</div>
       <div class="author"> 
       {% if entry.author_array %}
-        with
+        With
          {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
-             <em>{{author.first}} {{author.last}}</em>
+             <em>{{author.first}} {{author.last}}.</em>
             {% else %}
               {% if site.data.coauthors[author.last] %}
-                 <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                 <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.
                 {% else %}
                  {{author.first}} {{author.last}}
                 {% endif %}
@@ -45,12 +45,12 @@
               {% endif %}
             {% else %}
               {% if author.last == site.scholar.last_name %}
-                and <em>{{author.first}} {{author.last}}</em>
+                and <em>{{author.first}} {{author.last}}.</em>
               {% else %}
                 {% if site.data.coauthors[author.last] %}
-                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.
                 {% else %}
-                  and {{author.first}} {{author.last}}
+                  and {{author.first}} {{author.last}}.
                 {% endif %}
               {% endif %}
             {% endunless %}
@@ -118,6 +118,12 @@
     {% endif %}
     {% if entry.talk %}
       <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk</a>
+    {% endif %}
+    {% if entry.talkrwc %}
+      <a href="{{ entry.talkrwc }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk RWC</a>
+    {% endif %}
+    {% if entry.talkec %}
+      <a href="{{ entry.talkec }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk EC</a>
     {% endif %}
     {% if entry.webinar %}
       <a href="{{ entry.webinar }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Webinar</a>

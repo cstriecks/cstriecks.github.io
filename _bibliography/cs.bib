@@ -26,41 +26,39 @@
 
 -- 2021
 
-@inproceedings{CJSS21,
+@inproceedings{ESORICS21,
   author    = {Peter Chvojka and
                Tibor Jager and
                Daniel Slamanig},
   abstract  = {Timed-release encryption (TRE) makes it possible to send messages "into the future" such that a pre-determined amount of time needs to pass before a message can be accessed. The most prominent construction is based on sequential squaring in RSA groups, proposed by Rivest et al. in 1996. Malavolta and Thyagarajan (CRYPTO'19) recently introduced an interesting variant of TRE called homomorphic time-lock puzzles (HTLPs), making TRE more versatile and greatly extending its applications. Here one considers multiple independently generated puzzles and the homomorphic evaluation of a circuit over these puzzles. Solving the so obtained puzzle yields the output of a circuit evaluated on the messages locked by the original puzzles. We observe that viewing HTLPs more abstractly gives rise to a simple generic construction of homomorphic TRE (HTRE) that is not necessarily based on sequential squaring, but can be instantiated based on any TLP, such as those based on one-way functions and the LWE assumption (via randomized encodings). This construction has slightly different properties, but provides essentially the same functionality for applications. It makes TRE versatile and can be used beyond HTRE, for instance to construct timed-release functional encryption. Interestingly, it achieves a new "solve one, get many for free" property, which supports that an arbitrary number of independently time-locked (homomorphically evaluated) messages can all be obtained simultaneously after solving only a single puzzle. This puzzle is independent of the number of time-locked messages and thus achieves optimal amortized cost. As a second contribution we define and construct sequential TLPs as a particularly useful generalization of TLPs and TRE. Such puzzles can be solved sequentially in a way that solving a puzzle additionally considers the previous solution and the time required to solve the puzzle is determined by the difference in the time parameters. When instantiated from sequential squaring, this allows to realize public "sequential squaring services", where everyone can time-lock messages, but only one entity needs to perform the computations required to solve puzzles. Thus, this removes the burden of wasting computational resources by every receiver and makes TRE economically and ecologically more sustainable.},
   title     = {Versatile and Sustainable Timed-Release Encryption and Sequential Time-Lock Puzzles},
-  booktitle = {26th European Symposium on Research in Computer Security (ESORICS) 2021},
-  url       = {https://esorics2021.athene-center.de},
-  pdf       = {https://link.springer.com/chapter/10.1007%2F978-3-030-88428-4_4},
+  booktitle = {European Symposium on Research in Computer Security (ESORICS) 2021, Virtual, October 4-8.},
+  url       = {https://link.springer.com/chapter/10.1007/978-3-030-88428-4_4},
+  pdf       = {https://link.springer.com/chapter/10.1007/978-3-030-88428-4_4},
   eprint    = {https://eprint.iacr.org/2020/739.pdf},
   year      = {2021},
   selected  = {false}
 }
 
-@inproceedings{MCSBSMVKHSL21,
-  abbr      = {SAFECOMP},
+@inproceedings{SAFECOMP21,
   author    = {Nadja Marko and Joaquim Maria Castella Triginer and Tobias Braun and Reinhard Schwarz and Stefan Marksteiner and Alexandr Vasenev and Joerg Kemmerich and Hayk Hamazaryan and Lijun Shan and Claire Loiseaux},
   abstract  = {Vehicle systems engineering experiences new challenges with vehicle electrification, advanced driving systems, and connected vehicles. Modern architectural designs cope with an increasing number of functionalities integrated into complex Electric/Electronic (E/E) systems. Such complexity is extended, adding V2X (Vehicle-to-everything) communication systems, which provide remote communication services that collect, store, and manipulate confidential data. The impact on Safety, Security, and Privacy (SSP) of these new advanced technological systems requires the implementation of new processes during their development phase. Therefore, new product development strategies need to be implemented to integrate SSP mechanism across the entire product development lifecycle. The European H2020 ECSEL project SECREDAS proposes an innovative solution for Safety, Security and Privacy specifically for automated systems. The project outlines the shortcomings of existing SSP approaches and proposes its own approach to implementing SSP mechanism for the emerging technologies. This approach includes a reference architecture with SSP features implemented by a set of reusable Design Patterns (DPs) along with their associated technology elements. This guideline proposes rules for developing new architectural Safety, Security, and Privacy implementations in a product under development using Design Patterns.},
   title     = {Guideline for Architectural Safety, Security and Privacy Implementations Using Design Patterns: SECREDAS Approach},
-  booktitle = {Computer Safety, Reliability, and Security. SAFECOMP 2021 Workshops. SAFECOMP 2021},
+  booktitle = {Computer Safety, Reliability, and Security. SAFECOMP Workshops -- DECSoS 2021, Virtual, September 7-10.},
   year      = {2021},
   url       = {https://safecomp2021.hosted.york.ac.uk},
   pdf       = {https://link.springer.com/chapter/10.1007%2F978-3-030-83906-2_3},
   selected  = {false}
 }
 
-@article{DBLP:journals/joc/DGJSS21,
+@article{JOC21,
   author    = {David Derler and
               Kai Gellert and
                Tibor Jager and
                Daniel Slamanig},
-  title     = {Bloom Filter Encryption and Applications to Efficient Forward-Secret
-               0-RTT Key Exchange},
+  title     = {Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange},
   abstract  = {Forward secrecy is considered an essential design goal of modern key establishment (KE) protocols, such as TLS 1.3, for example. Furthermore, efficiency considerations such as zero round-trip time (0-RTT), where a client is able to send cryptographically protected payload data along with the very first KE message, are motivated by the practical demand for secure low-latency communication. For a long time, it was unclear whether protocols that simultaneously achieve 0-RTT and full forward secrecy exist. Only recently, the first forward-secret 0-RTT protocol was described by Günther et al. (EUROCRYPT 2017). It is based on Puncturable Encryption. Forward secrecy is achieved by “puncturing” the secret key after each decryption operation, such that a given ciphertext can only be decrypted once (cf. also Green and Miers, S&P 2015). Unfortunately, their scheme is completely impractical, since one puncturing operation takes between 30 seconds and several minutes for reasonable security and deployment parameters, such that this solution is only a first feasibility result, but not efficient enough to be deployed in practice. In this paper, we introduce a new primitive that we term Bloom Filter Encryption (BFE), which is derived from the probabilistic Bloom filter data structure. We describe different constructions of BFE schemes, and show how these yield new puncturable encryption mechanisms with extremely efficient puncturing. Most importantly, a puncturing operation only involves a small number of very efficient computations, plus the deletion of certain parts of the secret key, which outperforms previous constructions by orders of magnitude. This gives rise to the first forward-secret 0-RTT protocols that are efficient enough to be deployed in practice. We believe that BFE will find applications beyond forward-secret 0-RTT protocols.},
-  journal   = {Journal of Cryptology, Volume 34, Article 13, 2021},
+  journal   = {Journal of Cryptology, Volume 34, 2021.},
   year      = {2021},
   url       = {https://link.springer.com/article/10.1007/s00145-021-09374-3},
   pdf       = {https://link.springer.com/content/pdf/10.1007/s00145-021-09374-3.pdf},
@@ -68,144 +66,114 @@
   selected  = {true}
 }
 
-@article{SS21,
-  abbr      = {IACR},
+@article{IACR21,
   author    = {Daniel Slamanig},
   abstract  = {Updatable encryption (UE; CRYPTO 2013) is a symmetric encryption primitive that allows to periodically rotate encryption keys without the need to decrypt and re-encrypt already encrypted data. This is achieved by means of an update token that allows to perform the ciphertext update. In existing UE constructions, the update token thereby allows bi-directional updates of keys and ciphertexts, which leads to undesired information leakage and rather involved security models. A recent work by Jiang (ASIACRYPT 2020) shows that in the currently strongest UE model due to Boyd et al. (CRYPTO 2020), UE with bi-directional key and ciphertext updates implies schemes with uni-directional ones. While this might suggests that uni-directionality does not add security, we show that this rather stems from a defective security model and in an adequate model uni-directionality is indeed stronger. Irrespective of this fact, even uni-directional UE schemes still do not capture the intuitive security requirements expected from UE. To overcome this leakage problem and obtain natural security guarantees, UE schemes with so-called no-directional key updates are necessary, i.e., where tokens can solely update ciphertexts and only in one direction. However, it stayed unclear whether such UE schemes can be constructed and this tasks is presented as a challenging open problem in both aforementioned works. In this work, we resolve these issues and present the first UE constructions with uni- and even no-directional key updates. We show that such UE schemes can be constructed in the standard model via the notion of dual system groups from the standard d-Lin assumption in prime-order bilinear groups. Our approach of constructing UE significantly departs from previous ones and in particular views UE from the perspective of puncturable encryption (Green and Miers, S&P 2015). Towards constructing UE, as an stepping stone, we introduce a variant of puncturable encryption that additionally support puncturing of ciphertexts. This turns out to be a useful abstraction on our way to construct UE and may be of independent interest.},
   title     = {Puncture 'Em All: Stronger Updatable Encryption with No-Directional Key Updates},
-  journal   = {{IACR} Cryptologic ePrint Archive 2021/268},
-  volume    = {2021},
-  pages     = {268},
+  journal   = {{IACR} ePrint 268, 2021.},
   year      = {2021},
   url       = {https://eprint.iacr.org/2021/268},
   eprint    = {https://eprint.iacr.org/2021/268.pdf},
   selected  = {false}
 }
 
-@inproceedings{CRSST21,
+@inproceedings{AC21,
   author    = {Valerio Cini and
                Sebastian Ramacher and
                Daniel Slamanig and
                Erkan Tairi},
-  abstract  = {Cryptographic objects with updating capabilities have been proposed by Bellare, Goldreich, and Goldwasser (CRYPTO'94) under the umbrella of incremental cryptography. They have recently seen increased interest, motivated by theoretical questions (Ananth et al., EC'17) as well as concrete practical motivations (Lehmann et al., EC'18; Groth et al. CRYPTO'18; Klooß et al., EC'19). In this work, the form of updatability we are particularly interested in is that primitives are key-updatable and allow to update old cryptographic objects, e.g., signatures or message authentication codes, from the old key to the updated key at the same time without requiring full access to the new key (i.e., only via a so-called update token). Inspired by the rigorous study of updatable encryption by Lehmann and Tackmann (EC'18) and Boyd et al. (CRYPTO'20), we introduce a definitional framework for updatable signatures (USs) and message authentication codes (UMACs). We discuss several applications demonstrating that such primitives can be useful in practical applications, especially around key rotation in various domains, as well as serve as building blocks in other cryptographic schemes. We then turn to constructions and our focus there is on ones that are secure and practically efficient. In particular, we provide generic constructions from key-homomorphic primitives (signatures and PRFs) as well as direct constructions. This allows us to instantiate these primitives from various assumptions such as DDH or CDH (latter in bilinear groups), or the (R)LWE and the SIS assumptions. As an example, we obtain highly practical US schemes from BLS signatures or UMAC schemes from the Naor-Pinkas-Reingold PRF.},
   title     = {Updatable Signatures and Message Authentication Codes},
-  booktitle = {International Conference on Practice and Theory of Public-Key Cryptography (PKC), May 10-13, 2021 (Talk given by Valerio Cini)},
-  url       = {https://pkc.iacr.org/2021/},
-  pdf       = {https://link.springer.com/chapter/10.1007%2F978-3-030-75245-3_25},
+  abstract  = {Cryptographic objects with updating capabilities have been proposed by Bellare, Goldreich and Goldwasser (CRYPTO’94) under the umbrella of incremental cryptography. They have recently seen increased interest, motivated by theoretical questions (Ananth et al., EC’17) as well as concrete practical motivations (Lehmann et al., EC’18; Groth et al. CRYPTO’18; Klooß et al., EC’19). In this work, the form of updatability we are particularly interested in is that primitives are key-updatable and allow to update “old” cryptographic objects, e.g., signatures or message authentication codes, from the “old” key to the updated key at the same time without requiring full access to the new key (i.e., only via a so-called update token). Inspired by the rigorous study of updatable encryption by Lehmann and Tackmann (EC’18) and Boyd et al. (CRYPTO’20), we introduce a definitional framework for updatable signatures (USs) and message authentication codes (UMACs). We discuss several applications demonstrating that such primitives can be useful in practical applications, especially around key rotation in various domains, as well as serve as building blocks in other cryptographic schemes. We then turn to constructions and our focus there is on ones that are secure and practically efficient. In particular, we provide generic constructions from key-homomorphic primitives (signatures and PRFs) as well as direct constructions. This allows us to instantiate these primitives from various assumptions such as DDH or CDH (latter in bilinear groups), or the (R)LWE and the SIS assumptions. As an example, we obtain highly practical US schemes from BLS signatures or UMAC schemes from the Naor-Pinkas-Reingold PRF.},
+  booktitle = {PKC 2021, Virtual, May 10-13. (Recorded talk given by Valerio Cini.)},
+  url       = {https://link.springer.com/chapter/10.1007/978-3-030-75245-3_25},
+  pdf       = {https://link.springer.com/chapter/10.1007/978-3-030-75245-3_25},
   eprint    = {https://eprint.iacr.org/2021/365.pdf},
   talk      = {https://www.youtube.com/watch?v=RqAlXixDZ1M},
   year      = {2021},
   selected  = {false}
 }
 
-@inproceedings{DRSS21,
+@inproceedings{FC21,
   author    = {David Derler and
                Sebastian Ramacher and
                Daniel Slamanig},
+  booktitle = {Financial Cryptography and Data Security 2021, Virtual, March 1-5. (Recorded talk given with Sebastian Ramacher and Daniel Slamanig.)},
+  year      = {2021},
   abstract  = {Forward secrecy is an important feature for modern cryptographic systems and is widely used in secure messaging such as Signal and WhatsApp as well as in common Internet protocols such as TLS, IPSec or SSH. The benefits of forward secrecy is that the damage in case of key-leakage is mitigated. Forward-secret encryption schemes provides security of past ciphertexts even if secret key leaks, which is interesting in settings where cryptographic keys often reside in memory for quite a long time and could be extracted by an adversary, e.g., in cloud computing. The recent concept of puncturable encryption (PE; IEEE S&P'15) provides a versatile generalization of forward-secret encryption: it allows to puncture secret keys with respect to ciphertexts to prevent the future decryption of these ciphertexts. Thus it represents a fine-grained mechanism to restrict decryption capabilities of a secret key to reduce damage in case of key leakage. We introduce the abstraction of allow-list/deny-list encryption schemes, and classify different types of PE schemes using this abstraction. Based on our classification we identify and close a gap in existing work by introducing a novel variant of PE which we dub Dual-Form Puncturable Encryption (DFPE). DFPE significantly enhances and in particular generalizes previous variants of PE, by allowing an interleaved application of allow- and deny-list operations. We present a construction of DFPE in prime order bilinear groups based on the novel primitive of tagged hierarchical identity-based encryption (THIBE). We discuss a direct application of DPFE for enhancing security guarantees within Cloudflare's Geo Key Manager and show its generic use to construct forward-secret IBE and forward-secret digital signatures.},
   title     = {Fine-Grained Forward Secrecy: Allow-List/Deny-List Encryption and Applications},
-  booktitle = {Financial Cryptography and Data Security, March 1-5, 2021},
   url       = {https://fc21.ifca.ai},
   pdf       = {https://fc21.ifca.ai/papers/84.pdf},
   eprint    = {https://eprint.iacr.org/2019/912.pdf},
   talk      = {https://www.youtube.com/watch?v=kEvfzz8eOjs},
-  year      = {2021}
 }
 
 
 --- 2020
 
-@inproceedings{DBLP:conf/asiacrypt/CiniRSS20,
+@inproceedings{AC20,
   author    = {Valerio Cini and
                Sebastian Ramacher and
                Daniel Slamanig},
-  abstract  = {Public-key encryption (PKE) schemes or key-encapsulation mechanisms (KEMs) are fundamental cryptographic building blocks to realize secure communication protocols. There are several known transformations that generically turn weakly secure schemes into strongly (i.e., IND-CCA) secure ones. While most of these transformations require the weakly secure scheme to provide perfect correctness, Hofheinz, Hövelmanns, and Kiltz (HHK) (TCC 2017) have recently shown that variants of the Fujisaki-Okamoto (FO) transform can work with schemes that have negligible correctness error in the (quantum) random oracle model (QROM). Many recent schemes in the NIST post-quantum competition (PQC) use variants of these transformations. Some of their CPA-secure versions even have a non-negligible correctness error and so the techniques of HHK cannot be applied. In this work, we study the setting of generically transforming PKE schemes with potentially large, i.e., non-negligible, correctness error to ones having negligible correctness error. While there have been previous treatments in an asymptotic setting by Dwork et al. (EUROCRYPT 2004), our goal is to come up with practically efficient compilers in a concrete setting and apply them in two different contexts: firstly, we show how to generically transform weakly secure deterministic or randomized PKEs into CCA-secure KEMs in the (Q)ROM using variants of HHK. This applies to essentially all candidates to the NIST PQC based on lattices and codes with non-negligible error, for which we provide an extensive analysis. We thereby show that it improves some of the code-based candidates. Secondly, we study puncturable KEMs in terms of the Bloom Filter KEM (BFKEM) proposed by Derler et al. (EUROCRYPT 2018) which inherently have a non-negligible correctness error. BFKEMs are a building block to construct fully forward-secret zero round-trip time (0-RTT) key-exchange protocols. In particular, we show how to achieve the first post-quantum secure BFKEM generically from lattices and codes by applying our techniques to identity-based encryption (IBE) schemes with (non-)negligible correctness error.},
-  editor    = {Shiho Moriai and
-               Huaxiong Wang},
-  title     = {CCA-Secure (Puncturable) KEMs from Encryption with Non-Negligible
-               Decryption Errors},
-  booktitle = {Advances in Cryptology - {ASIACRYPT} 2020 - 26th International Conference
-               on the Theory and Application of Cryptology and Information Security,
-               Daejeon, South Korea, December 7-11, 2020, Proceedings, Part {I} (Talk given by Valerio Cini)},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {12491},
-  pages     = {159--190},
-  publisher = {Springer},
+  title     = {CCA-Secure (Puncturable) KEMs from Encryption with Non-Negligible Decryption Errors},
+  booktitle = {ASIACRYPT 2020, Daejeon, South Korea, December 7-11. (Recorded talk given by Valerio Cini.)},
   year      = {2020},
+  abstract  = {Public-key encryption (PKE) schemes or key-encapsulation mechanisms (KEMs) are fundamental cryptographic building blocks to realize secure communication protocols. There are several known transformations that generically turn weakly secure schemes into strongly (i.e., IND-CCA) secure ones. While most of these transformations require the weakly secure scheme to provide perfect correctness, Hofheinz, Hövelmanns, and Kiltz (HHK) (TCC 2017) have recently shown that variants of the Fujisaki-Okamoto (FO) transform can work with schemes that have negligible correctness error in the (quantum) random oracle model (QROM). Many recent schemes in the NIST post-quantum competition (PQC) use variants of these transformations. Some of their CPA-secure versions even have a non-negligible correctness error and so the techniques of HHK cannot be applied. In this work, we study the setting of generically transforming PKE schemes with potentially large, i.e., non-negligible, correctness error to ones having negligible correctness error. While there have been previous treatments in an asymptotic setting by Dwork et al. (EUROCRYPT 2004), our goal is to come up with practically efficient compilers in a concrete setting and apply them in two different contexts: firstly, we show how to generically transform weakly secure deterministic or randomized PKEs into CCA-secure KEMs in the (Q)ROM using variants of HHK. This applies to essentially all candidates to the NIST PQC based on lattices and codes with non-negligible error, for which we provide an extensive analysis. We thereby show that it improves some of the code-based candidates. Secondly, we study puncturable KEMs in terms of the Bloom Filter KEM (BFKEM) proposed by Derler et al. (EUROCRYPT 2018) which inherently have a non-negligible correctness error. BFKEMs are a building block to construct fully forward-secret zero round-trip time (0-RTT) key-exchange protocols. In particular, we show how to achieve the first post-quantum secure BFKEM generically from lattices and codes by applying our techniques to identity-based encryption (IBE) schemes with (non-)negligible correctness error.},
   url       = {https://doi.org/10.1007/978-3-030-64837-4\_6},
-  doi       = {10.1007/978-3-030-64837-4\_6},
   pdf       = {https://doi.org/10.1007/978-3-030-64837-4\_6},
   eprint    = {https://eprint.iacr.org/2020/1548.pdf},
-  talk     = {https://www.youtube.com/watch?v=UoqhyFyLnn4},
+  talk      = {https://www.youtube.com/watch?v=UoqhyFyLnn4},
   selected  = {true}
 }
 
-@inproceedings{DBLP:conf/ccs/BobolzEKSS20,
-  abbr      = {ASIACCS},
+@inproceedings{ASIACCS20,
   author    = {Jan Bobolz and
                Fabian Eidens and
                Stephan Krenn and
                Daniel Slamanig},
-  abstract  = {Incentive systems (such as customer loyalty systems) are omnipresent nowadays and deployed in several areas such as retail, travel, and financial services. Despite the benefits for customers and companies, this involves large amounts of sensitive data being transferred and analyzed. These concerns initiated research on privacy-preserving incentive systems, where users register with a provider and are then able to privately earn and spend incentive points. In this paper we construct an incentive system that improves upon the state-of-the-art in several ways: (1) We improve efficiency of the Earn protocol by replacing costly zero-knowledge proofs with a short structure-preserving signature on equivalence classes. (2) We enable tracing of remainder tokens from double-spending transactions without losing backward unlinkability. (3) We allow for secure recovery of failed Spend protocol runs (where usually, any retries would be counted as double-spending attempts). (4) We guarantee that corrupt users cannot falsely blame other corrupt users for their double-spending. We propose an extended formal model of incentive systems and a concrete instantiation using homomorphic Pedersen commitments, ElGamal encryption, structure-preserving signatures on equivalence classes (SPS-EQ), and zero-knowledge proofs of knowledge. We formally prove our construction secure and present benchmarks showing its practical efficiency.},
-  editor    = {Hung{-}Min Sun and
-               Shiuh{-}Pyng Shieh and
-               Guofei Gu and
-               Giuseppe Ateniese},
   title     = {Privacy-Preserving Incentive Systems with Highly Efficient Point-Collection},
-  booktitle = {{ASIA} {CCS} '20: The 15th {ACM} Asia Conference on Computer and Communications
-               Security, Taipei, Taiwan, October 5-9, 2020},
-  pages     = {319--333},
-  publisher = {{ACM}},
+  booktitle = {AsiaCCS 2020, Taipei, Taiwan, October 5-9.},
   year      = {2020},
-  doi       = {10.1145/3320269.3384769},
-  timestamp = {Tue, 10 Nov 2020 16:06:16 +0100},
-  biburl    = {https://dblp.org/rec/conf/ccs/BobolzEKSS20.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org},
+  abstract  = {Incentive systems (such as customer loyalty systems) are omnipresent nowadays and deployed in several areas such as retail, travel, and financial services. Despite the benefits for customers and companies, this involves large amounts of sensitive data being transferred and analyzed. These concerns initiated research on privacy-preserving incentive systems, where users register with a provider and are then able to privately earn and spend incentive points. In this paper we construct an incentive system that improves upon the state-of-the-art in several ways: (1) We improve efficiency of the Earn protocol by replacing costly zero-knowledge proofs with a short structure-preserving signature on equivalence classes. (2) We enable tracing of remainder tokens from double-spending transactions without losing backward unlinkability. (3) We allow for secure recovery of failed Spend protocol runs (where usually, any retries would be counted as double-spending attempts). (4) We guarantee that corrupt users cannot falsely blame other corrupt users for their double-spending. We propose an extended formal model of incentive systems and a concrete instantiation using homomorphic Pedersen commitments, ElGamal encryption, structure-preserving signatures on equivalence classes (SPS-EQ), and zero-knowledge proofs of knowledge. We formally prove our construction secure and present benchmarks showing its practical efficiency.},
   url       = {https://doi.org/10.1145/3320269.3384769},
   pdf       = {https://doi.org/10.1145/3320269.3384769},
   eprint    = {https://eprint.iacr.org/2020/382.pdf},
   selected  = {false}
 }
 
-@inproceedings{SAFECOMP:MVS20,
-  abbr      = {SAFECOMP},
+@inproceedings{SAFECOMP20,
   author    = {Nadja Marko and Alexandr Vasenev},
   abstract	= {In the past several years, autonomous driving turned out to be a target for many technical players. Automated driving requires new and advanced mechanisms to provide safe functionality and the increased communication makes automated vehicles more vulnerable to attacks. Security is already well-established in some domains, such as the IT sector, and now spills over to Automotive. In order to not reinvent the wheel, existing security methods and tools can be evaluated and adapted to be applicable in other domains, such as Automotive. In the European H2020 ECSEL project SECREDAS, this approach is followed and existing methods, tools, protocols, best practices etc. are analyzed, combined and improved to be applicable in the field of connected vehicles. To provide modular and reusable designs, solutions are collected in form of design patterns. The SECREDAS design patterns describe solution templates to solve security, safety and privacy issues related to automated systems. The grouping and classification of design patterns is important to facilitate the selection process which is a challenging task and weak classification schemes can be a reason for a sparse application of security patterns, which represent a subgroup of design patterns. This work aims to assist automotive software and systems engineers in adopting and using technologies available on the market. The SECREDAS security patterns are based on existing technologies, so-called Common Technology Elements, and describe how and where to apply them in context of connected vehicles by making a reference to a generic architecture. This allows developers to easily find solutions to common problems and reduces the development effort by providing concrete, trustworthy solutions. The whole approach and classification scheme is illustrated based on one example security pattern.},
   title     = {Collecting and Classifying Security and Privacy Design Patterns for Connected Vehicles: {SECREDAS} Approach},
-  booktitle = {Computer Safety, Reliability, and Security. {SAFECOMP} 2020 Workshops -- DECSoS 2020, DepDevOps 2020, {USDAI} 2020, and {WAISE} 2020, Lisbon, Portugal, September 15, 2020},
+  booktitle = {Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops -- DECSoS 2020, Lisbon, Portugal, September 15.},
   year      = {2020},
+  url       = {https://link.springer.com/chapter/10.1007/978-3-030-55583-2_3},
   pdf       = {https://link.springer.com/chapter/10.1007/978-3-030-55583-2_3},
   selected  = {false}
 }
 
-@article{DBLP:journals/iacr/HaqueKSS20,
-  abbr      = {IACR},
+@article{IACR20,
   author    = {Abida Haque and
                Stephan Krenn and
                Daniel Slamanig},
-  title     = {Logarithmic-Size (Linkable) Threshold Ring Signatures in the Plain
-               Model},
-  journal   = {{IACR} Cryptol. ePrint Arch.},
-  volume    = {2020},
-  pages     = {683},
+  title     = {Logarithmic-Size (Linkable) Threshold Ring Signatures in the Plain Model},
+  journal   = {{IACR} ePrint 683, 2020.},
   year      = {2020},
+  abstract  = {Ring signatures are a cryptographic primitive that allow a signer to anonymously sign messages on behalf of an ad-hoc group of N potential signers (the so-called ring). This primitive has attracted significant research since its introduction by Rivest et al. (ASIACRYPT’01), but until recently, no construction was known that was both (i) compact, i.e., the signature size is sub-linear in N, and (ii) in the plain model, i.e., secure under standard hardness assumptions without requiring heuristic or setup assumptions. The first construction in this most desirable set- ting, where reducing trust in external parties is the primary goal, was only recently presented by Backes et al. (EUROCRYPT’19). An interesting generalization of ring signatures are t-out-of-N ring signa- tures for t ≥ 1, also known as threshold ring (thring) signatures (Bresson et al., CRYPTO’02). For threshold ring signatures, non-linkable sub-linear-size constructions are not even known under heuristic or setup assumptions. In this work, we propose the first sub-linear thring signatures and prove them secure in the plain model. While our constructions are inspired by the template underlying the Backes et al. construction, they require novel ideas and techniques. Our scheme is non-interactive, and has strong inter- signer anonymity, meaning that signers do not need to know the other signers that participate in a threshold signing. We then present a linkable counterpart to our non-linkable construction. Our thring signatures can easily be adapted to achieve the recently introduced notions of flexibility (Okamoto et al., EPRINT’18) as well as claimability and repudiability (Park and Sealfon, CRYPTO’19). (Th)Ring signatures and, in particular, their linkable versions have recently drawn significant attention in the field of privacy-friendly cryptocurrencies. We discuss applications that are enabled by our strong inter-signer anonymity, demonstrating that thring signatures are interesting from a practical perspective also.},
   url       = {https://eprint.iacr.org/2020/683},
-  eprint       = {https://eprint.iacr.org/2020/683.pdf},
+  eprint    = {https://eprint.iacr.org/2020/683.pdf},
   selected  = {false}
 }
 
 --- 2019
 
-@inproceedings{DBLP:conf/ndss/DerlerSSS19,
+@inproceedings{NDSS19,
   author    = {David Derler and
                Kai Samelin and
                Daniel Slamanig},
-  title     = {Fine-Grained and Controlled Rewriting in Blockchains: Chameleon-Hashing
-               Gone Attribute-Based},
-  booktitle = {26th Annual Network and Distributed System Security Symposium, {NDSS}
-               2019, San Diego, California, USA, February 24-27, 2019},
-  publisher = {The Internet Society},
+  title     = {Fine-Grained and Controlled Rewriting in Blockchains: Chameleon-Hashing Gone Attribute-Based},
+  booktitle = {NDSS 2019, San Diego, USA, February 24-27.},
   year      = {2019},
+  abstract   = {Blockchain technologies recently received a considerable amount of attention. While the initial focus was mainly on the use of blockchains in the context of cryptocurrencies such as Bitcoin, application scenarios now go far beyond this. Most blockchains have the property that once some object, e.g., a block or a transaction, has been registered to be included into the blockchain, it is persisted and there are no means to modify it again. While this is an essential feature of most blockchain scenarios, it is still often desirable---at times it may be even legally required--to allow for breaking this immutability in a controlled way. Only recently, Ateniese et al. (EuroS&P 2017) proposed an elegant solution to this problem on the block level. Thereby, the authors replace standard hash functions with so-called chameleon-hashes (Krawczyk and Rabin, NDSS 2000). While their work seems to offer a suited solution to the problem of controlled re-writing of blockchains, their approach is too coarse-grained in that it only offers an all-or-nothing solution. We revisit this idea and introduce the novel concept of policy-based chameleon-hashes (PBCH). PBCHs generalize the notion of chameleon-hashes by giving the party computing a hash the ability to associate access policies to the generated hashes. Anyone who possesses enough privileges to satisfy the policy can then find arbitrary collisions for a given hash. We then apply this concept to transaction-level rewriting within blockchains, and thus support fine-grained and controlled modifiability of blockchain objects. Besides modeling PBCHs, we present a generic construction of PBCHs (using a strengthened version of chameleon-hashes with ephemeral trapdoors which we also introduce), rigorously prove its security, and instantiate it with efficient building blocks. We report first implementation results.},
   url       = {https://www.ndss-symposium.org/ndss-paper/fine-grained-and-controlled-rewriting-in-blockchains-chameleon-hashing-gone-attribute-based/},
   pdf       = {https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_02A-3_Derler_paper.pdf},
   eprint    = {https://eprint.iacr.org/2019/406.pdf},
@@ -214,18 +182,16 @@
   selected  = {true}
 }
 
-@inproceedings{DBLP:conf/IEEEares/KrennSS19,
+@inproceedings{ARES19,
   author    = {Stephan Krenn and
                Kai Samelin},
   title     = {Practical Group-Signatures with Privacy-Friendly Openings},
-  booktitle = {Proceedings of the 14th International Conference on Availability,
-               Reliability and Security, {ARES} 2019, Canterbury, UK, August 26-29,
-               2019},
-  pages     = {10:1--10:10},
-  publisher = {{ACM}},
+  booktitle = {International Conference on Availability, Reliability and Security (ARES) 2019, Canterbury, UK, August 26-29.},
   year      = {2019},
-  eprint    = {https://eprint.iacr.org/2019/081.pdf},
-  pdf       = {https://dl.acm.org/doi/10.1145/3339252.3339256}
+  abstract  = {Group signatures allow creating signatures on behalf of a group, while remaining anonymous. To prevent misuse, there exists a designated entity, named the opener, which can revoke anonymity by generating a proof which links a signature to its creator. Still, many intermediate cases have been discussed in the literature, where not the full power of the opener is required, or the users themselves require the power to claim (or deny) authorship of a signature and (un-)link signatures in a controlled way. However, these concepts were only considered in isolation. We unify these approaches, supporting all these possibilities simultaneously, providing fine-granular openings, even by members. Namely, a member can prove itself whether it has created a given signature (or not), and can create a proof which makes two created signatures linkable (or unlinkable resp.) in a controlled way. Likewise, the opener can show that a signature was not created by a specific member and can prove whether two signatures stem from the same signer (or not) without revealing anything else. Combined, these possibilities can make full openings irrelevant in many use-cases. This has the additional benefit that the requirements on the reachability of the opener are lessened. Moreover, even in the case of an involved opener, our framework is less privacy-invasive, as the opener no longer requires access to the signed message. Our provably secure black-box CCA-anonymous construction with dynamic joins requires only standard building blocks. We prove its practicality by providing a performance evaluation of a concrete instantiation, and show that our non-optimized implementation is competitive compared to other, less feature-rich, notions.},
+  url       = {https://dl.acm.org/doi/10.1145/3339252.3339256},
+  pdf       = {https://dl.acm.org/doi/10.1145/3339252.3339256},
+  eprint    = {https://eprint.iacr.org/2019/081.pdf}
 }
 
 --- 2018
@@ -234,113 +200,81 @@
   author    = {David Derler and
                Tibor Jager and
                Daniel Slamanig},
-  editor    = {Jesper Buus Nielsen and
-               Vincent Rijmen},
-  title     = {Bloom Filter Encryption and Applications to Efficient Forward-Secret
-               0-RTT Key Exchange},
-  booktitle = {Advances in Cryptology - {EUROCRYPT} 2018 - 37th Annual International
-               Conference on the Theory and Applications of Cryptographic Techniques,
-               Tel Aviv, Israel, April 29 - May 3, 2018 Proceedings, Part {III} (talk at Real-World Crypto 2018 by David Derler)},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {10822},
-  pages     = {425--455},
-  publisher = {Springer},
+  title     = {Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange},
+  booktitle = {EUROCRYPT 2018, Tel Aviv, Israel, April 29 - May 3. (Recorded talk at Real World Crypto 2018 and EUROCRYPT 2018 given by David Derler.)},
   year      = {2018},
+  abstract  = {Forward secrecy is considered an essential design goal of modern key establishment (KE) protocols, such as TLS 1.3, for example. Furthermore, efficiency considerations such as zero round-trip time (0-RTT), where a client is able to send cryptographically protected pay- load data along with the very first KE message, are motivated by the practical demand for secure low-latency communication. For a long time, it was unclear whether protocols that simultaneously achieve 0-RTT and full forward secrecy exist. Only recently, the first forward-secret 0-RTT protocol was described by Günther et al. (Euro- crypt 2017). It is based on Puncturable Encryption. Forward secrecy is achieved by “puncturing” the secret key after each decryption operation, such that a given ciphertext can only be decrypted once (cf. also Green and Miers, S&P 2015). Unfortunately, their scheme is completely impractical, since one puncturing operation takes between 30 seconds and several minutes for reasonable security and deployment parameters, such that this solution is only a first feasibility result, but not efficient enough to be deployed in practice. In this paper, we introduce a new primitive that we term Bloom Filter Encryption (BFE), which is derived from the probabilistic Bloom filter data structure. We describe different constructions of BFE schemes, and show how these yield new puncturable encryption mechanisms with extremely efficient puncturing. Most importantly, a puncturing operation only involves a small number of very efficient computations, plus the deletion of certain parts of the secret key, which outperforms previous constructions by orders of magnitude. This gives rise to the first forward-secret 0-RTT protocols that are efficient enough to be deployed in practice. We believe that BFE will find applications beyond forward- secret 0-RTT protocols.},
   url       = {https://doi.org/10.1007/978-3-319-78372-7\_14},
   pdf       = {https://www.iacr.org/archive/eurocrypt2018/10822239/10822239.pdf},
   eprint    = {https://eprint.iacr.org/2018/199.pdf},
-  talk      = {https://www.youtube.com/watch?v=TAPBu-jMKkg},
+  talkrwc   = {https://www.youtube.com/watch?v=TAPBu-jMKkg},
+  talkec    = {https://www.youtube.com/watch?v=JhoeGnHKY2c},
   selected  = {false}
 }
 
-@inproceedings{DBLP:conf/pkc/DerlerKLRSS18,
+@inproceedings{PKC18,
   author    = {David Derler and
                Stephan Krenn and
                Thomas Lor{\"{u}}nser and
                Sebastian Ramacher and
                Daniel Slamanig},
-  editor    = {Michel Abdalla and
-               Ricardo Dahab},
-  title     = {Revisiting Proxy Re-encryption: Forward Secrecy, Improved Security,
-               and Applications},
-  booktitle = {Public-Key Cryptography - {PKC} 2018 - 21st {IACR} International Conference
-               on Practice and Theory of Public-Key Cryptography, Rio de Janeiro,
-               Brazil, March 25-29, 2018, Proceedings, Part {I}},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {10769},
-  pages     = {219--250},
-  publisher = {Springer},
+  title     = {Revisiting Proxy Re-encryption: Forward Secrecy, Improved Security, and Applications},
+  booktitle = {PKC 2018, Rio de Janeiro, Brazil, March 25-29.},
   year      = {2018},
-  url       = {https://doi.org/10.1007/978-3-319-76578-5\_8},
-  doi       = {10.1007/978-3-319-76578-5\_8},
+  abstract  = {We revisit the notion of proxy re-encryption (PRE), an enhanced public-key encryption primitive envisioned by Blaze et al. (Eurocrypt’98) and formalized by Ateniese et al. (NDSS’05) for delegating decryption rights from a delegator to a delegatee using a semi- trusted proxy. PRE notably allows to craft re-encryption keys in order to equip the proxy with the power of transforming ciphertexts under a delegator’s public key to ciphertexts under a delegatee’s public key, while not learning anything about the underlying plaintexts. We study an attractive cryptographic property for PRE, namely that of forward secrecy. In our forward-secret PRE (fs-PRE) definition, the proxy periodically evolves the re-encryption keys and permanently erases old versions while he delegator’s public key is kept constant. As a consequence, ciphertexts for old periods are no longer re-encryptable and, in particular, cannot be decrypted anymore at the delegatee’s end. Moreover, delegators evolve their secret keys too, and, thus, not even they can decrypt old ciphertexts once their key material from past periods has been deleted. This, as we will discuss, directly has application in short-term data/message-sharing scenarios. Technically, we formalize fs-PRE. Thereby, we identify a subtle but significant gap in the well-established security model for conventional PRE and close it with our formalization (which we dub fs-PRE+). We present the first provably secure and efficient constructions of fs-PRE as well as PRE (implied by the former) satisfying the strong fs-PRE+ and PRE+ notions, respectively. All our constructions are instantiable in the standard model under standard assumptions and our central build- ing block are hierarchical identity-based encryption (HIBE) schemes that only need to be selectively secure.},
+  url       = {https://link.springer.com/chapter/10.1007%2F978-3-319-76578-5_8},
+  pdf       = {https://link.springer.com/content/pdf/10.1007%2F978-3-319-76578-5_8.pdf},
   eprint    = {https://eprint.iacr.org/2018/321.pdf},
-  pdf       = {https://link.springer.com/chapter/10.1007%2F978-3-319-76578-5_8}
 }
 
-@article{DBLP:journals/ercim/KrennLS18,
+@inproceedings{ERCIM18,
   author    = {Stephan Krenn and
                Thomas Lor{\"{u}}nser},
   title     = {Engineering Cryptography for Security and Privacy in the Cloud},
-  journal   = {{ERCIM} News},
-  volume    = {2018},
-  number    = {113},
+  booktitle = {{ERCIM} News 2018.},
   year      = {2018},
+  abstract  = {A large body of research in cryptography was established over recent decades but little of it has been commercialised. This is to the detriment of cloud computing, where the new methods would help to establish end-to-end security, which is not yet common practice. Cloud computing has made its way into all domains and remains one of the major growth areas in information and communication technology. It will also form the main backend platform of the internet of things and therefore play a crucial role in information society. Nevertheless, it still suffers from its outsourcing paradigm and intrinsic security and privacy problems. Cryptographic research has made substantial progress over recent years and now provides a portfolio of mature cryptographic primitives and protocols suitable for addressing several of these problems in an effective and efficient way. Nevertheless, there still exists a substantial gap between what is possible and what is actually available in the cloud. In PRISMACLOUD and CREDENTIAL we analysed the situation, extracted main inhibitors and developed promotors for the use and integration of cryptography in engineering work flows of interdisciplinary projects.},
   url       = {https://ercim-news.ercim.eu/en113/r-i/engineering-cryptography-for-security-and-privacy-in-the-cloud}
 }
 
 --- 2017
 
-@article{DBLP:journals/ei/LorunserKSL17,
+@inproceedings{EI17,
   author    = {Thomas Lor{\"{u}}nser and
                Stephan Krenn and
                Thomas L{\"{a}}nger},
   title     = {Agile cryptographic solutions for the cloud},
-  journal   = {Elektrotechnik und Informationstechnik},
-  volume    = {134},
-  number    = {7},
-  pages     = {364--369},
+  booktitle = {Elektrotechnik und Informationstechnik 2017.},
   year      = {2017},
-  url       = {https://doi.org/10.1007/s00502-017-0519-x},
-  doi       = {10.1007/s00502-017-0519-x}
+  abstract  = {Cloud computing, with its estimated market size of 150 billion USD annual turnover, is one of the major growth areas in information and communication technologies today. As a paradigm building on outsourcing of storage and processing, cloud computing suffers from intrinsic security and privacy problems. However, cryptographic research has made substantial progress over the last years and today provides a portfolio of mature cryptographic primitives and protocols suitable for addressing several of these problems in an effective and efficient way. Nevertheless, today’s reality shows that there exists a gap between what is possible and what is actually available in the cloud. We will present a detailed analysis of inhibitors and roadblocks standing in the way of an extensive deployment of cryptographic protection to cloud services, and how organizational and procedural measures may support the practical deployment of cryptography. We conclude our article with an overview of novel cryptographic schemes and their potential for protection of end-user data during storage and processing in the cloud, once they will become widely available.},
+  url       = {https://link.springer.com/article/10.1007%2Fs00502-017-0519-x},
+  pdf       = {https://link.springer.com/article/10.1007%2Fs00502-017-0519-x}
 }
 
-@inproceedings{DBLP:conf/cans/KrennLSS17,
+@inproceedings{CANS17,
   author    = {Stephan Krenn and
                Thomas Lor{\"{u}}nser and
                Anja Salzer},
-  editor    = {Srdjan Capkun and
-               Sherman S. M. Chow},
   title     = {Towards Attribute-Based Credentials in the Cloud},
-  booktitle = {Cryptology and Network Security - 16th International Conference, {CANS}
-               2017, Hong Kong, China, November 30 - December 2, 2017, Revised Selected
-               Papers},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {11261},
-  pages     = {179--202},
-  publisher = {Springer},
+  booktitle = {CANS 2017, Hong Kong, China, November 30 - December 2.},
   year      = {2017},
-  url       = {https://doi.org/10.1007/978-3-030-02641-7\_9},
-  doi       = {10.1007/978-3-030-02641-7\_9}
+  abstract  = {Attribute-based credentials (ABCs, sometimes also anonymous credentials) are a core cryptographic building block of privacy-friendly authentication systems, allowing users to obtain credentials on attributes and prove possession of these credentials in an unlinkable fashion. Thereby, users have full control over which attributes the user wants to reveal to a third party while offering high authenticity guarantees to the receiver. Unfortunately, up to date, all known ABC systems require access to all attributes in the clear at the time of proving possession of a credential to a third party. This makes it hard to offer privacy-preserving identity management systems "as a service," as the user still needs specific key material and/or dedicated software locally, e.g., on his device. We address this gap by proposing a new cloud-based ABC system where a dedicated cloud service ("wallet") can present the users’ credentials to a third-party without accessing the attributes in the clear. This enables new privacy-preserving applications of ABCs "in the cloud." This is achieved by carefully integrating proxy re-encryption with structure-preserving signatures and zero-knowledge proofs of knowledge. The user obtains credentials on his attributes (encrypted under his public key) and uploads them to the wallet, together with a specific re-encryption key. To prove a possession, the wallet re-encrypts the ciphertexts to the public key of the receiving third party and proves, in zero-knowledge, that all computations were done honestly. Thereby, the wallet never sees any user attribute in the clear. We show the practical efficiency of our scheme by giving concrete benchmarks of a prototype implementation.},
+  url       = {https://link.springer.com/chapter/10.1007%2F978-3-030-02641-7_9},
+  pdf       = {https://link.springer.com/chapter/10.1007%2F978-3-030-02641-7_9}
 }
 
-@inproceedings{DBLP:conf/icissp/KrennLS17,
+@inproceedings{ICISSP17,
   author    = {Stephan Krenn and
                Thomas Lor{\"{u}}nser},
-  editor    = {Paolo Mori and
-               Steven Furnell and
-               Olivier Camp},
   title     = {Batch-verifiable Secret Sharing with Unconditional Privacy},
-  booktitle = {Proceedings of the 3rd International Conference on Information Systems
-               Security and Privacy, {ICISSP} 2017, Porto, Portugal, February 19-21,
-               2017},
-  pages     = {303--311},
-  publisher = {SciTePress},
+  booktitle = {International Conference on Information Systems Security and Privacy (ICISSP) 2017, Porto, Portugal, February 19-21.},
   year      = {2017},
+  abstract  = {We propose the first batch-verifiable secret sharing scheme with a significant security property, namely that of unconditional privacy. Verifiability and privacy of secret-shared messages are a crucial feature, e.g., in distributed computing scenarios, and verifiable secret sharing schemes with unconditional privacy (but without a batching feature) exist for a long time, e.g., Ben-Or, Goldwasser, and Wigderson (STOC 1988). Unfortunately, those schemes are able to verify only a single message at a time which, however, is not a very realistic scenario in a more practical setting. Namely, large files in real-world implementations are often split into many message blocks on a several-byte level and, thus, many known single-message verifiable secret sharing schemes tend to behave inefficiently in such a scenario. To improve practicability, batch-verifiable secret sharing was proposed by Bellare, Garay, and Rabin (ACM PODC 1996). In their scheme, the servers are able to verify a batch of m essages (instead of only one) at almost the same amortized efficiency costs in comparison to efficient existing verifiable secret sharing schemes that only deal with single messages. However, the Bellare-Garay-Rabin scheme does not consider the important security property of unconditional privacy. Unconditionally private schemes information-theoretically guarantee privacy even against computationally unbounded adversaries and, hence, can be seen to be private in a long-term sense. In this work, we lift the Bellare-Garay-Rabin scheme to the unconditional privacy setting in a rigorous manner while preserving the practicability of their scheme simultaneously.},
   url       = {https://doi.org/10.5220/0006133003030311},
-  doi       = {10.5220/0006133003030311}
+  pdf       = {https://www.scitepress.org/Link.aspx?doi=10.5220/0006133003030311}
 }
 
-@inproceedings{DBLP:conf/primelife/ChiaroFGKLGMRSS17,
+@inproceedings{IFIP17,
   author    = {Pasquale Chiaro and
                Simone Fischer{-}H{\"{u}}bner and
                Thomas Gro{\ss} and
@@ -351,89 +285,62 @@
                Kai Rannenberg and
                Daniel Slamanig and
                Alberto Zanini},
-  editor    = {Marit Hansen and
-               Eleni Kosta and
-               Igor Nai Fovino and
-               Simone Fischer{-}H{\"{u}}bner},
   title     = {Secure and Privacy-Friendly Storage and Data Processing in the Cloud},
-  booktitle = {Privacy and Identity Management. The Smart Revolution - 12th {IFIP}
-               {WG} 9.2, 9.5, 9.6/11.7, 11.6/SIG 9.2.2 International Summer School,
-               Ispra, Italy, September 4-8, 2017, Revised Selected Papers},
-  series    = {{IFIP} Advances in Information and Communication Technology},
-  volume    = {526},
-  pages     = {153--169},
-  publisher = {Springer},
+  booktitle = {IFIP Summer School 2016 - Privacy and Identity Management, Ispra, Italy, September 4-8.},
   year      = {2017},
-  url       = {https://doi.org/10.1007/978-3-319-92925-5\_10},
-  doi       = {10.1007/978-3-319-92925-5\_10}
+  abstract  = {At the IFIP Summer School 2017, the two H2020 projects credential and prismacloud co-organized a workshop dedicated to in- troducing the necessary background knowledge and demonstrating proto- types of privacy-preserving solutions for storing, sharing, and processing potentially sensitive data in untrusted cloud environments. This paper summarizes the given presentations and presents the discussions and feedback given by the workshop attendees, including students and se- nior researchers from different domains as well as relevant non-academic stakeholders such as public data protection agencies.},
+  url       = {https://link.springer.com/chapter/10.1007/978-3-319-92925-5_10},
+  pdf       = {https://prismacloud.eu/wp-content/uploads/2018/09/Secure-and-Privacy-Friendly-Storage-and-Data-Processing-in-the-Cloud-IFIP2017.pdf}
 }
 
-@inproceedings{DBLP:conf/primelife/KaregarSKHLF16,
+@inproceedings{IFIP16,
   author    = {Farzaneh Karegar and
                Stephan Krenn and
                Felix H{\"{o}}randner and
                Thomas Lor{\"{u}}nser and
                Simone Fischer{-}H{\"{u}}bner},
-  editor    = {Anja Lehmann and
-               Diane Whitehouse and
-               Simone Fischer{-}H{\"{u}}bner and
-               Lothar Fritsch and
-               Charles D. Raab},
   title     = {Opportunities and Challenges of {CREDENTIAL} - Towards a Metadata-Privacy
                Respecting Identity Provider},
-  booktitle = {Privacy and Identity Management. Facing up to Next Steps - 11th {IFIP}
-               {WG} 9.2, 9.5, 9.6/11.7, 11.4, 11.6/SIG 9.2.2 International Summer
-               School, Karlstad, Sweden, August 21-26, 2016, Revised Selected Papers},
-  series    = {{IFIP} Advances in Information and Communication Technology},
-  volume    = {498},
-  pages     = {76--91},
+  booktitle = {IFIP Summer School 2016 - Privacy and Identity Management, Karlstad, Sweden, August 21-26.},
   year      = {2016},
-  url       = {https://doi.org/10.1007/978-3-319-55783-0\_7},
-  doi       = {10.1007/978-3-319-55783-0\_7}
+  abstract  = {This paper summarizes the results of a workshop at the IFIP Summer School 2016 introducing the EU Horizon 2020 project CREDENTIAL, i.e., Secure Cloud Identity Wallet. The contribution of this document is three-fold. First, it gives an overview of the CREDENTIAL project, its use-cases, and core technologies. Second, it explains the challenges of the project’s approach and summarizes the results of the parallel focus groups. Third, it focuses on a specific challenge—the protection of metadata in centralized identity providers—and suggests a potential architecture addressing this problem.},
+  url       = {https://credential.eu/publications/opportunities-and-challenges-of-credential-towards-a-metadata-privacy-respecting-identity-provider/},
+  pdf       = {https://credential.eu/wp-content/uploads/2017/05/Opportunities-and-Challenges-of-CREDENTIAL-Towards-a-Metadata-Privacy-Respecting-Identity-Provider.pdf}
 }
 
-@phdthesis{DBLP:phd/dnb/Striecks15,
-  author    = {Christoph Striecks},
+@inproceedings{THESIS15,
+  abstract  = {Cryptographic building blocks play a central role in cryptography, e.g., encryption or digital signatures with their security notions. Further, cryptographic building blocks might be constructed modularly, i.e., emerge out of other cryptographic building blocks. Essentially, one cryptographically transforms the underlying block(s) and their (security) properties into the emerged block and its properties. This thesis considers cryptographic building blocks and new cryptographic transformations.},
   title     = {On Cryptographic Building Blocks and Transformations},
-  school    = {Karlsruhe Institute of Technology},
-  year      = {1984},
+  booktitle = {PhD thesis, Karlsruhe Institute of Technology, Karlsruhe, Germany, June 26, 2015.},
   url       = {http://digbib.ubka.uni-karlsruhe.de/volltexte/1000050195},
-  timestamp = {Wed, 12 Feb 2020 00:00:00 +0100},
-  biburl    = {https://dblp.org/rec/phd/dnb/Striecks15.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  pdf       = {https://publikationen.bibliothek.kit.edu/1000050195/3756477},
+  year      = {2015},
+  selected  = {false}
 }
 
-@article{DBLP:journals/joc/BohlHJKS15,
+@article{JOC15,
   author    = {Florian B{\"{o}}hl and
                Dennis Hofheinz and
                Tibor Jager and
                Jessica Koch},
   title     = {Confined Guessing: New Signatures From Standard Assumptions},
-  journal   = {Journal of Cryptology 28, 176–208 (2015)},
-  volume    = {28},
-  number    = {1},
-  pages     = {176--208},
+  journal   = {Journal of Cryptology, Volume 28, 2015.},
   year      = {2015},
+  abstract  = {We put forward a new technique to construct very efficient and compact signature schemes. Our technique combines several instances of only a mildly secure signature scheme to obtain a fully secure scheme. Since the mild security notion we require is much easier to achieve than full security, we can combine our strategy with existing techniques to obtain a number of interesting new (stateless and fully secure) signature schemes. Concretely, we get (1) A scheme based on the computational Diffie–Hellman (CDH) assumption in pairing-friendly groups. Signatures contain O(1) and verification keys O(logk) group elements, where k is the security parameter. Our scheme is the first fully secure CDH-based scheme with such compact verification keys. (2) A scheme based on the (nonstrong) RSA assumption in which both signatures and verification keys contain O(1) group elements. Our scheme is significantly more efficient than existing RSA-based schemes. (3) A scheme based on the Short Integer Solutions (SIS) assumption. Signatures contain O(log(k)*m) and verification keys O(n*m) Zp-elements, where p may be polynomial in k, and n, m denote the usual SIS matrix dimensions. Compared to state-of-the-art SIS-based schemes, this gives very small verification keys, at the price of slightly larger signatures. In all cases, the involved constants are small, and the arising schemes provide significant improvements upon state-of-the-art schemes. The only price we pay is a rather large (polynomial) loss in the security reduction. However, this loss can be significantly reduced at the cost of an additive term in signature and verification key size.},
   url       = {https://doi.org/10.1007/s00145-014-9183-z},
   doi       = {10.1007/s00145-014-9183-z},
   eprint    = {http://eprint.iacr.org/2013/171.pdf},
   pdf       = {https://doi.org/10.1007/s00145-014-9183-z}
 }
 
-@inproceedings{DBLP:conf/pkc/HofheinzKS15,
+@inproceedings{PKC15,
   author    = {Dennis Hofheinz and
                Jessica Koch},
-  editor    = {Jonathan Katz},
   title     = {Identity-Based Encryption with (Almost) Tight Security in the Multi-instance,
                Multi-ciphertext Setting},
-  booktitle = {Public-Key Cryptography - {PKC} 2015 - 18th {IACR} International Conference
-               on Practice and Theory in Public-Key Cryptography, Gaithersburg, MD,
-               USA, March 30 - April 1, 2015, Proceedings. (Invited to Journal of Cryptology.)},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {9020},
-  pages     = {799--822},
-  publisher = {Springer},
+  booktitle = {PKC 2015, Gaithersburg, MD, USA, March 30 - April 1. (Invited to the Journal of Cryptology.)},
   year      = {2015},
+  abstract  = {We construct an identity-based encryption (IBE) scheme that is tightly secure in a very strong sense. Specifically, we consider a setting with many instances of the scheme and many encryptions per instance. In this setting, we reduce the security of our scheme to a variant of a simple assumption used for a similar purpose by Chen and Wee (Crypto 2013). The security loss of our reduction is O(k)(where k is the security parameter). Our scheme is the first IBE scheme to achieve this strong flavor of tightness under a simple assumption. Technically, our scheme is a variation of the IBE scheme by Chen and Wee. However, in order to "lift" their results to the multi-instance, multi-ciphertext case, we need to develop new ideas. In particular, while we build on (and extend) their high-level proof strategy, we deviate significantly in the low-level proof steps.},
   url       = {https://doi.org/10.1007/978-3-662-46447-2\_36},
   eprint    = {http://eprint.iacr.org/2015/123.pdf},
   pdf       = {https://doi.org/10.1007/978-3-662-46447-2\_36},
@@ -441,60 +348,41 @@
 }
 
 
-@inproceedings{DBLP:conf/ctrsa/HofheinzS14,
+@inproceedings{RSA2014,
   author    = {Dennis Hofheinz},
-  editor    = {Josh Benaloh},
   title     = {A Generic View on Trace-and-Revoke Broadcast Encryption Schemes},
-  booktitle = {Topics in Cryptology - {CT-RSA} 2014 - The Cryptographer's Track at
-               the {RSA} Conference 2014, San Francisco, CA, USA, February 25-28,
-               2014. Proceedings},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {8366},
-  pages     = {48--63},
-  publisher = {Springer},
+  booktitle = {CT-RSA 2014 - The Cryptographer's Track at the {RSA} Conference 2014, San Francisco, USA, February 25-28.},
+  abstract  = {At Eurocrypt 2011, Wee presented a generalization of threshold public key encryption, threshold signatures, and revocation schemes arising from threshold extractable hash proof systems. In particular, he gave instances of his generic revocation scheme from the DDH assumption (which led to the Naor-Pinkas revocation scheme), and from the factoring assumption (which led to a new revocation scheme). We expand on Wee’s work in two directions: (a) We propose threshold extractable hash proof instantiations from the “Extended Decisional Diffie-Hellman” (EDDH) assumption due to Hemenway and Ostrovsky (PKC 2012). This in particular yields EDDH-based variants of threshold public key encryption, threshold signatures, and revocation schemes. In detail, this yields a DCR-based revocation scheme. (b) We show that our EDDH-based revocation scheme allows for a mild form of traitor tracing (and, thus, yields a new trace-and-revoke scheme). In particular, compared to Wee’s factoring-based scheme, our DCR-based scheme has the advantage that it allows to trace traitors.},
   year      = {2014},
   url       = {https://doi.org/10.1007/978-3-319-04852-9\_3},
   eprint    = {http://eprint.iacr.org/2013/844.pdf},
   pdf       = {https://doi.org/10.1007/978-3-319-04852-9\_3}
 }
 
-@inproceedings{DBLP:conf/crypto/FreireHPS13,
+@inproceedings{C2013,
   author    = {Eduarda S. V. Freire and
                Dennis Hofheinz and
                Kenneth G. Paterson},
-  editor    = {Ran Canetti and
-               Juan A. Garay},
   title     = {Programmable Hash Functions in the Multilinear Setting},
-  booktitle = {Advances in Cryptology - {CRYPTO} 2013 - 33rd Annual Cryptology Conference,
-               Santa Barbara, CA, USA, August 18-22, 2013. Proceedings, Part {I}},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {8042},
-  pages     = {513--530},
-  publisher = {Springer},
+  booktitle = {CRYPTO 2013, Santa Barbara, USA, August 18-22.},
   year      = {2013},
+  abstract  = {We adapt the concept of a programmable hash function (PHF, Crypto 2008) to a setting in which a multilinear map is available. This enables new PHFs with previously unachieved parameters. To demonstrate their usefulness, we show how our (standard-model) PHFs can replace random oracles in several well-known cryptographic constructions. Namely, we obtain standard-model versions of the Boneh-Franklin identity-based encryption scheme, the Boneh-Lynn-Shacham signature scheme, and the Sakai-Ohgishi-Kasahara identity-based non- interactive key exchange (ID-NIKE) scheme. The ID-NIKE scheme is the first scheme of its kind in the standard model. Our abstraction also allows to derive hierarchical versions of the above schemes in settings with multilinear maps. This in particular yields simple and efficient hierarchical generalizations of the BF, BLS, and SOK schemes. In the case of hierarchical ID-NIKE, ours is the first such scheme with full security, in either the random oracle model or the standard model. While our constructions are formulated with respect to a generic multilinear map, we also outline the necessary adaptations required for the recent “noisy” multilinear map candidate due to Garg, Gentry, and Halevi.},
   url       = {https://doi.org/10.1007/978-3-642-40041-4\_28},
-  eprint    = {http://eprint.iacr.org/2013/354.pdf},
   pdf       = {https://doi.org/10.1007/978-3-642-40041-4\_28},
+  eprint    = {http://eprint.iacr.org/2013/354.pdf},
   selected  = {true}
 }
 
-@inproceedings{DBLP:conf/eurocrypt/BohlHJKSS13,
+@inproceedings{EC2013,
   author    = {Florian B{\"{o}}hl and
                Dennis Hofheinz and
                Tibor Jager and
                Jessica Koch and
                Jae Hong Seo},
-  editor    = {Thomas Johansson and
-               Phong Q. Nguyen},
   title     = {Practical Signatures from Standard Assumptions},
-  booktitle = {Advances in Cryptology - {EUROCRYPT} 2013, 32nd Annual International
-               Conference on the Theory and Applications of Cryptographic Techniques,
-               Athens, Greece, May 26-30, 2013. Proceedings},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {7881},
-  pages     = {461--485},
-  publisher = {Springer},
+  booktitle = {EUROCRYPT 2013, Athens, Greece, May 26-30.},
   year      = {2013},
+  abstract  = {We put forward new techniques for designing signature schemes. As a result, we present practical signature schemes based on the CDH, the RSA, and the SIS assumptions. Our schemes compare favorably with existing schemes based on these assumptions. Our core idea is the use of tag-based signatures. Concretely, each signatures contains a tag which is uniformly chosen from a suitable tag set. Intuitively, the tag provides a way to embed instances of computational problems. Indeed, carefully choosing these tag spaces provides new ways to partition the set of possible message-tag pairs into "signable" and "unsignable" pairs. In our security proof, we will thus be able to sign all adversarially requested messages, and at the same time use an adversarially generated forgery with suitably large probability.},
   url       = {https://doi.org/10.1007/978-3-642-38348-9\_28},
   eprint    = {http://eprint.iacr.org/2013/171.pdf},
   pdf       = {https://www.iacr.org/archive/eurocrypt2013/78810460/78810460.pdf}
