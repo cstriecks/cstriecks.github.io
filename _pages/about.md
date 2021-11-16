@@ -7,9 +7,7 @@ profile:
   align: right
   image: profile-cs.jpg
   address: >
-    <p>AIT Austrian Institute of Technology</p>
-    <p>Giefinggasse 4</p>
-    <p>1210 Vienna, Austria</p>
+    AIT Austrian Institute of Technology, Cyber Security, Giefinggasse 4, 1210 Vienna, Austria
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
