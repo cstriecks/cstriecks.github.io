@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 Cryptography researcher in the <a href="https://www.ait.ac.at/themen/cyber-security/team/" target="_blank" rel="noopener">Cyber Security team</a> at <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> in Vienna, Austria.
 
-My professional focus lies in the areas of privacy-enhancing cryptographic technologies (such as end-to-end encryption, secure selective data sharing and computation on data, and authentication) with applications to concrete real-world problems (such as Big Data, Cloud, and IoT).
+My professional focus lies in the area of privacy-enhancing cryptographic technologies (such as end-to-end encryption, secure selective data sharing and computation on data, and authentication) with applications to concrete real-world problems (such as Big Data, Cloud, and IoT).
 
 In 2015, I received my PhD (Dr. rer. nat.) in cryptography from the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> and second doctoral thesis appraiser <a href="https://www.crypto.ruhr-uni-bochum.de/staff/kiltz.html.en" target="_blank" rel="noopener">Prof. Eike Kiltz</a> on scalable identity-based encryption, short digital signatures, and modular revocation schemes. Larger-scale teaching activities included Algorithms I (lab, SS 2015) and IT security (lab, SS 2013), encompassed by several smaller-scale seminars and labs on the topic of cryptography.
 
