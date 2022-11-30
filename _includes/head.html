@@ -35,9 +35,11 @@
 {% endif %}
 
 <!-- Bootstrap & MDB -->
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" /> 
-<!-- <link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url }}"> -->
+<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/{{ site.bootstrap.version }}/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" /> -->
+
+<link rel="stylesheet" href="{{ '/assets/bootstrap/css/bootstrap.min.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/mdb/css/mdb.min.css' | relative_url }}">
 
 <!-- Fonts & Icons -->
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.fontawesome.version }}/css/all.min.css"  integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
