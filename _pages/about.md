@@ -91,7 +91,7 @@ Selected invited talks and activities:
  <li>Invited talks on Forward Security (ETH Zurich and FAU Nürnberg-Erlangen, 2022)</li>
  <li>Invited lecture on Redactable Blockchains (with Daniel Slamanig, TU Vienna, 2021)</li>
  <li>Invited talk on Attribute-Based Encryption for Strong Access Control (ETSI Security Week, 2020)</li>
- <li>Invited lectures on Advanced Public-Key Encryption (TU Vienna, 2019 & 2020)</li>
+ <li>Invited lectures on Advanced Public-Key Encryption (TU Vienna, 2020 & 2019)</li>
  <li>Invited talk on Security, Safety, and Privacy-by-Design (Austrian Standards, 2020, press coverage in <a href="https://futurezone.at/b2b/design-standards-muessen-von-anfang-an-mitgedacht-werden/401088141" target="_blank" rel="noopener">futurezone</a> and <a href="https://www.austrian-standards.at/de/themengebiete/digitalisierung-datensicherheit/iot-fachkongress-nachbericht-2020" target="_blank" rel="noopener">Austrian Standards</a>)</li>
  <li>Invited talk on Attribute-Based Encryption for strong access control (Graz Security Days for Industry, 2019)</li>
  <li>Invited talk on Forward Security (Royal Holloway, University of London, 2018)</li>
