@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a cryptography and IT security researcher with a professional focus on cryptographic technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in advanced cryptographic security measures such as key rotation to achieve <a href="https://profet.at/blog/pe_part1/" target="_blank" rel="noopener">forward security</a> and hybridization techniques towards quantum-safe systems.
+I am a cryptography and IT security researcher with a professional focus on cryptographic technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in advanced cryptographic security measures such as key rotation to achieve <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a> and hybridization techniques towards quantum-safe systems.
 
 Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization (RTO) – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
