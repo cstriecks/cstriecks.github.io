@@ -21,8 +21,9 @@ In 2015, I received my PhD (Dr. rer. nat.) in cryptography from KIT under the su
 
 In 2010, I received my Diploma in computer science from the <a href="https://www.tu-braunschweig.de/en/" target="_blank" rel="nooppener">Technical University of Braunschweig</a> in Germany with a major in cryptography and software engineering. From March to September 2008, I worked as a software-development intern for <a href="https://www.siemens.com/us/en.html" target="_blank" rel="nooppener">Siemens USA</a> in Princeton, New Jersey.
 
-News: 
+News and activities: 
 <ul>
+ <li>Apr. 2023: I attended <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">EUROCRYPT 2023</a> in Lyon.</li>
  <li>Jan. 2023: Accepted paper on strongly secure messaging at <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">EUROCRYPT 2023</a>.</li>
  <li>Dez. 2022: From 7 to 9 December, I visited <a href="https://www.chaac.tf.fau.eu" target="_blank" rel="noopener">Dominique Schröder's group</a> at <a href="https://www.fau.eu" target="_blank" rel="noopener">Friedrich-Alexander-Universität Erlangen-Nürnberg</a> and gave a presentation on Forward Security.</li>
  <li>Oct. 2022: I will serve as a program committee member of the <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2023</a>.</li>
@@ -42,10 +43,10 @@ Program committees:
 <ul>
  <li>Security Standardisation Research Conference <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
  <li>CANS <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
- <li>ARES Workshops <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> & <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a></li>
- <li>SICHERHEIT  <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a> & <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a></li>
+ <li>ARES Workshops <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> & <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a></li>
+ <li>SICHERHEIT <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> & <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
- <li>IFIP Summer School on Privacy and Identity Management <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2018</a> & <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2019</a></li>
+ <li>IFIP Summer School on Privacy and Identity Management <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2019</a> & <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2018</a></li>
 </ul>
 
 Selected external reviewing activities: 
