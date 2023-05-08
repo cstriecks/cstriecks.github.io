@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a cryptography and IT security researcher with a professional focus on cryptographic technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in advanced cryptographic security measures such as key rotation to achieve <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a> and hybridization techniques towards quantum-safe systems.
+I am a cryptography and IT security researcher with a professional focus on cryptographic technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in advanced cryptographic security measures for key exchanges to achieve <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a> and hybridization techniques towards quantum-safe systems.
 
 Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization (RTO) – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
@@ -23,6 +23,7 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>May 2023: I will serve as a program committee member of CANS 2023.</li>
  <li>Apr. 2023: I attended <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">EUROCRYPT 2023</a> in Lyon.</li>
  <li>Jan. 2023: Accepted paper on strongly secure messaging at <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">EUROCRYPT 2023</a>.</li>
  <li>Dez. 2022: From 7 to 9 December, I visited <a href="https://www.chaac.tf.fau.eu" target="_blank" rel="noopener">Dominique Schröder's group</a> at <a href="https://www.fau.eu" target="_blank" rel="noopener">Friedrich-Alexander-Universität Erlangen-Nürnberg</a> and gave a presentation on Forward Security.</li>
@@ -41,8 +42,8 @@ Recent research visits:
 
 Program committees: 
 <ul>
+ <li>CANS 2023, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
  <li>Security Standardisation Research Conference <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
- <li>CANS <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
  <li>ARES Workshops <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> & <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a></li>
  <li>SICHERHEIT <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> & <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
