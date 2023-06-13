@@ -23,7 +23,8 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
- <li>May 2023: I will serve as a program committee member of CANS 2023.</li>
+ <li>June 2023: Accepted paper on hybrid authenticated key exchange at <a href="https://pqcrypto2023.umiacs.io" target="_blank" rel="noopener">PQCrypto 2023</a>.</li>
+ <li>May 2023: I will serve as a program committee member of <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">CANS 2023</a>.</li>
  <li>Apr. 2023: I attended <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">EUROCRYPT 2023</a> in Lyon.</li>
  <li>Jan. 2023: Accepted paper on strongly secure messaging at <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">EUROCRYPT 2023</a>.</li>
  <li>Dez. 2022: From 7 to 9 December, I visited <a href="https://www.chaac.tf.fau.eu" target="_blank" rel="noopener">Dominique Schröder's group</a> at <a href="https://www.fau.eu" target="_blank" rel="noopener">Friedrich-Alexander-Universität Erlangen-Nürnberg</a> and gave a presentation on Forward Security.</li>
@@ -42,11 +43,11 @@ Recent research visits:
 
 Program committees: 
 <ul>
- <li>CANS 2023, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
+ <li>CANS <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
  <li>Security Standardisation Research Conference <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
+ <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ARES Workshops <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> & <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a></li>
  <li>SICHERHEIT <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> & <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
- <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
  <li>IFIP Summer School on Privacy and Identity Management <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2019</a> & <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2018</a></li>
 </ul>
 
@@ -55,7 +56,7 @@ Selected external reviewing activities:
  <li>CRYPTO <a href="https://crypto.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://crypto.iacr.org/2019/" target="_blank" rel="noopener">2019</a></li>
  <li>EUROCRYPT <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">2023</a>, <a href="https://eurocrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a></li>
  <li>ASIACRYPT <a href="https://asiacrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://asiacrypt.iacr.org/2021/" target="_blank" rel="noopener">2021</a>, <a href="https://www.iacr.org/conferences/asiacrypt2016/www.asiacrypt2016.org/index.html" target="_blank" rel="noopener">2016</a>, <a href="https://www.math.auckland.ac.nz/~sgal018/AC2015/index.html" target="_blank" rel="noopener">2015</a></li>
- <li>ACM CCS <a href="https://www.sigsac.org/ccs/CCS2022/" target="_blank" rel="noopener">2022</a>, <a href="https://www.sigsac.org/ccs/CCS2020/" target="_blank" rel="noopener">2020</a></li>
+ <li>ACM CCS <a href="https://www.sigsac.org/ccs/CCS2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.sigsac.org/ccs/CCS2022/" target="_blank" rel="noopener">2022</a>, <a href="https://www.sigsac.org/ccs/CCS2020/" target="_blank" rel="noopener">2020</a></li>
  <li>USENIX Security <a href="https://www.usenix.org/conference/usenixsecurity21" target="_blank" rel="noopener">2021</a></li>
  <li>IEEE Symposium on Security and Privacy <a href="https://www.ieee-security.org/TC/SP2022/cfpapers.html" target="_blank" rel="noopener">2022</a></li>
  <li>ICALP <a href="https://icalp2022.irif.fr" target="_blank" rel="noopener">2022</a></li>
@@ -90,14 +91,15 @@ Completed projects:
 Selected invited talks and activities:
 
 <ul>
- <li>Invited talks on Forward Security (ETH Zurich and FAU Nürnberg-Erlangen, 2022)</li>
+ <li>Invited talk on Forward Security (ETH Zurich, 2022)</li>
+ <li>Invited talk on Forward Security (FAU Nürnberg-Erlangen, 2022)</li>
  <li>Invited lecture on Redactable Blockchains (with Daniel Slamanig, TU Vienna, 2021)</li>
  <li>Invited talk on Attribute-Based Encryption for Strong Access Control (ETSI Security Week, 2020)</li>
  <li>Invited lectures on Advanced Public-Key Encryption (TU Vienna, 2020 & 2019)</li>
  <li>Invited talk on Security, Safety, and Privacy-by-Design (Austrian Standards, 2020, press coverage in <a href="https://futurezone.at/b2b/design-standards-muessen-von-anfang-an-mitgedacht-werden/401088141" target="_blank" rel="noopener">futurezone</a> and <a href="https://www.austrian-standards.at/de/themengebiete/digitalisierung-datensicherheit/iot-fachkongress-nachbericht-2020" target="_blank" rel="noopener">Austrian Standards</a>)</li>
  <li>Invited talk on Attribute-Based Encryption for strong access control (Graz Security Days for Industry, 2019)</li>
  <li>Invited talk on Forward Security (Royal Holloway, University of London, 2018)</li>
- <li>Involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> (on standardizing Attribute-Based Encryption)</li>
+ <li>Involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> on standardizing Attribute-Based Encryption (press release from <a href="https://www.etsi.org/newsroom/press-releases/1328-2018-08-press-etsi-releases-cryptographic-standards-for-secure-access-control" target="_blank" rel="noopener">ETSI</a>)</li>
 </ul>
 
 Selected supervision:
