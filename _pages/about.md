@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a cryptography and IT security researcher with a professional focus on cryptographic technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in advanced cryptographic security measures for key exchanges to achieve <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a> and hybridization techniques towards quantum-safe systems.
+I am a cryptography researcher with a professional focus on cryptographic technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in advanced cryptographic security measures for key exchanges to achieve <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a> and hybridization techniques towards quantum-safe systems.
 
 Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization (RTO) – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
@@ -23,6 +23,8 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>August 2023: (Virtual) presentation at <a href="https://pqcrypto2023.umiacs.io" target="_blank" rel="noopener">PQCrypto 2023</a> on hybrid authenticated key exchange.</li>
+ <li>August 2023: I will serve as a program committee member of <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">ICISSP 2024</a> and <a href="https://sicherheit2024.ztt.hs-worms.de" target="_blank" rel="noopener">GI Sicherheit 2024</a>.</li>
  <li>June 2023: Accepted paper on hybrid authenticated key exchange at <a href="https://pqcrypto2023.umiacs.io" target="_blank" rel="noopener">PQCrypto 2023</a>.</li>
  <li>May 2023: I will serve as a program committee member of <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">CANS 2023</a>.</li>
  <li>Apr. 2023: I attended <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">EUROCRYPT 2023</a> in Lyon.</li>
@@ -46,8 +48,9 @@ Program committees:
  <li>CANS <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
  <li>Security Standardisation Research Conference <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
+ <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2024</a></li>
+ <li>GI SICHERHEIT <a href="https://sicherheit2024.ztt.hs-worms.de" target="_blank" rel="noopener">2024</a>, <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> & <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
  <li>ARES Workshops <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> & <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a></li>
- <li>SICHERHEIT <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> & <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
  <li>IFIP Summer School on Privacy and Identity Management <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2019</a> & <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2018</a></li>
 </ul>
 
@@ -102,9 +105,10 @@ Selected invited talks and activities:
  <li>Involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> on standardizing Attribute-Based Encryption (press release from <a href="https://www.etsi.org/newsroom/press-releases/1328-2018-08-press-etsi-releases-cryptographic-standards-for-secure-access-control" target="_blank" rel="noopener">ETSI</a>)</li>
 </ul>
 
-Selected supervision:
+Selected teaching & supervision:
 
 <ul>
+ <li>Teaching: Redactable Blockchains (invited lecture, WT 2021 at TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2020 at TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019 at TU Vienna), Algorithms I (TA, ST 2015 at KIT), IT security (TA, ST 2013 at KIT)</li> 
  <li>Diploma theses: Christian Matt (2011), Alexander Mai (2014)</li>
  <li>Interns: Denis Jahic (Jul.-Sep. 2021), Alexander Zikulnig (Aug.-Sep. 2022)</li>
 </ul>

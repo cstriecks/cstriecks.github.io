@@ -3,37 +3,55 @@
 
 --- 2023
 
-@inproceedings{NXP2023,
-  title     = {(Invited) Muckle+: End-to-End Hybrid Authenticated Key Exchanges},
-  author    = {Sebastian Ramacher},
-  booktitle = {NXP Belgium, 3 May.},
+@inproceedings{PQC2023,
+  title     = {Muckle+: End-to-End Hybrid Authenticated Key Exchanges},
+  booktitle = {PQCrypto 2023, August 17.},
   year      = {2023},
-  selected  = {false}
+  selected  = {false},
+  abstract  = {End-to-end authenticity in public networks plays a significant role. Namely, without authenticity, the adversary might be able to retrieve even confidential information straight away by impersonating others. Proposed solutions to establish an authenticated channel cover pre-shared key-based, password-based, and certificate-based techniques. To add confidentiality to an authenticated channel, authenticated key exchange (AKE) protocols usually have one of the three solutions built in. As an amplification, hybrid AKE (HAKE) approaches are getting more popular nowadays and were presented in several flavors to incorporate classical, post-quantum, or quantum-key-distribution components. The main benefit is redundancy, i.e., if some of the components fail, the primitive still yields a confidential and authenticated channel. However, current HAKE instantiations either rely on pre-shared keys (which yields inefficient end-to-end authenticity) or only support one or two of the three above components (resulting in reduced redundancy and flexibility). In this work, we present an extension of a modular HAKE framework due to Dowling, Brandt Hansen, and Paterson (PQCrypto'20) that does not suffer from the above constraints. While their instantiation, dubbed Muckle, requires pre-shared keys (and hence yields inefficient end-to-end authenticity), our extended instantiation called Muckle+ utilizes post-quantum digital signatures. While replacing pre-shared keys with digital signatures is rather straightforward in general, this turned out to be surprisingly non-trivial when applied to HAKE frameworks (resulting in a significant model change with adapted proof techniques).}
 }
 
+@inproceedings{IEEE2023,
+  title     = {Muckle+: End-to-End Hybrid Authenticated Key Exchanges},
+  booktitle = {IEEE P193 Working Group, June 16, 2023.},
+  year      = {2023},
+  selected  = {false},
+  abstract  = {End-to-end authenticity in public networks plays a significant role. Namely, without authenticity, the adversary might be able to retrieve even confidential information straight away by impersonating others. Proposed solutions to establish an authenticated channel cover pre-shared key-based, password-based, and certificate-based techniques. To add confidentiality to an authenticated channel, authenticated key exchange (AKE) protocols usually have one of the three solutions built in. As an amplification, hybrid AKE (HAKE) approaches are getting more popular nowadays and were presented in several flavors to incorporate classical, post-quantum, or quantum-key-distribution components. The main benefit is redundancy, i.e., if some of the components fail, the primitive still yields a confidential and authenticated channel. However, current HAKE instantiations either rely on pre-shared keys (which yields inefficient end-to-end authenticity) or only support one or two of the three above components (resulting in reduced redundancy and flexibility). In this work, we present an extension of a modular HAKE framework due to Dowling, Brandt Hansen, and Paterson (PQCrypto'20) that does not suffer from the above constraints. While their instantiation, dubbed Muckle, requires pre-shared keys (and hence yields inefficient end-to-end authenticity), our extended instantiation called Muckle+ utilizes post-quantum digital signatures. While replacing pre-shared keys with digital signatures is rather straightforward in general, this turned out to be surprisingly non-trivial when applied to HAKE frameworks (resulting in a significant model change with adapted proof techniques).}
+}
+
+@inproceedings{NXP2023,
+  title     = {(Invited) Muckle+: End-to-End Hybrid Authenticated Key Exchanges},
+  author    = {Sebastian Ramacher.},
+  booktitle = {NXP Belgium, May 3, 2023.},
+  year      = {2023},
+  selected  = {false},
+  abstract  = {End-to-end authenticity in public networks plays a significant role. Namely, without authenticity, the adversary might be able to retrieve even confidential information straight away by impersonating others. Proposed solutions to establish an authenticated channel cover pre-shared key-based, password-based, and certificate-based techniques. To add confidentiality to an authenticated channel, authenticated key exchange (AKE) protocols usually have one of the three solutions built in. As an amplification, hybrid AKE (HAKE) approaches are getting more popular nowadays and were presented in several flavors to incorporate classical, post-quantum, or quantum-key-distribution components. The main benefit is redundancy, i.e., if some of the components fail, the primitive still yields a confidential and authenticated channel. However, current HAKE instantiations either rely on pre-shared keys (which yields inefficient end-to-end authenticity) or only support one or two of the three above components (resulting in reduced redundancy and flexibility). In this work, we present an extension of a modular HAKE framework due to Dowling, Brandt Hansen, and Paterson (PQCrypto'20) that does not suffer from the above constraints. While their instantiation, dubbed Muckle, requires pre-shared keys (and hence yields inefficient end-to-end authenticity), our extended instantiation called Muckle+ utilizes post-quantum digital signatures. While replacing pre-shared keys with digital signatures is rather straightforward in general, this turned out to be surprisingly non-trivial when applied to HAKE frameworks (resulting in a significant model change with adapted proof techniques).}
+}
 
 @inproceedings{ETSI2023,
   title     = {Hybrid Authenticated Key Exchanges: Status-Quo, Novel Constructions, and Applications to Long-Range Quantum-Safe Networks},
-  booktitle = {9th ETSI/IQC Quantum Safe Cryptography Event, 13-15 February.},
+  booktitle = {9th ETSI/IQC Quantum Safe Cryptography Event, February 13-15, 2023.},
   year      = {2023},
   url       = {https://www.etsi.org/events/2117-2023-02-9th-etsi-iqc-quantum-safe-cryptography-workshop#pane-2/},
-  selected  = {false}
+  selected  = {false},
+  abstract  = {Hybrid Authenticated Key Exchange (HAKE) mechanisms use classical, post-quantum, and QKD-based key elements to establish an authenticated and confidential channel even in the event of cryptographically relevant quantum computers. Notably, such mechanisms can be fault-tolerant, meaning that even if some of the components fail or are turned off, the channel is still authenticated and confidential. HAKE schemes can come in many flavours with a variety of properties and can be adjusted to the application scenario or use case yielding a modular approach to mitigate the transition from non-quantum to quantum-safe systems. Moreover, a novel HAKE instantiation (avoiding the quadratic increase of pre-shared keys in large networks) is presented that allows end-to-end authenticity and confidentially even if two of the three components above fail or are turned off. This could be particularly interesting for upcoming long-range QKD networks such as the EuroQCI. The outline of the presentation is as follows: i) Motivation of hybrid AKE (HAKE) incorporating classical, post-quantum, and QKD mechanism, ii) Presenting the cryptographic concept with a state-of-the-art overview, iii) Enhanced HAKE protocol proposal with end-to-end authentication, and iv) Outlook.}
 }
 
 
 @inproceedings{IDQ2023,
   title     = {(Invited) Hybrid Key Exchanges for End-to-End Security in Quantum-Safe Networks},
-  booktitle = {IDQ Europe, Workshop: Migration to Quantum-Safe, February 10.},
+  booktitle = {IDQ Europe, Workshop: Migration to Quantum-Safe, February 10, 2023.},
   year      = {2023},
   url       = {https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:2345eeb3-347e-36b0-bb54-894921305e33},
-  selected  = {false}
+  selected  = {false},
+  abstract  = {End-to-end authenticity in public networks plays a significant role. Namely, without authenticity, the adversary might be able to retrieve even confidential information straight away by impersonating others. Proposed solutions to establish an authenticated channel cover pre-shared key-based, password-based, and certificate-based techniques. To add confidentiality to an authenticated channel, authenticated key exchange (AKE) protocols usually have one of the three solutions built in. As an amplification, hybrid AKE (HAKE) approaches are getting more popular nowadays and were presented in several flavors to incorporate classical, post-quantum, or quantum-key-distribution components. The main benefit is redundancy, i.e., if some of the components fail, the primitive still yields a confidential and authenticated channel. However, current HAKE instantiations either rely on pre-shared keys (which yields inefficient end-to-end authenticity) or only support one or two of the three above components (resulting in reduced redundancy and flexibility). In this work, we present an extension of a modular HAKE framework due to Dowling, Brandt Hansen, and Paterson (PQCrypto'20) that does not suffer from the above constraints. While their instantiation, dubbed Muckle, requires pre-shared keys (and hence yields inefficient end-to-end authenticity), our extended instantiation called Muckle+ utilizes post-quantum digital signatures. While replacing pre-shared keys with digital signatures is rather straightforward in general, this turned out to be surprisingly non-trivial when applied to HAKE frameworks (resulting in a significant model change with adapted proof techniques).}
 }
 
 --- 2022
 
 @inproceedings{FAU2022,
   title     = {(Invited) Efficient Puncturable Encryption – From Bloom Filters to Forward Security},
-  booktitle = {Chair of Applied Cryptography, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), December 9.},
+  booktitle = {Chair of Applied Cryptography, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), December 9, 2022. (Invited by Dominique Schröder.)},
   year      = {2022},
   url       = {https://www.chaac.tf.fau.eu/2022/11/28/talk-by-christoph-striecks/},
   selected  = {false}
@@ -41,7 +59,7 @@
 
 @inproceedings{ETH2022,
   title     = {(Invited) Efficient Puncturable Encryption – From Bloom Filters to Forward Security},
-  booktitle = {Foundation of Cryptography Group, ETH Zurich, September 21.},
+  booktitle = {Foundation of Cryptography Group, ETH Zurich, September 21, 2022. (Invited by Dennis Hofheinz.)},
   year      = {2022},
   url       = {https://foc.ethz.ch},
   selected  = {false}
@@ -101,7 +119,7 @@
 
 @inproceedings{IOTKONGRESS2020,
   title     = {(Invited, in German) Europäische Standards für das IoT – Security-, Safety-, und Privacy-by-Design},
-  author    = {Christoph Schmittner},  
+  author    = {Christoph Schmittner.},  
   booktitle = {Austrian Standards, 4. IoT-Fachkongress 2020, Virtual, November 4.},
   year      = {2020},
   abstract  = {The talk presents current technology and standardization work within the EU HORIZON 2020 ECSEL project SECREDAS.},
@@ -115,7 +133,7 @@
   title     = {(Invited) Attribute-Based Encryption for Strong Access Control: TS 103 532},
   year      = {2020},
   abstract  = {Attribute-Based Encryption (ABE) is a cryptographic mechanism that enforces access control solely on the mathematical level with strong security guarantees. A main incentive using ABE is to provide a proper and versatile replacement for software-only access-control mechanisms that need to embed all trust into (often seen to be error-prone) software components by design. Applications of ABE in EU research projects and ETSI TS 103 532 will be presented.},
-  booktitle = {European Telecommunications Standards Institute (ETSI), Security Week 2020, 8-19 June 2020, online},
+  booktitle = {European Telecommunications Standards Institute (ETSI), Security Week 2020, 8-19 June 2020, online.},
   url       = {https://www.etsi.org/events/1653-etsi-security-week-2020},
   webinar   = {https://www.brighttalk.com/webcast/12761/409316},
   selected  = {false}
@@ -125,7 +143,7 @@
   title     = {Quantum-Safe Identity-Based Encryption: TR 103 618},
   year      = {2020},  
   abstract  = {As quantum computing poses a threat to the long-term security of most of the currently used encryption mechanisms, ongoing efforts in the development of quantum-safe Identity-Based Encryption (IBE), with a focus on a hierarchical IBE scheme based on structured lattices and described in ETSI TR 103 618, are presented.},
-  booktitle = {European Telecommunications Standards Institute (ETSI), Security Week 2020, 8-19 June 2020, online},
+  booktitle = {European Telecommunications Standards Institute (ETSI), Security Week 2020, 8-19 June 2020, online.},
   url       = {https://www.etsi.org/events/1653-etsi-security-week-2020},
   webinar   = {https://www.brighttalk.com/webcast/12761/409316},
   selected  = {false}
@@ -165,7 +183,7 @@
 
 @inproceedings{TUWIEN2019,
   title     = {(Invited) Advanced Public-Key Encryption},
-  booktitle = {TU Wien 2019, Vienna, Austria, January 22. (Invited by Daniel Slamanig as a single-lecture for the course Modern Cryptography.)},
+  booktitle = {TU Wien, Vienna, Austria, January 22, 2019. (Invited by Daniel Slamanig as a single-lecture for the course Modern Cryptography.)},
   year      = {2019},
   abstract  = {The lecture recapped advanced public-key encryption ranging from identity-based encryption to attribute-based encryption with security models and constructions.},
   url       = {https://danielslamanig.info/ModernCrypto18.html},
@@ -173,9 +191,19 @@
   selected  = {false}
 }
 
+-- 2018
+
+@inproceedings{ETSI2018,
+  title     = {Attribute-Based Encryption (ABE) for Access Control and Personal Data Protection},
+  author    = {François Ambrosini.},
+  booktitle = {ETSI Webinar, 23 October, 2018.},
+  year      = {2018},
+  selected  = {false}
+}
+
 @inproceedings{RHUL2018,
   title     = {(Invited) Bloom Filter Encryption and Applications to Efficient Forward-Secret 0-RTT Key Exchange},
-  booktitle = {Royal Holloway, University of London (RHUL) seminar 2018, London, UK, October 18.},
+  booktitle = {Royal Holloway, University of London (RHUL) seminar, London, UK, October 18, 2018. (Invited by Martin R. Albrecht.)},
   year      = {2018},
   abstract  = {Forward secrecy is considered an essential design goal of modern key establishment (KE) protocols, such as TLS 1.3, for example. Furthermore, efficiency considerations such as zero round-trip time (0-RTT), where a client is able to send cryptographically protected payload data along with the very first KE message, are motivated by the practical demand for secure low-latency communication. For a long time, it was unclear whether protocols that simultaneously achieve 0-RTT and full forward secrecy exist. Only recently, the first forward-secret 0-RTT protocol was described by Günther et al. (EUROCRYPT 2017). It is based on Puncturable Encryption. Forward secrecy is achieved by “puncturing” the secret key after each decryption operation, such that a given ciphertext can only be decrypted once (cf. also Green and Miers, S&P 2015). Unfortunately, their scheme is completely impractical, since one puncturing operation takes between 30 seconds and several minutes for reasonable security and deployment parameters, such that this solution is only a first feasibility result, but not efficient enough to be deployed in practice. In this paper, we introduce a new primitive that we term Bloom Filter Encryption (BFE), which is derived from the probabilistic Bloom filter data structure. We describe different constructions of BFE schemes, and show how these yield new puncturable encryption mechanisms with extremely efficient puncturing. Most importantly, a puncturing operation only involves a small number of very efficient computations, plus the deletion of certain parts of the secret key, which outperforms previous constructions by orders of magnitude. This gives rise to the first forward-secret 0-RTT protocols that are efficient enough to be deployed in practice. We believe that BFE will find applications beyond forward-secret 0-RTT protocols.},
   slides    = {rhul-talk-october-2018.pdf},
@@ -192,7 +220,7 @@
 
 @inproceedings{NTT2015,
   title     = {Confined guessing: a reduction strategy to obtain new signatures from standard assumptions},
-  booktitle = {NTT, Tokyo, Japan, September 2015.},
+  booktitle = {NTT, Tokyo, Japan, September, 2015.},
   year      = {2015},
   abstract  = {We put forward new techniques for designing signature schemes. As a result, we present practical signature schemes based on the CDH, the RSA, and the SIS assumptions. Our schemes compare favorably with existing schemes based on these assumptions. Our core idea is the use of tag-based signatures. Concretely, each signatures contains a tag which is uniformly chosen from a suitable tag set. Intuitively, the tag provides a way to embed instances of computational problems. Indeed, carefully choosing these tag spaces provides new ways to partition the set of possible message-tag pairs into "signable" and "unsignable" pairs. In our security proof, we will thus be able to sign all adversarially requested messages, and at the same time use an adversarially generated forgery with suitably large probability},
   slides    = {ntt-talk-september-2015.pdf},
@@ -210,7 +238,7 @@
 
 @inproceedings{RNCS2014,
   title     = {Programmable Hash Functions in the Multilinear Setting},
-  booktitle = {Rhine Neckar Crypto Seminar 2014, Heidelberg, Germany.},
+  booktitle = {Rhine Neckar Crypto Seminar, 2014.},
   year      = {2014},
   abstract  = {We adapt the concept of a programmable hash function (PHF, Crypto 2008) to a setting in which a multilinear map is available. This enables new PHFs with previously unachieved parameters. To demonstrate their usefulness, we show how our (standard-model) PHFs can replace random oracles in several well-known cryptographic constructions. Namely, we obtain standard-model versions of the Boneh-Franklin identity-based encryption scheme, the Boneh-Lynn-Shacham signature scheme, and the Sakai-Ohgishi-Kasahara identity-based non- interactive key exchange (ID-NIKE) scheme. The ID-NIKE scheme is the first scheme of its kind in the standard model. Our abstraction also allows to derive hierarchical versions of the above schemes in settings with multilinear maps. This in particular yields simple and efficient hierarchical generalizations of the BF, BLS, and SOK schemes. In the case of hierarchical ID-NIKE, ours is the first such scheme with full security, in either the random oracle model or the standard model. While our constructions are formulated with respect to a generic multilinear map, we also outline the necessary adaptations required for the recent “noisy” multilinear map candidate due to Garg, Gentry, and Halevi.},
   selected  = {false}
