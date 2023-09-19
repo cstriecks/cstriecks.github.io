@@ -23,6 +23,7 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>September 2023: Accepted paper on forward-secure 0-RTT key exchange at <a href="https://ccsw.io" target="_blank" rel="noopener">The ACM Cloud Computing Security Workshop 2023</a>.</li>
  <li>August 2023: Accepted papers on forward security in updatable encryption at <a href="https://tcc.iacr.org/2023/" target="_blank" rel="noopener">TCC 2023</a> and on functional encryption with updatable ciphertexts in the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>August 2023: (Virtual) presentation at <a href="https://pqcrypto2023.umiacs.io" target="_blank" rel="noopener">PQCrypto 2023</a> on hybrid authenticated key exchange.</li>
  <li>August 2023: I will serve as a program committee member of <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">ICISSP 2024</a> and <a href="https://sicherheit2024.ztt.hs-worms.de" target="_blank" rel="noopener">GI Sicherheit 2024</a>.</li>
