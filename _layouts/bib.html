@@ -119,6 +119,13 @@
     {% if entry.talk %}
       <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk</a>
     {% endif %}
+    {% if entry.slides %}
+      {% if entry.slides contains '://' %}
+      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      {% else %}
+      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      {% endif %}
+    {% endif %}
     {% if entry.talkrwc %}
       <a href="{{ entry.talkrwc }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk RWC</a>
     {% endif %}
@@ -136,13 +143,6 @@
     {% endif %}
     {% if entry.pressb %}
       <a href="{{ entry.pressb }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Press 2</a>
-    {% endif %}
-    {% if entry.slides %}
-      {% if entry.slides contains '://' %}
-      <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-      {% else %}
-      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-      {% endif %}
     {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>

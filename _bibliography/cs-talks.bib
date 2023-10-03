@@ -21,7 +21,7 @@
 
 @inproceedings{NXP2023,
   title     = {(Invited) Muckle+: End-to-End Hybrid Authenticated Key Exchanges},
-  author    = {Sebastian Ramacher.},
+  author    = {Sebastian Ramacher},
   booktitle = {NXP Belgium, May 3, 2023.},
   year      = {2023},
   selected  = {false},
@@ -32,7 +32,6 @@
   title     = {Hybrid Authenticated Key Exchanges: Status-Quo, Novel Constructions, and Applications to Long-Range Quantum-Safe Networks},
   booktitle = {9th ETSI/IQC Quantum Safe Cryptography Event, February 13-15, 2023.},
   year      = {2023},
-  url       = {https://www.etsi.org/events/2117-2023-02-9th-etsi-iqc-quantum-safe-cryptography-workshop#pane-2/},
   selected  = {false},
   abstract  = {Hybrid Authenticated Key Exchange (HAKE) mechanisms use classical, post-quantum, and QKD-based key elements to establish an authenticated and confidential channel even in the event of cryptographically relevant quantum computers. Notably, such mechanisms can be fault-tolerant, meaning that even if some of the components fail or are turned off, the channel is still authenticated and confidential. HAKE schemes can come in many flavours with a variety of properties and can be adjusted to the application scenario or use case yielding a modular approach to mitigate the transition from non-quantum to quantum-safe systems. Moreover, a novel HAKE instantiation (avoiding the quadratic increase of pre-shared keys in large networks) is presented that allows end-to-end authenticity and confidentially even if two of the three components above fail or are turned off. This could be particularly interesting for upcoming long-range QKD networks such as the EuroQCI. The outline of the presentation is as follows: i) Motivation of hybrid AKE (HAKE) incorporating classical, post-quantum, and QKD mechanism, ii) Presenting the cryptographic concept with a state-of-the-art overview, iii) Enhanced HAKE protocol proposal with end-to-end authentication, and iv) Outlook.}
 }
@@ -42,7 +41,6 @@
   title     = {(Invited) Hybrid Key Exchanges for End-to-End Security in Quantum-Safe Networks},
   booktitle = {IDQ Europe, Workshop: Migration to Quantum-Safe, February 10, 2023.},
   year      = {2023},
-  url       = {https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:2345eeb3-347e-36b0-bb54-894921305e33},
   selected  = {false},
   abstract  = {End-to-end authenticity in public networks plays a significant role. Namely, without authenticity, the adversary might be able to retrieve even confidential information straight away by impersonating others. Proposed solutions to establish an authenticated channel cover pre-shared key-based, password-based, and certificate-based techniques. To add confidentiality to an authenticated channel, authenticated key exchange (AKE) protocols usually have one of the three solutions built in. As an amplification, hybrid AKE (HAKE) approaches are getting more popular nowadays and were presented in several flavors to incorporate classical, post-quantum, or quantum-key-distribution components. The main benefit is redundancy, i.e., if some of the components fail, the primitive still yields a confidential and authenticated channel. However, current HAKE instantiations either rely on pre-shared keys (which yields inefficient end-to-end authenticity) or only support one or two of the three above components (resulting in reduced redundancy and flexibility). In this work, we present an extension of a modular HAKE framework due to Dowling, Brandt Hansen, and Paterson (PQCrypto'20) that does not suffer from the above constraints. While their instantiation, dubbed Muckle, requires pre-shared keys (and hence yields inefficient end-to-end authenticity), our extended instantiation called Muckle+ utilizes post-quantum digital signatures. While replacing pre-shared keys with digital signatures is rather straightforward in general, this turned out to be surprisingly non-trivial when applied to HAKE frameworks (resulting in a significant model change with adapted proof techniques).}
 }
@@ -53,16 +51,16 @@
   title     = {(Invited) Efficient Puncturable Encryption – From Bloom Filters to Forward Security},
   booktitle = {Chair of Applied Cryptography, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), December 9, 2022. (Invited by Dominique Schröder.)},
   year      = {2022},
-  url       = {https://www.chaac.tf.fau.eu/2022/11/28/talk-by-christoph-striecks/},
-  selected  = {false}
+  selected  = {false},
+  abstract  = {This talks covers the puncturable-encryption paradigm and particularly the Bloom-filter encryption instantiation.}
 }
 
 @inproceedings{ETH2022,
   title     = {(Invited) Efficient Puncturable Encryption – From Bloom Filters to Forward Security},
   booktitle = {Foundation of Cryptography Group, ETH Zurich, September 21, 2022. (Invited by Dennis Hofheinz.)},
   year      = {2022},
-  url       = {https://foc.ethz.ch},
-  selected  = {false}
+  selected  = {false},
+  abstract  = {This talks covers the puncturable-encryption paradigm and particularly the Bloom-filter encryption instantiation.}
 }
 
 --- slides    = {eth-talk-september-2022.pdf},
@@ -76,7 +74,6 @@
   Green and Miers (S&P 2015) initiated the studies of puncturable encryption (PE) as a new cryptographic primitive towards the strong form of non-interactive forward-secure encryption (in particular, without the need of any pre-shared key material). Already several follow-up works showed the versatility of such a concept yielding a rich abstraction of forward security investigated in a variety of (data-in-transit and data-at-rest) application domains such as 0-RTT key exchange with replay protection for TLS (Eurocrypt'17, Eurocrypt'18, Asiacrypt'20, JoC'21), Google's QUIC (Cans'20), Searchable Encryption (CCS'17, CCS’18, NDSS'21), mobile Cloud backups (OSDI'20), Content Distribution Networks (Financial Crypto'21), Tor (PoPETS'20), and Updatable Encryption (ePrint'21).
   Loosely speaking, PE is a promising variant of public-key encryption that allows realizing the property of fine-grained and non-interactive forward security with several useful applications. This talk provides an exhausting overview to the concept of PE with motivation, presents state-of-the-art research on PE schemes, and discusses applications (such as 0-RTT key exchange with forward security and replay protection, and forward security for Content Delivery Networks). The overall goal is to make PE more accessible to the general audience and industry in a developer-friendly way, and also presenting new insights and results.
   The presentation builds on an existing blog post with the same title (https://profet.at/blog/pe).},
-  url       = {https://rwc.iacr.org/2022/program.php#day-2022-04-15},
   slides    = {rwc-talk-april-2022.pdf},
   video     = {https://youtu.be/zwIl8pqiZeA?list=PLeeS-3Ml-rpovBDh6do693We_CP3KTnHU&t=2710},
   selected  = {true}
@@ -90,7 +87,6 @@
   booktitle = {Financial Cryptography and Data Security 2021, Virtual, March 1-5.},
   year      = {2021},
   abstract  = {Forward secrecy is an important feature for modern cryptographic systems and is widely used in secure messaging such as Signal and WhatsApp as well as in common Internet protocols such as TLS, IPSec or SSH. The benefits of forward secrecy is that the damage in case of key-leakage is mitigated. Forward-secret encryption schemes provides security of past ciphertexts even if secret key leaks, which is interesting in settings where cryptographic keys often reside in memory for quite a long time and could be extracted by an adversary, e.g., in cloud computing. The recent concept of puncturable encryption (PE; IEEE S&P'15) provides a versatile generalization of forward-secret encryption: it allows to puncture secret keys with respect to ciphertexts to prevent the future decryption of these ciphertexts. Thus it represents a fine-grained mechanism to restrict decryption capabilities of a secret key to reduce damage in case of key leakage. We introduce the abstraction of allow-list/deny-list encryption schemes, and classify different types of PE schemes using this abstraction. Based on our classification we identify and close a gap in existing work by introducing a novel variant of PE which we dub Dual-Form Puncturable Encryption (DFPE). DFPE significantly enhances and in particular generalizes previous variants of PE, by allowing an interleaved application of allow- and deny-list operations. We present a construction of DFPE in prime order bilinear groups based on the novel primitive of tagged hierarchical identity-based encryption (THIBE). We discuss a direct application of DPFE for enhancing security guarantees within Cloudflare's Geo Key Manager and show its generic use to construct forward-secret IBE and forward-secret digital signatures.},
-  url       = {https://fc21.ifca.ai/program.html},
   video     = {https://www.youtube.com/watch?v=kEvfzz8eOjs},
   selected  = {false}
 }
@@ -100,8 +96,6 @@
   booktitle = {European Telecommunications Standards Institute (ETSI), Quantum Safe Cryptography Technical Event 2021, Virtual, February 18-19.},
   year      = {2021},
   abstract  = {The talk motivates the use of Functional Encryption (FE) as a methodology for fine-grained encryption and secure computation of data. Furthermore, Identity-Based Encryption (IBE) and Attribute-Based Encryption (ABE) as special variants of FE are presented. The talk concludes with standardization efforts and quantum-safeness towards available IBE and ABE schemes.},
-  url       = {https://www.etsi.org/events/1870-etsi-quantum-safe-cryptography-technical-event},
-  video     = {https://player.vimeo.com/video/507649107},
   selected  = {false}
 }
 
@@ -110,8 +104,7 @@
   author    = {Daniel Slamanig},  
   booktitle = {TU Vienna, January 2021, Virtual, January 14. (Invited by Matteo Maffei as a single-lecture for the course Cryptocurrencies.)},
   year      = {2021},
-  abstract  = {The lecture motivated the problem of editing/re-writing blockchains with a focus on the advanced cryptographic tools policy-based chameleon hashing and attribute-based encryption used for redactable blockchains.},
-  url       = {https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=1651&dsrid=845&courseNr=192065&semester=2020W},
+  abstract  = {The lecture motivates the problem of editing/re-writing blockchains with a focus on the advanced cryptographic tools policy-based chameleon hashing and attribute-based encryption used for redactable blockchains.},
   selected  = {false}
 }
 
@@ -123,7 +116,6 @@
   booktitle = {Austrian Standards, 4. IoT-Fachkongress 2020, Virtual, November 4.},
   year      = {2020},
   abstract  = {The talk presents current technology and standardization work within the EU HORIZON 2020 ECSEL project SECREDAS.},
-  url       = {https://www.austrian-standards.at/de/themengebiete/digitalisierung-datensicherheit/iot-fachkongress},
   pressa    = {https://futurezone.at/b2b/design-standards-muessen-von-anfang-an-mitgedacht-werden/401088141},
   pressb    = {https://www.austrian-standards.at/de/themengebiete/digitalisierung-datensicherheit/iot-fachkongress-nachbericht-2020},
   selected  = {false}
@@ -134,7 +126,6 @@
   year      = {2020},
   abstract  = {Attribute-Based Encryption (ABE) is a cryptographic mechanism that enforces access control solely on the mathematical level with strong security guarantees. A main incentive using ABE is to provide a proper and versatile replacement for software-only access-control mechanisms that need to embed all trust into (often seen to be error-prone) software components by design. Applications of ABE in EU research projects and ETSI TS 103 532 will be presented.},
   booktitle = {European Telecommunications Standards Institute (ETSI), Security Week 2020, 8-19 June 2020, online.},
-  url       = {https://www.etsi.org/events/1653-etsi-security-week-2020},
   webinar   = {https://www.brighttalk.com/webcast/12761/409316},
   selected  = {false}
 }
@@ -144,7 +135,6 @@
   year      = {2020},  
   abstract  = {As quantum computing poses a threat to the long-term security of most of the currently used encryption mechanisms, ongoing efforts in the development of quantum-safe Identity-Based Encryption (IBE), with a focus on a hierarchical IBE scheme based on structured lattices and described in ETSI TR 103 618, are presented.},
   booktitle = {European Telecommunications Standards Institute (ETSI), Security Week 2020, 8-19 June 2020, online.},
-  url       = {https://www.etsi.org/events/1653-etsi-security-week-2020},
   webinar   = {https://www.brighttalk.com/webcast/12761/409316},
   selected  = {false}
 }
@@ -153,8 +143,7 @@
   title     = {(Invited) Advanced Public-Key Encryption},
   booktitle = {TU Wien 2020, Vienna, Austria. January 28. (Invited by Daniel Slamanig as a single-lecture for the course Modern Cryptography.)},
   year      = {2020}, 
-  abstract  = {The lecture recapped advanced public-key encryption ranging from identity-based encryption to attribute-based encryption with security models and constructions.},
-  url       = {https://danielslamanig.info/ModernCrypto19.html},
+  abstract  = {The lecture recaps advanced public-key encryption ranging from identity-based encryption to attribute-based encryption with security models and constructions.},
   slides    = {https://danielslamanig.info/lectures/MC19_Lecture15.pdf},
   selected  = {false}
 }
@@ -165,8 +154,7 @@
   title     = {(Invited) Attribute-Based Encryption for Strong Access Control},
   booktitle = {Graz Security Days for Industry 2019, Graz, Austria, September 19.},
   year      = {2019},
-  abstract  = {The talk covered the concept of attribute-based encryption (ABE) and the ABE standardization work done at ETSI towards strong access control.},
-  url       = {https://www.securityweek.at/_archive/2019/industry/},
+  abstract  = {The talk covers the concept of attribute-based encryption (ABE) and the ABE standardization work done at ETSI towards strong access control.},
   selected  = {false}
 }
 
@@ -175,7 +163,6 @@
   booktitle = {The Network and Distributed System Security Symposium (NDSS) 2019, San Diego, USA, February 24-27.},
   year      = {2019},
   abstract  = {Blockchain technologies recently received a considerable amount of attention. While the initial focus was mainly on the use of blockchains in the context of cryptocurrencies such as Bitcoin, application scenarios now go far beyond this. Most blockchains have the property that once some object, e.g., a block or a transaction, has been registered to be included into the blockchain, it is persisted and there are no means to modify it again. While this is an essential feature of most blockchain scenarios, it is still often desirable---at times it may be even legally required--to allow for breaking this immutability in a controlled way. Only recently, Ateniese et al. (EuroS&P 2017) proposed an elegant solution to this problem on the block level. Thereby, the authors replace standard hash functions with so-called chameleon-hashes (Krawczyk and Rabin, NDSS 2000). While their work seems to offer a suited solution to the problem of controlled re-writing of blockchains, their approach is too coarse-grained in that it only offers an all-or-nothing solution. We revisit this idea and introduce the novel concept of policy-based chameleon-hashes (PBCH). PBCHs generalize the notion of chameleon-hashes by giving the party computing a hash the ability to associate access policies to the generated hashes. Anyone who possesses enough privileges to satisfy the policy can then find arbitrary collisions for a given hash. We then apply this concept to transaction-level rewriting within blockchains, and thus support fine-grained and controlled modifiability of blockchain objects. Besides modeling PBCHs, we present a generic construction of PBCHs (using a strengthened version of chameleon-hashes with ephemeral trapdoors which we also introduce), rigorously prove its security, and instantiate it with efficient building blocks. We report first implementation results.},
-  url       = {https://www.ndss-symposium.org/ndss-paper/fine-grained-and-controlled-rewriting-in-blockchains-chameleon-hashing-gone-attribute-based/},
   slides    = {https://www.ndss-symposium.org/wp-content/uploads/ndss2019_02A-3_Derler_slides.pdf},
   video     = {https://www.youtube.com/watch?v=tuXIv6FH5Ao&list=PLfUWWM-POgQvknM0gQ9St9vR5i-x9ac9P&index=4&t=1s},
   selected  = {false}
@@ -186,7 +173,6 @@
   booktitle = {TU Wien, Vienna, Austria, January 22, 2019. (Invited by Daniel Slamanig as a single-lecture for the course Modern Cryptography.)},
   year      = {2019},
   abstract  = {The lecture recapped advanced public-key encryption ranging from identity-based encryption to attribute-based encryption with security models and constructions.},
-  url       = {https://danielslamanig.info/ModernCrypto18.html},
   slides    = {https://danielslamanig.info/lectures/MC18_Lecture14.pdf},
   selected  = {false}
 }
@@ -232,7 +218,6 @@
   booktitle = {CT-RSA 2014 - The Cryptographer's Track at the {RSA} Conference 2014, San Francisco, CA, USA, February 25-28.},
   year      = {2014},
   abstract  = {At Eurocrypt 2011, Wee presented a generalization of threshold public key encryption, threshold signatures, and revocation schemes arising from threshold extractable hash proof systems. In particular, he gave instances of his generic revocation scheme from the DDH assumption (which led to the Naor-Pinkas revocation scheme), and from the factoring assumption (which led to a new revocation scheme). We expand on Wee’s work in two directions: (a) We propose threshold extractable hash proof instantiations from the “Extended Decisional Diffie-Hellman” (EDDH) assumption due to Hemenway and Ostrovsky (PKC 2012). This in particular yields EDDH-based variants of threshold public key encryption, threshold signatures, and revocation schemes. In detail, this yields a DCR-based revocation scheme. (b) We show that our EDDH-based revocation scheme allows for a mild form of traitor tracing (and, thus, yields a new trace-and-revoke scheme). In particular, compared to Wee’s factoring-based scheme, our DCR-based scheme has the advantage that it allows to trace traitors.},
-  url       = {https://link.springer.com/book/10.1007/978-3-319-04852-9},
   selected  = {false}
 }
 
@@ -249,6 +234,5 @@
   booktitle = {EUROCRYPT 2013, Athens, Greece, May 29.},
   year      = {2013},
   abstract  = {We put forward new techniques for designing signature schemes. As a result, we present practical signature schemes based on the CDH, the RSA, and the SIS assumptions. Our schemes compare favorably with existing schemes based on these assumptions. Our core idea is the use of tag-based signatures. Concretely, each signatures contains a tag which is uniformly chosen from a suitable tag set. Intuitively, the tag provides a way to embed instances of computational problems. Indeed, carefully choosing these tag spaces provides new ways to partition the set of possible message-tag pairs into "signable" and "unsignable" pairs. In our security proof, we will thus be able to sign all adversarially requested messages, and at the same time use an adversarially generated forgery with suitably large probability.},
-  url       = {https://www.iacr.org/conferences/eurocrypt2013/},
   selected  = {false}
 }
