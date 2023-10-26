@@ -13,16 +13,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a cryptography researcher with a professional focus on cryptographic technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in advanced cryptographic security measures for key exchanges to achieve <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a> and hybridization techniques towards quantum-safe systems.
+I am a cryptographer with a professional focus on secure technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in long-term security (e.g., <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a>) and hybridization techniques towards scalable quantum-safe systems.
 
 Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization (RTO) – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
-In 2015, I received my PhD (Dr. rer. nat.) in cryptography from KIT under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> (now at ETH Zurich) on advanced cryptographic building blocks (i.e., identity-based encryption with strong security guarantees). Larger-scale teaching activities included Algorithms I (lab, ST 2015) and IT security (lab, ST 2013), encompassed by several smaller-scale seminars and labs.
+In 2015, I received my PhD (Dr. rer. nat.) in cryptography from KIT under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> (now at ETH Zurich) on scalable advanced cryptographic building blocks. Teaching activities included Algorithms I (lab, ST 2015) and IT security (lab, ST 2013), encompassed by several seminars and labs.
 
 In 2010, I received my Diploma in computer science from the <a href="https://www.tu-braunschweig.de/en/" target="_blank" rel="nooppener">Technical University of Braunschweig</a> in Germany with a major in cryptography and software engineering. From March to September 2008, I worked as a software-development intern for <a href="https://www.siemens.com/us/en.html" target="_blank" rel="nooppener">Siemens USA</a> in Princeton, New Jersey.
 
 News and activities: 
 <ul>
+ <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>Sep. 2023: Accepted paper on forward-secure 0-RTT key exchange at <a href="https://ccsw.io" target="_blank" rel="noopener">The ACM Cloud Computing Security Workshop 2023</a>.</li>
  <li>Aug. 2023: Accepted papers on forward security in updatable encryption at <a href="https://tcc.iacr.org/2023/" target="_blank" rel="noopener">TCC 2023</a> and on functional encryption with updatable ciphertexts in the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>Aug. 2023: (Virtual) presentation at <a href="https://pqcrypto2023.umiacs.io" target="_blank" rel="noopener">PQCrypto 2023</a> on hybrid authenticated key exchange.</li>
@@ -96,6 +97,7 @@ Completed projects:
 Selected invited talks and activities:
 
 <ul>
+ <li>Invited talks on end-to-end hybrid authenticated key exchanges (NXP, IDQ Europe, 2023)</li>
  <li>Invited talk on Forward Security (ETH Zurich, 2022)</li>
  <li>Invited talk on Forward Security (FAU Nürnberg-Erlangen, 2022)</li>
  <li>Invited lecture on Redactable Blockchains (with Daniel Slamanig, TU Vienna, 2021)</li>
