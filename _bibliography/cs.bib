@@ -27,7 +27,7 @@
 
 -- 2023
 
-@inproceedings{PKC15,
+@inproceedings{HKS23,
   author    = {Dennis Hofheinz and
                Jessica Koch},
   title     = {Identity-Based Encryption with (Almost) Tight Security in the Multi-instance,
@@ -39,24 +39,26 @@
   selected  = {true}
 }
 
-@article{GRSSTZ23,
-  author    = {Christian Göth and Sebastian Ramacher and Daniel Slamanig and Erkan Tairi and Alexander Zikulnig},
-  abstract  = {},
-  title     = {Optimizing 0-RTT Key Exchange with Full Forward Security},
-  journal   = {14th Cloud Computing Security Workshop - CCSW 2023, November 26 (accepted).},
-  year      = {2023},
-  url       = {https://ccsw.io}
-}
-
 @article{SS23,
   author    = {Daniel Slamanig},
   abstract  = {Updatable encryption (UE) allows a third party to periodically rotate encryption keys from one epoch to another without the need to download, decrypt, re-encrypt, and upload already encrypted data by a client. Updating those outsourced ciphertexts is carried out via the use of so-called update tokens which in turn are generated during key rotation and can be sent (publicly) to the third party. The arguably most efficient variant of UE is ciphertext-independent UE as the key rotation does not depend on the outsourced ciphertexts which makes it particularly interesting in scenarios where access to (information of the) ciphertexts is not possible during key rotation. Available security notions cannot guarantee any form of _forward security_ (i.e., old ciphertexts are in danger after key leakage). Counter-intuitively, forward security would violate correctness, as ciphertexts should be updatable ad-infinitum given the update token. In this work, we investigate if we can have at least some form of "controlled" forward security to mitigate the following shortcoming: an adversary would record available information (i.e., some ciphertexts, all update tokens) and simply would wait for a single key leakage to decrypt all data ever encrypted. Our threefold contribution is as follows: a) First, we introduce an epoch-based UE CPA security notion to allow fine-grained updatability. It covers the concept of expiry epochs, i.e., ciphertexts can lose the ability of being updatable via a token after a certain epoch has passed. This captures the above mentioned shortcoming as the encrypting party can decide how long a ciphertext can be updatable (and, hence, decryptable). b) Second, we introduce a novel approach of constructing UE which significantly departs from previous ones and in particular views UE from the perspective of puncturable encryption (Green and Miers, S&P'15). We define tag-inverse puncturable encryption as a new variant that generalizes UE and may be of independent interest. c) Lastly, we present and prove secure the first UE scheme with the aforementioned properties. It is constructed via tag-inverse puncturable encryption and instantiated from standard assumptions. As it turned out, constructing such puncturing schemes is not straightforward and we require adapted proof techniques. Surprisingly, as a special case, this yields the first backwards-leak UE scheme with sub-linear ciphertexts from standard assumptions (an open problem posted in two recent works by Jiang Galteland and Pan & Miao et al., PKC'23).},
   title     = {Revisiting Updatable Encryption: Controlled Forward Security, Constructions and a Puncturable Perspective},
-  journal   = {TCC 2023, November 29 - December 2 (accepted).},
+  journal   = {TCC 2023, November 29 - December 2. (Recorded talk given by Roman Langrehr from ETH Zurich.)},
   year      = {2023},
   url       = {https://tcc.iacr.org/2023/},
   eprint    = {https://eprint.iacr.org/2021/268.pdf},
+  talk      = {https://youtu.be/iCRVm7MSQcc?feature=shared&t=2420},
   selected  = {false}
+}
+
+@article{GRSSTZ23,
+  author    = {Christian Göth and Sebastian Ramacher and Daniel Slamanig and Erkan Tairi and Alexander Zikulnig},
+  abstract  = {Secure communication protocols such as TLS 1.3 or QUIC are doing the heavy lifting in terms of security of today's Internet. These modern protocols provide modes that do not need an interactive handshake, but allow to send cryptographically protected data with the first client message in zero round-trip time (0-RTT). While this helps to reduce communication latency, the security of such protocols in terms of forward security is rather weak. In recent years, the academic community investigated ways of mitigating this problem and achieving full forward security and replay resilience for such 0-RTT protocols. In particular, this can be achieved via a so-called Puncturable Key Encapsulation Mechanism (PKEM). While the first such schemes were too expensive to be used in practice, Derler et al. (EUROCRYPT 2018) proposed a variant of PKEMs called Bloom Filter Key Encapsulation Mechanism (BFKEM). Unfortunately, these primitives have only be investigated asymptotically and no real benchmarks were conducted. Dallmeier et al. (CANS 2020) were the first to study their practical application within the QUIC protocol. They build upon a specific BFKEM instantiation and conclude that while it comes with significant computational overhead, its practical use is feasible, especially in applications where the increased CPU and memory load can be tolerated. In this paper, we revisit their choice of the concrete BFKEM instantiation and show that by relying on the concept of Time-based BFKEMs (TB-BFKEMs), also introduced by Derler et al. (EUROCRYPT 2018), one can combine the advantages of having computational efficiency and smaller key sizes. We thereby investigate algorithmic as well as conceptual optimizations with various trade-offs and conclude that our approach seems favorable for many practical settings. Overall, this extends the applicability of 0-RTT protocols with strong security in practice.},
+  title     = {Optimizing 0-RTT Key Exchange with Full Forward Security},
+  journal   = {14th Cloud Computing Security Workshop - CCSW 2023, November 26.},
+  year      = {2023},
+  url       = {https://ccsw.io},
+  pdf       = {https://dl.acm.org/doi/10.1145/3605763.3625246}
 }
 
 @inproceedings{CRSST23,
@@ -79,6 +81,8 @@
   url       = {https://pqcrypto2023.umiacs.io},
   pdf       = {https://doi.org/10.1007/978-3-031-40003-2_22},
   eprint    = {https://eprint.iacr.org/2023/653.pdf},
+  slides    = {https://pqcrypto2023.umiacs.io/slides/5.3.pdf},
+  talk      = {https://www.youtube.com/watch?v=xyB59tzFlGU}
 }
 
 @inproceedings{RSS23,
