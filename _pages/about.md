@@ -23,6 +23,7 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li>
  <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>Sep. 2023: Accepted paper on forward-secure 0-RTT key exchange at <a href="https://ccsw.io" target="_blank" rel="noopener">The ACM Cloud Computing Security Workshop 2023</a>.</li>
  <li>Aug. 2023: Accepted papers on forward security in updatable encryption at <a href="https://tcc.iacr.org/2023/" target="_blank" rel="noopener">TCC 2023</a> and on functional encryption with updatable ciphertexts in the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
@@ -59,8 +60,8 @@ Program committees:
 
 Selected external reviewing activities: 
 <ul>
- <li>CRYPTO <a href="https://crypto.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://crypto.iacr.org/2019/" target="_blank" rel="noopener">2019</a></li>
  <li>EUROCRYPT <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">2023</a>, <a href="https://eurocrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a></li>
+ <li>CRYPTO <a href="https://crypto.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://crypto.iacr.org/2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ASIACRYPT <a href="https://asiacrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://asiacrypt.iacr.org/2021/" target="_blank" rel="noopener">2021</a>, <a href="https://www.iacr.org/conferences/asiacrypt2016/www.asiacrypt2016.org/index.html" target="_blank" rel="noopener">2016</a>, <a href="https://www.math.auckland.ac.nz/~sgal018/AC2015/index.html" target="_blank" rel="noopener">2015</a></li>
  <li>ACM CCS <a href="https://www.sigsac.org/ccs/CCS2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.sigsac.org/ccs/CCS2022/" target="_blank" rel="noopener">2022</a>, <a href="https://www.sigsac.org/ccs/CCS2020/" target="_blank" rel="noopener">2020</a></li>
  <li>USENIX Security <a href="https://www.usenix.org/conference/usenixsecurity21" target="_blank" rel="noopener">2021</a></li>
@@ -79,14 +80,15 @@ Current projects:
 <ul>
  <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
+ <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
  <li><a href="https://teamaware.eu" target="_blank" rel="noopener">TeamAware</a> (EU HORIZON 2020, 2021-2024)</li>
- <li><a href="https://profet.at/" target="_blank" rel="noopener">PROFET</a> (FWF, netidee SCIENCE, 2019-2023)</li>
- <li><a href="https://www.kiras.at/gefoerderte-projekte/detail/qkd4gov" target="_blank" rel="noopener">QKD4GOV</a> (KIRAS, 2021-2023)</li>
 </ul>
 
 Completed projects: 
 
 <ul>
+ <li><a href="https://www.kiras.at/gefoerderte-projekte/detail/qkd4gov" target="_blank" rel="noopener">QKD4GOV</a> (KIRAS, 2021-2023)</li>
+ <li><a href="https://profet.at/" target="_blank" rel="noopener">PROFET</a> (FWF, netidee SCIENCE, 2019-2023)</li>
  <li><a href="https://www.comp4drones.eu/" target="_blank" rel="noopener">COMP4DRONES</a> (EU HORIZON 2020, ECSEL, 2019-2023)</li>
  <li><a href="https://www.secredas-project.eu" target="_blank" rel="noopener">SECREDAS</a> (EU HORIZON 2020, ECSEL, 2018-2021)</li>
  <li><a href="https://www.iot4cps.at" target="_blank" rel="noopener">IoT4CPS</a> (FFG and BMK, ICT of the Future, 2017-2020)</li>
@@ -97,7 +99,7 @@ Completed projects:
 Selected invited talks and activities:
 
 <ul>
- <li>Invited talks on end-to-end hybrid authenticated key exchanges (NXP, IDQ Europe, 2023)</li>
+ <li>Invited talk on end-to-end hybrid authenticated key exchanges (NXP, 2023)</li>
  <li>Invited talk on Forward Security (ETH Zurich, 2022)</li>
  <li>Invited talk on Forward Security (FAU Nürnberg-Erlangen, 2022)</li>
  <li>Invited lecture on Redactable Blockchains (with Daniel Slamanig, TU Vienna, 2021)</li>
