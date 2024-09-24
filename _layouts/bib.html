@@ -20,7 +20,6 @@
       <div class="title">{{entry.title}}</div>
       <div class="author"> 
       {% if entry.author_array %}
-        With
          {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}

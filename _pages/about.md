@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-description: Cryptography and IT security researcher at AIT Austrian Institute of Technology, Vienna; PhD in cryptography from Karlsruhe Institute of Technology, Germany.
+description: Cryptography researcher at AIT Austrian Institute of Technology, Vienna; PhD in cryptography from Karlsruhe Institute of Technology, Germany.
 profile:
   align: right
-  image: profile-cs.jpg
+  image: img-profile-cs-2024.jpg
   address: # >
     # <p>AIT Austrian Institute of Technology, Cyber Security, Giefinggasse 4, 1220 Vienna, Austria, first name dot last name at ait dot ac dot at</p>
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
-I am a cryptographer with a professional focus on secure technologies demanded by real-world applications (such as end-to-end security, secure data access control, and authentication). Moreover, I am particularly interested in long-term security (e.g., <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a>) and hybridization techniques towards scalable quantum-safe systems.
+I am a cryptographer with a professional focus on secure technologies (mainly, key exchange and encryption, secure data access control, and authentication). Moreover, I have particularly worked on hybridization techniques for defense-in-depth approaches in large quantum-safe networks and on long-term security (e.g., <a href="{{ '/blog/2021/PE/' | relative_url }}">forward secrecy</a>).
 
 Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization (RTO) – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
@@ -23,6 +23,8 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>Sep. 2024: I recently gave series of webinars on authentication in large quantum-safe networks within the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>
+ <li>May 2024: Attended the <a href="https://skechworkshop.github.io" target="_blank" rel="noopener">SKECH Workshop 2024</a>.</li>
  <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li>
  <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>Sep. 2023: Accepted paper on forward-secure 0-RTT key exchange at <a href="https://ccsw.io" target="_blank" rel="noopener">The ACM Cloud Computing Security Workshop 2023</a>.</li>
@@ -49,19 +51,20 @@ Recent research visits:
 
 Program committees: 
 <ul>
- <li>CANS <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
+ <li>CANS <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
+ <li>QCNC <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li>
  <li>Security Standardisation Research Conference <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
- <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2024</a></li>
- <li>GI SICHERHEIT <a href="https://sicherheit2024.ztt.hs-worms.de" target="_blank" rel="noopener">2024</a>, <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> & <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
- <li>ARES Workshops <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> & <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a></li>
- <li>IFIP Summer School on Privacy and Identity Management <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2019</a> & <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2018</a></li>
+ <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2025</a>, <a href="https://icissp.scitevents.org/?y=2024" target="_blank" rel="noopener">2024</a></li>
+ <li>GI SICHERHEIT <a href="https://sicherheit2024.ztt.hs-worms.de" target="_blank" rel="noopener">2024</a>, <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> &amp; <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
+ <li>ARES Workshops <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> &amp; <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a></li>
+ <li>IFIP Summer School on Privacy and Identity Management <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2019</a> &amp; <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2018</a></li>
 </ul>
 
 Selected external reviewing activities: 
 <ul>
+ <li>CRYPTO <a href="https://crypto.iacr.org/2024/" target="_blank" rel="noopener">2024</a>, <a href="https://crypto.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://crypto.iacr.org/2019/" target="_blank" rel="noopener">2019</a></li> 
  <li>EUROCRYPT <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">2023</a>, <a href="https://eurocrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a></li>
- <li>CRYPTO <a href="https://crypto.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://crypto.iacr.org/2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ASIACRYPT <a href="https://asiacrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://asiacrypt.iacr.org/2021/" target="_blank" rel="noopener">2021</a>, <a href="https://www.iacr.org/conferences/asiacrypt2016/www.asiacrypt2016.org/index.html" target="_blank" rel="noopener">2016</a>, <a href="https://www.math.auckland.ac.nz/~sgal018/AC2015/index.html" target="_blank" rel="noopener">2015</a></li>
  <li>ACM CCS <a href="https://www.sigsac.org/ccs/CCS2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.sigsac.org/ccs/CCS2022/" target="_blank" rel="noopener">2022</a>, <a href="https://www.sigsac.org/ccs/CCS2020/" target="_blank" rel="noopener">2020</a></li>
  <li>USENIX Security <a href="https://www.usenix.org/conference/usenixsecurity21" target="_blank" rel="noopener">2021</a></li>
@@ -81,12 +84,12 @@ Current projects:
  <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
- <li><a href="https://teamaware.eu" target="_blank" rel="noopener">TeamAware</a> (EU HORIZON 2020, 2021-2024)</li>
 </ul>
 
 Completed projects: 
 
 <ul>
+ <li><a href="https://teamaware.eu" target="_blank" rel="noopener">TeamAware</a> (EU HORIZON 2020, 2021-2024)</li>
  <li><a href="https://www.kiras.at/gefoerderte-projekte/detail/qkd4gov" target="_blank" rel="noopener">QKD4GOV</a> (KIRAS, 2021-2023)</li>
  <li><a href="https://profet.at/" target="_blank" rel="noopener">PROFET</a> (FWF, netidee SCIENCE, 2019-2023)</li>
  <li><a href="https://www.comp4drones.eu/" target="_blank" rel="noopener">COMP4DRONES</a> (EU HORIZON 2020, ECSEL, 2019-2023)</li>
@@ -99,7 +102,7 @@ Completed projects:
 Selected invited talks and activities:
 
 <ul>
- <li>Invited talk on end-to-end hybrid authenticated key exchanges (NXP, 2023)</li>
+ <li>Invited talk on Hybrid Authenticated Key Exchanges (NXP, 2023)</li>
  <li>Invited talk on Forward Security (ETH Zurich, 2022)</li>
  <li>Invited talk on Forward Security (FAU Nürnberg-Erlangen, 2022)</li>
  <li>Invited lecture on Redactable Blockchains (with Daniel Slamanig, TU Vienna, 2021)</li>
@@ -115,6 +118,7 @@ Selected teaching & supervision:
 
 <ul>
  <li>Teaching: Redactable Blockchains (invited lecture, WT 2021 at TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2020 at TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019 at TU Vienna), Algorithms I (TA, ST 2015 at KIT), IT security (TA, ST 2013 at KIT)</li> 
- <li>Diploma theses: Christian Matt (2011), Alexander Mai (2014)</li>
- <li>Interns: Denis Jahic (Jul.-Sep. 2021), Alexander Zikulnig (Aug.-Sep. 2022)</li>
-</ul>
+ <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
+ <li>Interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021)</li>
+ <li>Diploma theses: Christian Matt (KIT, 2011), Alexander Mai (KIT, 2014)</li>
+ </ul>

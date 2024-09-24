@@ -131,7 +131,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: cs.bib
+  bibliography: papers.bib
   bibliography_template: bib
 
   replace_strings: true
