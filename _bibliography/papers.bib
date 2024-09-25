@@ -36,6 +36,32 @@
   preview={wave-mechanics.gif}
 }
 
+-- 2024
+
+@article{DBLP:journals/joc/HofheinzKS24,
+  abbr={A*},
+  author       = {Dennis Hofheinz and
+                  Jessica Koch and
+                  Christoph Striecks},
+  title        = {Identity-Based Encryption with (Almost) Tight Security in the Multi-instance,
+                  Multi-ciphertext Setting},
+  journal      = {J. Cryptol.},
+  volume       = {37},
+  number       = {2},
+  pages        = {12},
+  year         = {2024},
+  url          = {https://doi.org/10.1007/s00145-024-09496-4},
+  doi          = {10.1007/S00145-024-09496-4},
+  timestamp    = {Sat, 08 Jun 2024 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/joc/HofheinzKS24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  abstract  = {We construct an identity-based encryption (IBE) scheme that is tightly secure in a very strong sense. Specifically, we consider a setting with many instances of the scheme and many encryptions per instance. In this setting, we reduce the security of our scheme to a variant of a simple assumption used for a similar purpose by Chen and Wee (Crypto 2013). The security loss of our reduction is O(k)(where k is the security parameter). Our scheme is the first IBE scheme to achieve this strong flavor of tightness under a simple assumption. Technically, our scheme is a variation of the IBE scheme by Chen and Wee. However, in order to "lift" their results to the multi-instance, multi-ciphertext case, we need to develop new ideas. In particular, while we build on (and extend) their high-level proof strategy, we deviate significantly in the low-level proof steps.},
+  pdf={http://eprint.iacr.org/2015/123.pdf},
+  html={https://link.springer.com/article/10.1007/s00145-024-09496-4},
+  bibtex_show={true},
+  eprint    = {http://eprint.iacr.org/2015/123.pdf},
+}
+
 @article{DBLP:journals/joc/CiniRSST24,
   abbr={A*},
   author       = {Valerio Cini and
@@ -63,28 +89,34 @@
   eprint    = {https://eprint.iacr.org/2022/1284.pdf}
 }
 
-@article{DBLP:journals/joc/HofheinzKS24,
-  abbr={A*},
-  author       = {Dennis Hofheinz and
-                  Jessica Koch and
+-- 2023
+
+@inproceedings{DBLP:conf/tcc/SlamanigS23,
+  abbr={A},
+  author       = {Daniel Slamanig and
                   Christoph Striecks},
-  title        = {Identity-Based Encryption with (Almost) Tight Security in the Multi-instance,
-                  Multi-ciphertext Setting},
-  journal      = {J. Cryptol.},
-  volume       = {37},
-  number       = {2},
-  pages        = {12},
-  year         = {2024},
-  url          = {https://doi.org/10.1007/s00145-024-09496-4},
-  doi          = {10.1007/S00145-024-09496-4},
-  timestamp    = {Sat, 08 Jun 2024 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/joc/HofheinzKS24.bib},
+  abstract  = {Updatable encryption (UE) allows a third party to periodically rotate encryption keys from one epoch to another without the need to download, decrypt, re-encrypt, and upload already encrypted data by a client. Updating those outsourced ciphertexts is carried out via the use of so-called update tokens which in turn are generated during key rotation and can be sent (publicly) to the third party. The arguably most efficient variant of UE is ciphertext-independent UE as the key rotation does not depend on the outsourced ciphertexts which makes it particularly interesting in scenarios where access to (information of the) ciphertexts is not possible during key rotation. Available security notions cannot guarantee any form of _forward security_ (i.e., old ciphertexts are in danger after key leakage). Counter-intuitively, forward security would violate correctness, as ciphertexts should be updatable ad-infinitum given the update token. In this work, we investigate if we can have at least some form of "controlled" forward security to mitigate the following shortcoming: an adversary would record available information (i.e., some ciphertexts, all update tokens) and simply would wait for a single key leakage to decrypt all data ever encrypted. Our threefold contribution is as follows: a) First, we introduce an epoch-based UE CPA security notion to allow fine-grained updatability. It covers the concept of expiry epochs, i.e., ciphertexts can lose the ability of being updatable via a token after a certain epoch has passed. This captures the above mentioned shortcoming as the encrypting party can decide how long a ciphertext can be updatable (and, hence, decryptable). b) Second, we introduce a novel approach of constructing UE which significantly departs from previous ones and in particular views UE from the perspective of puncturable encryption (Green and Miers, S&P'15). We define tag-inverse puncturable encryption as a new variant that generalizes UE and may be of independent interest. c) Lastly, we present and prove secure the first UE scheme with the aforementioned properties. It is constructed via tag-inverse puncturable encryption and instantiated from standard assumptions. As it turned out, constructing such puncturing schemes is not straightforward and we require adapted proof techniques. Surprisingly, as a special case, this yields the first backwards-leak UE scheme with sub-linear ciphertexts from standard assumptions (an open problem posted in two recent works by Jiang Galteland and Pan & Miao et al., PKC'23).},
+  editor       = {Guy N. Rothblum and
+                  Hoeteck Wee},
+  title        = {Revisiting Updatable Encryption: Controlled Forward Security, Constructions
+                  and a Puncturable Perspective},
+  booktitle    = {Theory of Cryptography - 21st International Conference, {TCC} 2023,
+                  Taipei, Taiwan, November 29 - December 2, 2023, Proceedings, Part
+                  {II}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14370},
+  pages        = {220--250},
+  publisher    = {Springer},
+  year         = {2023},
+  url          = {https://doi.org/10.1007/978-3-031-48618-0\_8},
+  doi          = {10.1007/978-3-031-48618-0\_8},
+  timestamp    = {Sun, 10 Dec 2023 00:00:00 +0100},
+  biburl       = {https://dblp.org/rec/conf/tcc/SlamanigS23.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-  abstract  = {We construct an identity-based encryption (IBE) scheme that is tightly secure in a very strong sense. Specifically, we consider a setting with many instances of the scheme and many encryptions per instance. In this setting, we reduce the security of our scheme to a variant of a simple assumption used for a similar purpose by Chen and Wee (Crypto 2013). The security loss of our reduction is O(k)(where k is the security parameter). Our scheme is the first IBE scheme to achieve this strong flavor of tightness under a simple assumption. Technically, our scheme is a variation of the IBE scheme by Chen and Wee. However, in order to "lift" their results to the multi-instance, multi-ciphertext case, we need to develop new ideas. In particular, while we build on (and extend) their high-level proof strategy, we deviate significantly in the low-level proof steps.},
-  pdf={http://eprint.iacr.org/2015/123.pdf},
-  html={https://link.springer.com/article/10.1007/s00145-024-09496-4},
-  bibtex_show={true},
-  eprint    = {http://eprint.iacr.org/2015/123.pdf},
+    url       = {https://tcc.iacr.org/2023/},
+  eprint    = {https://eprint.iacr.org/2021/268.pdf},
+  talk      = {https://youtu.be/iCRVm7MSQcc?feature=shared&t=2420},
+  slides    = {https://iacr.org/submit/files/slides/2023/tcc/tcc2023/30/slides.pdf}
 }
 
 @inproceedings{DBLP:conf/ccsw-ws/GothRSSTZ23,
@@ -110,34 +142,6 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org},
     url       = {https://ccsw.io},
   pdf       = {https://dl.acm.org/doi/10.1145/3605763.3625246},
-}
-
-@inproceedings{DBLP:conf/eurocrypt/RoslerSS23,
-  abbr={A*},
-  author       = {Paul R{\"{o}}sler and
-                  Daniel Slamanig and
-                  Christoph Striecks},
-  abstract  = {Hierarchical Identity Based Encryption (HIBE) is a well studied, versatile tool used in many cryptographic protocols. Yet, since the performance of all known HIBE constructions is broadly considered prohibitive, some real-world applications avoid relying on HIBE at the expense of security. A prominent example for this is secure messaging: Strongly secure messaging protocols are provably equivalent to Key-Updatable Key Encapsulation Mechanisms (KU-KEMs; Balli et al., Asiacrypt 2020); so far, all KU-KEM constructions rely on adaptive unbounded-depth HIBE (Poettering and Rösler, Jaeger and Stepanovs, both CRYPTO 2018). By weakening security requirements for better efficiency, many messaging protocols dispense with using HIBE. In this work, we aim to gain better efficiency without sacrificing security. For this, we observe that applications like messaging only need a restricted variant of HIBE for strong security. This variant, that we call Unique-Path Identity Based Encryption (UPIBE), restricts HIBE by requiring that each secret key can delegate at most one subordinate secret key. However, in contrast to fixed secret key delegation in Forward-Secure Public Key Encryption, the delegation in UPIBE, as in HIBE, is uniquely determined by variable identity strings from an exponentially large space. We investigate this mild but surprisingly effective restriction and show that it offers substantial complexity and performance advantages. More concretely, we generically build bounded-depth UPIBE from only bounded-collusion IBE in the standard model; and we generically build adaptive unbounded-depth UPIBE from only selective bounded-depth HIBE in the random oracle model. These results significantly extend the range of underlying assumptions and efficient instantiations. We conclude with a rigorous performance evaluation of our UPIBE design. Beyond solving challenging open problems by reducing complexity and improving efficiency of KU-KEM and strongly secure messaging protocols, we offer a new definitional perspective on the bounded-collusion setting.},
-  editor       = {Carmit Hazay and
-                  Martijn Stam},
-  title        = {Unique-Path Identity Based Encryption with Applications to Strongly
-                  Secure Messaging},
-  booktitle    = {Advances in Cryptology - {EUROCRYPT} 2023 - 42nd Annual International
-                  Conference on the Theory and Applications of Cryptographic Techniques,
-                  Lyon, France, April 23-27, 2023, Proceedings, Part {V}},
-  series       = {Lecture Notes in Computer Science},
-  volume       = {14008},
-  pages        = {3--34},
-  publisher    = {Springer},
-  year         = {2023},
-  url          = {https://doi.org/10.1007/978-3-031-30589-4\_1},
-  doi          = {10.1007/978-3-031-30589-4\_1},
-  timestamp    = {Wed, 17 May 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/eurocrypt/RoslerSS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-    url       = {https://eurocrypt.iacr.org/2023/},
-  eprint    = {https://eprint.iacr.org/2023/248.pdf},
-  pdf       = {https://link.springer.com/chapter/10.1007/978-3-031-30589-4_1}
 }
 
 @inproceedings{DBLP:conf/pqcrypto/BrucknerRS23,
@@ -170,33 +174,35 @@
   talk      = {https://www.youtube.com/watch?v=xyB59tzFlGU}
 }
 
-@inproceedings{DBLP:conf/tcc/SlamanigS23,
-  abbr={A},
-  author       = {Daniel Slamanig and
+@inproceedings{DBLP:conf/eurocrypt/RoslerSS23,
+  abbr={A*},
+  author       = {Paul R{\"{o}}sler and
+                  Daniel Slamanig and
                   Christoph Striecks},
-  abstract  = {Updatable encryption (UE) allows a third party to periodically rotate encryption keys from one epoch to another without the need to download, decrypt, re-encrypt, and upload already encrypted data by a client. Updating those outsourced ciphertexts is carried out via the use of so-called update tokens which in turn are generated during key rotation and can be sent (publicly) to the third party. The arguably most efficient variant of UE is ciphertext-independent UE as the key rotation does not depend on the outsourced ciphertexts which makes it particularly interesting in scenarios where access to (information of the) ciphertexts is not possible during key rotation. Available security notions cannot guarantee any form of _forward security_ (i.e., old ciphertexts are in danger after key leakage). Counter-intuitively, forward security would violate correctness, as ciphertexts should be updatable ad-infinitum given the update token. In this work, we investigate if we can have at least some form of "controlled" forward security to mitigate the following shortcoming: an adversary would record available information (i.e., some ciphertexts, all update tokens) and simply would wait for a single key leakage to decrypt all data ever encrypted. Our threefold contribution is as follows: a) First, we introduce an epoch-based UE CPA security notion to allow fine-grained updatability. It covers the concept of expiry epochs, i.e., ciphertexts can lose the ability of being updatable via a token after a certain epoch has passed. This captures the above mentioned shortcoming as the encrypting party can decide how long a ciphertext can be updatable (and, hence, decryptable). b) Second, we introduce a novel approach of constructing UE which significantly departs from previous ones and in particular views UE from the perspective of puncturable encryption (Green and Miers, S&P'15). We define tag-inverse puncturable encryption as a new variant that generalizes UE and may be of independent interest. c) Lastly, we present and prove secure the first UE scheme with the aforementioned properties. It is constructed via tag-inverse puncturable encryption and instantiated from standard assumptions. As it turned out, constructing such puncturing schemes is not straightforward and we require adapted proof techniques. Surprisingly, as a special case, this yields the first backwards-leak UE scheme with sub-linear ciphertexts from standard assumptions (an open problem posted in two recent works by Jiang Galteland and Pan & Miao et al., PKC'23).},
-  editor       = {Guy N. Rothblum and
-                  Hoeteck Wee},
-  title        = {Revisiting Updatable Encryption: Controlled Forward Security, Constructions
-                  and a Puncturable Perspective},
-  booktitle    = {Theory of Cryptography - 21st International Conference, {TCC} 2023,
-                  Taipei, Taiwan, November 29 - December 2, 2023, Proceedings, Part
-                  {II}},
+  abstract  = {Hierarchical Identity Based Encryption (HIBE) is a well studied, versatile tool used in many cryptographic protocols. Yet, since the performance of all known HIBE constructions is broadly considered prohibitive, some real-world applications avoid relying on HIBE at the expense of security. A prominent example for this is secure messaging: Strongly secure messaging protocols are provably equivalent to Key-Updatable Key Encapsulation Mechanisms (KU-KEMs; Balli et al., Asiacrypt 2020); so far, all KU-KEM constructions rely on adaptive unbounded-depth HIBE (Poettering and Rösler, Jaeger and Stepanovs, both CRYPTO 2018). By weakening security requirements for better efficiency, many messaging protocols dispense with using HIBE. In this work, we aim to gain better efficiency without sacrificing security. For this, we observe that applications like messaging only need a restricted variant of HIBE for strong security. This variant, that we call Unique-Path Identity Based Encryption (UPIBE), restricts HIBE by requiring that each secret key can delegate at most one subordinate secret key. However, in contrast to fixed secret key delegation in Forward-Secure Public Key Encryption, the delegation in UPIBE, as in HIBE, is uniquely determined by variable identity strings from an exponentially large space. We investigate this mild but surprisingly effective restriction and show that it offers substantial complexity and performance advantages. More concretely, we generically build bounded-depth UPIBE from only bounded-collusion IBE in the standard model; and we generically build adaptive unbounded-depth UPIBE from only selective bounded-depth HIBE in the random oracle model. These results significantly extend the range of underlying assumptions and efficient instantiations. We conclude with a rigorous performance evaluation of our UPIBE design. Beyond solving challenging open problems by reducing complexity and improving efficiency of KU-KEM and strongly secure messaging protocols, we offer a new definitional perspective on the bounded-collusion setting.},
+  editor       = {Carmit Hazay and
+                  Martijn Stam},
+  title        = {Unique-Path Identity Based Encryption with Applications to Strongly
+                  Secure Messaging},
+  booktitle    = {Advances in Cryptology - {EUROCRYPT} 2023 - 42nd Annual International
+                  Conference on the Theory and Applications of Cryptographic Techniques,
+                  Lyon, France, April 23-27, 2023, Proceedings, Part {V}},
   series       = {Lecture Notes in Computer Science},
-  volume       = {14370},
-  pages        = {220--250},
+  volume       = {14008},
+  pages        = {3--34},
   publisher    = {Springer},
   year         = {2023},
-  url          = {https://doi.org/10.1007/978-3-031-48618-0\_8},
-  doi          = {10.1007/978-3-031-48618-0\_8},
-  timestamp    = {Sun, 10 Dec 2023 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/conf/tcc/SlamanigS23.bib},
+  url          = {https://doi.org/10.1007/978-3-031-30589-4\_1},
+  doi          = {10.1007/978-3-031-30589-4\_1},
+  timestamp    = {Wed, 17 May 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/eurocrypt/RoslerSS23.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-    url       = {https://tcc.iacr.org/2023/},
-  eprint    = {https://eprint.iacr.org/2021/268.pdf},
-  talk      = {https://youtu.be/iCRVm7MSQcc?feature=shared&t=2420},
-  slides    = {https://iacr.org/submit/files/slides/2023/tcc/tcc2023/30/slides.pdf}
+    url       = {https://eurocrypt.iacr.org/2023/},
+  eprint    = {https://eprint.iacr.org/2023/248.pdf},
+  pdf       = {https://link.springer.com/chapter/10.1007/978-3-031-30589-4_1}
 }
+
+-- 2022
 
 @inproceedings{DBLP:conf/pkc/HaqueKSS22,
   abbr={B},
@@ -224,6 +230,7 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+-- 2021
 
 @article{DBLP:journals/joc/DerlerGJSS21,
   abbr={A*},
@@ -272,58 +279,9 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{DBLP:conf/fc/DerlerRSS21,
-  abbr={A},
-  author       = {David Derler and
-                  Sebastian Ramacher and
-                  Daniel Slamanig and
-                  Christoph Striecks},
-  editor       = {Nikita Borisov and
-                  Claudia D{\'{\i}}az},
-  title        = {Fine-Grained Forward Secrecy: Allow-List/Deny-List Encryption and
-                  Applications},
-  booktitle    = {Financial Cryptography and Data Security - 25th International Conference,
-                  {FC} 2021, Virtual Event, March 1-5, 2021, Revised Selected Papers,
-                  Part {II}},
-  series       = {Lecture Notes in Computer Science},
-  volume       = {12675},
-  pages        = {499--519},
-  publisher    = {Springer},
-  year         = {2021},
-  url          = {https://doi.org/10.1007/978-3-662-64331-0\_26},
-  doi          = {10.1007/978-3-662-64331-0\_26},
-  timestamp    = {Thu, 16 Mar 2023 14:52:53 +0100},
-  biburl       = {https://dblp.org/rec/conf/fc/DerlerRSS21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-
-@inproceedings{DBLP:conf/pkc/CiniRSST21,
-  abbr={B},
-  author       = {Valerio Cini and
-                  Sebastian Ramacher and
-                  Daniel Slamanig and
-                  Christoph Striecks and
-                  Erkan Tairi},
-  editor       = {Juan A. Garay},
-  title        = {Updatable Signatures and Message Authentication Codes},
-  booktitle    = {Public-Key Cryptography - {PKC} 2021 - 24th {IACR} International Conference
-                  on Practice and Theory of Public Key Cryptography, Virtual Event,
-                  May 10-13, 2021, Proceedings, Part {I}},
-  series       = {Lecture Notes in Computer Science},
-  volume       = {12710},
-  pages        = {691--723},
-  publisher    = {Springer},
-  year         = {2021},
-  url          = {https://doi.org/10.1007/978-3-030-75245-3\_25},
-  doi          = {10.1007/978-3-030-75245-3\_25},
-  timestamp    = {Sat, 30 Sep 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/pkc/CiniRSST21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-
 @inproceedings{DBLP:conf/safecomp/MarkoTSBSMVKHSL21,
   abbr={B},
-  author       = {Nadja Marko and
+  author       = {*Nadja Marko and
                   Joaquim Maria Castella Triginer and
                   Christoph Striecks and
                   Tobias Braun and
@@ -356,6 +314,56 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@inproceedings{DBLP:conf/pkc/CiniRSST21,
+  abbr={B},
+  author       = {Valerio Cini and
+                  Sebastian Ramacher and
+                  Daniel Slamanig and
+                  Christoph Striecks and
+                  Erkan Tairi},
+  editor       = {Juan A. Garay},
+  title        = {Updatable Signatures and Message Authentication Codes},
+  booktitle    = {Public-Key Cryptography - {PKC} 2021 - 24th {IACR} International Conference
+                  on Practice and Theory of Public Key Cryptography, Virtual Event,
+                  May 10-13, 2021, Proceedings, Part {I}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {12710},
+  pages        = {691--723},
+  publisher    = {Springer},
+  year         = {2021},
+  url          = {https://doi.org/10.1007/978-3-030-75245-3\_25},
+  doi          = {10.1007/978-3-030-75245-3\_25},
+  timestamp    = {Sat, 30 Sep 2023 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/pkc/CiniRSST21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/fc/DerlerRSS21,
+  abbr={A},
+  author       = {David Derler and
+                  Sebastian Ramacher and
+                  Daniel Slamanig and
+                  Christoph Striecks},
+  editor       = {Nikita Borisov and
+                  Claudia D{\'{\i}}az},
+  title        = {Fine-Grained Forward Secrecy: Allow-List/Deny-List Encryption and
+                  Applications},
+  booktitle    = {Financial Cryptography and Data Security - 25th International Conference,
+                  {FC} 2021, Virtual Event, March 1-5, 2021, Revised Selected Papers,
+                  Part {II}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {12675},
+  pages        = {499--519},
+  publisher    = {Springer},
+  year         = {2021},
+  url          = {https://doi.org/10.1007/978-3-662-64331-0\_26},
+  doi          = {10.1007/978-3-662-64331-0\_26},
+  timestamp    = {Thu, 16 Mar 2023 14:52:53 +0100},
+  biburl       = {https://dblp.org/rec/conf/fc/DerlerRSS21.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+-- 2020
 
 @inproceedings{DBLP:conf/asiacrypt/CiniRSS20,
   abbr={A},
@@ -408,7 +416,7 @@
 
 @inproceedings{DBLP:conf/safecomp/MarkoVS20,
   abbr={B},
-  author       = {Nadja Marko and
+  author       = {*Nadja Marko and
                   Alexandr Vasenev and
                   Christoph Striecks},
   editor       = {Ant{\'{o}}nio Casimiro and
@@ -432,6 +440,8 @@
   biburl       = {https://dblp.org/rec/conf/safecomp/MarkoVS20.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+
+-- 2019
 
 @inproceedings{DBLP:conf/IEEEares/KrennSS19,
   abbr={B},
@@ -469,6 +479,8 @@
   biburl       = {https://dblp.org/rec/conf/ndss/DerlerSSS19.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+
+-- 2018
 
 @inproceedings{DBLP:conf/eurocrypt/DerlerJSS18,
   abbr={A*},
@@ -545,23 +557,7 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{DBLP:journals/ei/LorunserKSL17,
-  author       = {Thomas Lor{\"{u}}nser and
-                  Stephan Krenn and
-                  Christoph Striecks and
-                  Thomas L{\"{a}}nger},
-  title        = {Agile cryptographic solutions for the cloud},
-  journal      = {Elektrotech. Informationstechnik},
-  volume       = {134},
-  number       = {7},
-  pages        = {364--369},
-  year         = {2017},
-  url          = {https://doi.org/10.1007/s00502-017-0519-x},
-  doi          = {10.1007/S00502-017-0519-X},
-  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/ei/LorunserKSL17.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
+-- 2017
 
 @inproceedings{DBLP:conf/cans/KrennLSS17,
   abbr={B},
@@ -584,28 +580,6 @@
   doi          = {10.1007/978-3-030-02641-7\_9},
   timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/cans/KrennLSS17.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-
-@inproceedings{DBLP:conf/icissp/KrennLS17,
-  abbr={C},
-  author       = {Stephan Krenn and
-                  Thomas Lor{\"{u}}nser and
-                  Christoph Striecks},
-  editor       = {Paolo Mori and
-                  Steven Furnell and
-                  Olivier Camp},
-  title        = {Batch-verifiable Secret Sharing with Unconditional Privacy},
-  booktitle    = {Proceedings of the 3rd International Conference on Information Systems
-                  Security and Privacy, {ICISSP} 2017, Porto, Portugal, February 19-21,
-                  2017},
-  pages        = {303--311},
-  publisher    = {SciTePress},
-  year         = {2017},
-  url          = {https://doi.org/10.5220/0006133003030311},
-  doi          = {10.5220/0006133003030311},
-  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/icissp/KrennLS17.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
@@ -641,8 +615,50 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+@article{DBLP:journals/ei/LorunserKSL17,
+  author       = {*Thomas Lor{\"{u}}nser and
+                  Stephan Krenn and
+                  Christoph Striecks and
+                  Thomas L{\"{a}}nger},
+  title        = {Agile cryptographic solutions for the cloud},
+  journal      = {Elektrotech. Informationstechnik},
+  volume       = {134},
+  number       = {7},
+  pages        = {364--369},
+  year         = {2017},
+  url          = {https://doi.org/10.1007/s00502-017-0519-x},
+  doi          = {10.1007/S00502-017-0519-X},
+  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/journals/ei/LorunserKSL17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/icissp/KrennLS17,
+  abbr={C},
+  author       = {Stephan Krenn and
+                  Thomas Lor{\"{u}}nser and
+                  Christoph Striecks},
+  editor       = {Paolo Mori and
+                  Steven Furnell and
+                  Olivier Camp},
+  title        = {Batch-verifiable Secret Sharing with Unconditional Privacy},
+  booktitle    = {Proceedings of the 3rd International Conference on Information Systems
+                  Security and Privacy, {ICISSP} 2017, Porto, Portugal, February 19-21,
+                  2017},
+  pages        = {303--311},
+  publisher    = {SciTePress},
+  year         = {2017},
+  url          = {https://doi.org/10.5220/0006133003030311},
+  doi          = {10.5220/0006133003030311},
+  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/icissp/KrennLS17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+-- 2016
+
 @inproceedings{DBLP:conf/primelife/KaregarSKHLF16,
-  author       = {Farzaneh Karegar and
+  author       = {*Farzaneh Karegar and
                   Christoph Striecks and
                   Stephan Krenn and
                   Felix H{\"{o}}randner and
@@ -668,6 +684,8 @@
   biburl       = {https://dblp.org/rec/conf/primelife/KaregarSKHLF16.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+
+-- 2015
 
 @phdthesis{DBLP:phd/dnb/Striecks15,
   author       = {Christoph Striecks},
@@ -724,6 +742,8 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+-- 2014
+
 @inproceedings{DBLP:conf/ctrsa/HofheinzS14,
   abbr={B},
   author       = {Dennis Hofheinz and
@@ -744,6 +764,8 @@
   biburl       = {https://dblp.org/rec/conf/ctrsa/HofheinzS14.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+
+-- 2013
 
 @inproceedings{DBLP:conf/crypto/FreireHPS13,
   abbr={A*},
