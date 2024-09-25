@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a cryptographer with a professional focus on secure technologies (mainly, key exchange and encryption, secure data access control, and authentication). Moreover, I have particularly worked on hybridization techniques for defense-in-depth approaches in large quantum-safe networks and on long-term security (e.g., <a href="{{ '/blog/2021/PE/' | relative_url }}">forward secrecy</a>).
+I am a cryptographer with a professional focus on secure technologies (mainly, key exchange and encryption, secure data access control, and authentication). Moreover, I have particularly worked on hybridization techniques for defense-in-depth approaches in large quantum-safe networks and on long-term security (e.g., see talks on <a href="{{ '/talks/' | relative_url }}">hybrid cryptography</a> and blog post on <a href="{{ '/blog/2021/PE/' | relative_url }}">forward secrecy</a>).
 
 Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization (RTO) – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 

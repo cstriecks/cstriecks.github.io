@@ -3,6 +3,23 @@
 
 --- 2024
 
+@inproceedings{PETRUS2024,
+  title     = {Authentication in Large-Scale Quantum-Safe Networks},
+  booktitle = {PETRUS Webinar Series, 29 August - 9 September.},
+  year      = {2024},
+  selected  = {false},
+  abstract  = {}
+}
+
+@inproceedings{SKECH2024,
+  title     = {Don’t Put All Your Key-Exchange Eggs in One Basket: Where Classical Crypto Meets Quantum},
+  booktitle = {SKECH: Secure Key Exchange and Channel Protocols, 5 June.},
+  year      = {2024},
+  selected  = {false},
+  abstract  = {}
+}
+
+
 @inproceedings{HellasQCI2023,
   title     = {End-to-End Hybrid Authenticated Key Exchanges},
   booktitle = {National Center for Scientific Research "Demokritos" and FORTH Hellas, January 11.},
@@ -11,11 +28,35 @@
   abstract  = {End-to-end authenticity in public networks plays a significant role. Namely, without authenticity, the adversary might be able to retrieve even confidential information straight away by impersonating others. Proposed solutions to establish an authenticated channel cover pre-shared key-based, password-based, and certificate-based techniques. To add confidentiality to an authenticated channel, authenticated key exchange (AKE) protocols usually have one of the three solutions built in. As an amplification, hybrid AKE (HAKE) approaches are getting more popular nowadays and were presented in several flavors to incorporate classical, post-quantum, or quantum-key-distribution components. The main benefit is redundancy, i.e., if some of the components fail, the primitive still yields a confidential and authenticated channel. However, current HAKE instantiations either rely on pre-shared keys (which yields inefficient end-to-end authenticity) or only support one or two of the three above components (resulting in reduced redundancy and flexibility). In this work, we present an extension of a modular HAKE framework due to Dowling, Brandt Hansen, and Paterson (PQCrypto'20) that does not suffer from the above constraints. While their instantiation, dubbed Muckle, requires pre-shared keys (and hence yields inefficient end-to-end authenticity), our extended instantiation called Muckle+ utilizes post-quantum digital signatures. While replacing pre-shared keys with digital signatures is rather straightforward in general, this turned out to be surprisingly non-trivial when applied to HAKE frameworks (resulting in a significant model change with adapted proof techniques).}
 }
 
+@inproceedings{QCIDAYS2024,
+  title     = {Exploring Cutting-Edge Architecture Developments for QKD Networks},
+  booktitle = {QCI Days Vienna, 25 January.},
+  year      = {2024},
+  selected  = {false},
+  abstract  = {}
+}
+
 --- 2023
+
+@inproceedings{IEEE2023a,
+  title     = {Hybrid Authenticated Key Exchanges},
+  booktitle = {IEEE Quantum Security Working Group: Standard for Post-Quantum Network Security (P1943), 17 November.},
+  year      = {2023},
+  selected  = {false},
+  abstract  = {End-to-end authenticity in public networks plays a significant role. Namely, without authenticity, the adversary might be able to retrieve even confidential information straight away by impersonating others. Proposed solutions to establish an authenticated channel cover pre-shared key-based, password-based, and certificate-based techniques. To add confidentiality to an authenticated channel, authenticated key exchange (AKE) protocols usually have one of the three solutions built in. As an amplification, hybrid AKE (HAKE) approaches are getting more popular nowadays and were presented in several flavors to incorporate classical, post-quantum, or quantum-key-distribution components. The main benefit is redundancy, i.e., if some of the components fail, the primitive still yields a confidential and authenticated channel. However, current HAKE instantiations either rely on pre-shared keys (which yields inefficient end-to-end authenticity) or only support one or two of the three above components (resulting in reduced redundancy and flexibility). In this work, we present an extension of a modular HAKE framework due to Dowling, Brandt Hansen, and Paterson (PQCrypto'20) that does not suffer from the above constraints. While their instantiation, dubbed Muckle, requires pre-shared keys (and hence yields inefficient end-to-end authenticity), our extended instantiation called Muckle+ utilizes post-quantum digital signatures. While replacing pre-shared keys with digital signatures is rather straightforward in general, this turned out to be surprisingly non-trivial when applied to HAKE frameworks (resulting in a significant model change with adapted proof techniques).}
+}
 
 @inproceedings{5GT2023,
   title     = {(Invited) QCI-CAT: Austrian Quantum-Communication Infrastructure},
   booktitle = {5G Techritory -- Embracing the Quantum Era, October 19.},
+  year      = {2023},
+  selected  = {false},
+  abstract  = {}
+}
+
+@inproceedings{5GT2023a,
+  title     = {(Invited) Shaping the Future of Quantum Computing & Post-Quantum Security},
+  booktitle = {5G Techritory -- Shaping the Future of Quantum Computing & Post-Quantum Security, October 19.},
   year      = {2023},
   selected  = {false},
   abstract  = {}
@@ -149,7 +190,7 @@
 }
 
 @inproceedings{EITSI2020b,
-  title     = {Quantum-Safe Identity-Based Encryption: TR 103 618},
+  title     = {(Invited) Quantum-Safe Identity-Based Encryption: TR 103 618},
   year      = {2020},  
   abstract  = {As quantum computing poses a threat to the long-term security of most of the currently used encryption mechanisms, ongoing efforts in the development of quantum-safe Identity-Based Encryption (IBE), with a focus on a hierarchical IBE scheme based on structured lattices and described in ETSI TR 103 618, are presented.},
   booktitle = {European Telecommunications Standards Institute (ETSI), Security Week 2020, 8-19 June 2020, online.},
@@ -173,6 +214,14 @@
   booktitle = {Graz Security Days for Industry 2019, Graz, Austria, September 19.},
   year      = {2019},
   abstract  = {The talk covers the concept of attribute-based encryption (ABE) and the ABE standardization work done at ETSI towards strong access control.},
+  selected  = {false}
+}
+
+@inproceedings{HID2019,
+  title     = {Next Generation Cryptography},
+  booktitle = {HID Global, 22 March},
+  year      = {2019},
+  abstract  = {},
   selected  = {false}
 }
 
@@ -211,6 +260,20 @@
   year      = {2018},
   abstract  = {Forward secrecy is considered an essential design goal of modern key establishment (KE) protocols, such as TLS 1.3, for example. Furthermore, efficiency considerations such as zero round-trip time (0-RTT), where a client is able to send cryptographically protected payload data along with the very first KE message, are motivated by the practical demand for secure low-latency communication. For a long time, it was unclear whether protocols that simultaneously achieve 0-RTT and full forward secrecy exist. Only recently, the first forward-secret 0-RTT protocol was described by Günther et al. (EUROCRYPT 2017). It is based on Puncturable Encryption. Forward secrecy is achieved by “puncturing” the secret key after each decryption operation, such that a given ciphertext can only be decrypted once (cf. also Green and Miers, S&P 2015). Unfortunately, their scheme is completely impractical, since one puncturing operation takes between 30 seconds and several minutes for reasonable security and deployment parameters, such that this solution is only a first feasibility result, but not efficient enough to be deployed in practice. In this paper, we introduce a new primitive that we term Bloom Filter Encryption (BFE), which is derived from the probabilistic Bloom filter data structure. We describe different constructions of BFE schemes, and show how these yield new puncturable encryption mechanisms with extremely efficient puncturing. Most importantly, a puncturing operation only involves a small number of very efficient computations, plus the deletion of certain parts of the secret key, which outperforms previous constructions by orders of magnitude. This gives rise to the first forward-secret 0-RTT protocols that are efficient enough to be deployed in practice. We believe that BFE will find applications beyond forward-secret 0-RTT protocols.},
   slides    = {rhul-talk-october-2018.pdf},
+  selected  = {false}
+}
+
+@inproceedings{ETSI2018a,
+  title     = {Attribute-Based Encryption},
+  booktitle = {ETSI TC CYBER Quantum-Safe Cryptography Group Meeting, 11 September.},
+  year      = {2018},
+  selected  = {false}
+}
+
+@inproceedings{GRAZ2018,
+  title     = {Trust in Chained Blocks},
+  booktitle = {Graz Security Industry Track, 5 September.},
+  year      = {2018},
   selected  = {false}
 }
 
