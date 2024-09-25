@@ -23,7 +23,8 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
- <li>Sep. 2024: I recently gave series of webinars on authentication in large quantum-safe networks within the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>
+ <li>Sep. 2024: I recently gave a series of webinars on authentication in large quantum-safe networks under the umbrella of the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>
+ <li>Jul. 2024: I will serve as a program committee member of the <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2024</a>.</li>
  <li>May 2024: Attended the <a href="https://skechworkshop.github.io" target="_blank" rel="noopener">SKECH Workshop 2024</a>.</li>
  <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li>
  <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
@@ -38,12 +39,24 @@ News and activities:
  <li>Dez. 2022: From 7 to 9 December, I visited <a href="https://www.chaac.tf.fau.eu" target="_blank" rel="noopener">Dominique Schröder's group</a> at <a href="https://www.fau.eu" target="_blank" rel="noopener">Friedrich-Alexander-Universität Erlangen-Nürnberg</a> and gave a presentation on Forward Security.</li>
  <li>Oct. 2022: I will serve as a program committee member of the <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2023</a>.</li>
  <li>Sep. 2022: From 19 to 23 September, I visited <a href="https://foc.ethz.ch" target="_blank" rel="noopener">Dennis Hofheinz' group</a> at <a href="https://ethz.ch" target="_blank" rel="noopener">ETH Zurich</a> and held a talk on Puncturable Encryption.</li>
- <li>Apr. 2022: I attended <a href="https://rwc.iacr.org/2022" target="_blank" rel="noopener">Real World Crypto Symposium 2022</a> in Amsterdam and gave a contributed talk on <a href="https://iacr.org/submit/files/slides/2022/rwc/rwc2022/51/slides.pdf" target="_blank" rel="noopener">Puncturable Encryption</a>.</li>
+ <li>Apr. 2022: I attended <a href="https://rwc.iacr.org/2022" target="_blank" rel="noopener">Real World Crypto Symposium 2022</a> in Amsterdam and gave a contributed talk on <a href="https://iacr.org/submit/files/slides/2022/rwc/rwc2022/51/slides.pdf" target="_blank" rel="noopener">Puncturable Encryption</a> for forward security.</li>
 </ul>
+
+<div class="publications">
+  Selected publications (alphabetical ordering of authors):
+  
+  <ul></ul>
+  <ul>{% bibliography -f papers -q @*[selected=true]* %}</ul>
+
+  <!-- Selected talks:
+  
+  <ul>{% bibliography -f cs-talks -q @*[selected=true]* %}</ul>-->
+</div>
+
 
 Recent research visits: 
 <ul>
- <li>Friedrich-Alexander-Universität Erlangen-Nürnberg (<a href="https://www.chaac.tf.fau.eu" target="_blank" rel="noopener">Prof. Dominique Schröder</a>, 12/2022)</li>
+ <li>Friedrich-Alexander-Universität Erlangen-Nürnberg (<a href="https://www.chaac.tf.fau.eu" target="_blank" rel="noopener">Prof. Dominique Schröder</a>, now at TU Vienna, 12/2022)</li>
  <li>ETH Zurich (<a href="https://foc.ethz.ch" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a>, 09/2022)</li>
  <li>Royal Holloway, University of London (<a href="https://malb.io" target="_blank" rel="noopener">Prof. Martin R. Albrecht</a>, now at King's College London and SandboxAQ, 10/2018)</li>
  <li>Paderborn University (<a href="https://itsc.uni-wuppertal.de/en/group-members/prof-dr-ing-tibor-jager/" target="_blank" rel="noopener">Prof. Tibor Jager</a>, now at Bergische Universität Wuppertal, 03/2017)</li>
@@ -53,7 +66,7 @@ Program committees:
 <ul>
  <li>CANS <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
  <li>QCNC <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li>
- <li>Security Standardisation Research Conference <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
+ <li>Security Standardisation Research Conference <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">2024</a>, <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2025</a>, <a href="https://icissp.scitevents.org/?y=2024" target="_blank" rel="noopener">2024</a></li>
  <li>GI SICHERHEIT <a href="https://sicherheit2024.ztt.hs-worms.de" target="_blank" rel="noopener">2024</a>, <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> &amp; <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>

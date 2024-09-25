@@ -23,7 +23,7 @@
   pdf={example_pdf.pdf},
   altmetric={248277},
   dimensions={true},
-  selected={true}
+  selected={false}
 }
 
 
@@ -58,7 +58,9 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   pdf={https://eprint.iacr.org/2022/1284.pdf},
   html={https://link.springer.com/article/10.1007/s00145-023-09486-y},
-  bibtex_show={true}
+  bibtex_show={true},
+    url       = {https://link.springer.com/article/10.1007/s00145-023-09486-y},
+  eprint    = {https://eprint.iacr.org/2022/1284.pdf}
 }
 
 @article{DBLP:journals/joc/HofheinzKS24,
@@ -82,6 +84,7 @@
   pdf={http://eprint.iacr.org/2015/123.pdf},
   html={https://link.springer.com/article/10.1007/s00145-024-09496-4},
   bibtex_show={true},
+  eprint    = {http://eprint.iacr.org/2015/123.pdf},
 }
 
 @inproceedings{DBLP:conf/ccsw-ws/GothRSSTZ23,
@@ -91,6 +94,7 @@
                   Christoph Striecks and
                   Erkan Tairi and
                   Alexander Zikulnig},
+  abstract  = {Secure communication protocols such as TLS 1.3 or QUIC are doing the heavy lifting in terms of security of today's Internet. These modern protocols provide modes that do not need an interactive handshake, but allow to send cryptographically protected data with the first client message in zero round-trip time (0-RTT). While this helps to reduce communication latency, the security of such protocols in terms of forward security is rather weak. In recent years, the academic community investigated ways of mitigating this problem and achieving full forward security and replay resilience for such 0-RTT protocols. In particular, this can be achieved via a so-called Puncturable Key Encapsulation Mechanism (PKEM). While the first such schemes were too expensive to be used in practice, Derler et al. (EUROCRYPT 2018) proposed a variant of PKEMs called Bloom Filter Key Encapsulation Mechanism (BFKEM). Unfortunately, these primitives have only be investigated asymptotically and no real benchmarks were conducted. Dallmeier et al. (CANS 2020) were the first to study their practical application within the QUIC protocol. They build upon a specific BFKEM instantiation and conclude that while it comes with significant computational overhead, its practical use is feasible, especially in applications where the increased CPU and memory load can be tolerated. In this paper, we revisit their choice of the concrete BFKEM instantiation and show that by relying on the concept of Time-based BFKEMs (TB-BFKEMs), also introduced by Derler et al. (EUROCRYPT 2018), one can combine the advantages of having computational efficiency and smaller key sizes. We thereby investigate algorithmic as well as conceptual optimizations with various trade-offs and conclude that our approach seems favorable for many practical settings. Overall, this extends the applicability of 0-RTT protocols with strong security in practice.},
   editor       = {Francesco Regazzoni and
                   Apostolos P. Fournaris},
   title        = {Optimizing 0-RTT Key Exchange with Full Forward Security},
@@ -103,7 +107,9 @@
   doi          = {10.1145/3605763.3625246},
   timestamp    = {Sun, 10 Dec 2023 00:00:00 +0100},
   biburl       = {https://dblp.org/rec/conf/ccsw-ws/GothRSSTZ23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+    url       = {https://ccsw.io},
+  pdf       = {https://dl.acm.org/doi/10.1145/3605763.3625246},
 }
 
 @inproceedings{DBLP:conf/eurocrypt/RoslerSS23,
@@ -111,6 +117,7 @@
   author       = {Paul R{\"{o}}sler and
                   Daniel Slamanig and
                   Christoph Striecks},
+  abstract  = {Hierarchical Identity Based Encryption (HIBE) is a well studied, versatile tool used in many cryptographic protocols. Yet, since the performance of all known HIBE constructions is broadly considered prohibitive, some real-world applications avoid relying on HIBE at the expense of security. A prominent example for this is secure messaging: Strongly secure messaging protocols are provably equivalent to Key-Updatable Key Encapsulation Mechanisms (KU-KEMs; Balli et al., Asiacrypt 2020); so far, all KU-KEM constructions rely on adaptive unbounded-depth HIBE (Poettering and Rösler, Jaeger and Stepanovs, both CRYPTO 2018). By weakening security requirements for better efficiency, many messaging protocols dispense with using HIBE. In this work, we aim to gain better efficiency without sacrificing security. For this, we observe that applications like messaging only need a restricted variant of HIBE for strong security. This variant, that we call Unique-Path Identity Based Encryption (UPIBE), restricts HIBE by requiring that each secret key can delegate at most one subordinate secret key. However, in contrast to fixed secret key delegation in Forward-Secure Public Key Encryption, the delegation in UPIBE, as in HIBE, is uniquely determined by variable identity strings from an exponentially large space. We investigate this mild but surprisingly effective restriction and show that it offers substantial complexity and performance advantages. More concretely, we generically build bounded-depth UPIBE from only bounded-collusion IBE in the standard model; and we generically build adaptive unbounded-depth UPIBE from only selective bounded-depth HIBE in the random oracle model. These results significantly extend the range of underlying assumptions and efficient instantiations. We conclude with a rigorous performance evaluation of our UPIBE design. Beyond solving challenging open problems by reducing complexity and improving efficiency of KU-KEM and strongly secure messaging protocols, we offer a new definitional perspective on the bounded-collusion setting.},
   editor       = {Carmit Hazay and
                   Martijn Stam},
   title        = {Unique-Path Identity Based Encryption with Applications to Strongly
@@ -127,7 +134,10 @@
   doi          = {10.1007/978-3-031-30589-4\_1},
   timestamp    = {Wed, 17 May 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/eurocrypt/RoslerSS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+    url       = {https://eurocrypt.iacr.org/2023/},
+  eprint    = {https://eprint.iacr.org/2023/248.pdf},
+  pdf       = {https://link.springer.com/chapter/10.1007/978-3-031-30589-4_1}
 }
 
 @inproceedings{DBLP:conf/pqcrypto/BrucknerRS23,
@@ -135,6 +145,8 @@
   author       = {Sonja Bruckner and
                   Sebastian Ramacher and
                   Christoph Striecks},
+    abstract  = {End-to-end authenticity in public networks plays a significant role. Namely, without authenticity, the adversary might be able to retrieve even confidential information straight away by impersonating others. Proposed solutions to establish an authenticated channel cover pre-shared key-based, password-based, and certificate-based techniques. To add confidentiality to an authenticated channel, authenticated key exchange (AKE) protocols usually have one of the three solutions built in. As an amplification, hybrid AKE (HAKE) approaches are getting more popular nowadays and were presented in several flavors to incorporate classical, post-quantum, or quantum-key-distribution components. The main benefit is redundancy, i.e., if some of the components fail, the primitive still yields a confidential and authenticated channel. However, current HAKE instantiations either rely on pre-shared keys (which yields inefficient end-to-end authenticity) or only support one or two of the three above components (resulting in reduced redundancy and flexibility). In this work, we present an extension of a modular HAKE framework due to Dowling, Brandt Hansen, and Paterson (PQCrypto'20) that does not suffer from the above constraints. While their instantiation, dubbed Muckle, requires pre-shared keys (and hence yields inefficient end-to-end authenticity), our extended instantiation called Muckle+ utilizes post-quantum digital signatures. While replacing pre-shared keys with digital signatures is rather straightforward in general, this turned out to be surprisingly non-trivial when applied to HAKE frameworks (resulting in a significant model change with adapted proof techniques).},
+  booktitle = {PQCrypto 2023, August 16-18.},
   editor       = {Thomas Johansson and
                   Daniel Smith{-}Tone},
   title        = {Muckle+: End-to-End Hybrid Authenticated Key Exchanges},
@@ -149,13 +161,20 @@
   doi          = {10.1007/978-3-031-40003-2\_22},
   timestamp    = {Fri, 18 Aug 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/pqcrypto/BrucknerRS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  selected={true},
+  url       = {https://pqcrypto2023.umiacs.io},
+  pdf       = {https://doi.org/10.1007/978-3-031-40003-2_22},
+  eprint    = {https://eprint.iacr.org/2023/653.pdf},
+  slides    = {https://pqcrypto2023.umiacs.io/slides/5.3.pdf},
+  talk      = {https://www.youtube.com/watch?v=xyB59tzFlGU}
 }
 
 @inproceedings{DBLP:conf/tcc/SlamanigS23,
   abbr={A},
   author       = {Daniel Slamanig and
                   Christoph Striecks},
+  abstract  = {Updatable encryption (UE) allows a third party to periodically rotate encryption keys from one epoch to another without the need to download, decrypt, re-encrypt, and upload already encrypted data by a client. Updating those outsourced ciphertexts is carried out via the use of so-called update tokens which in turn are generated during key rotation and can be sent (publicly) to the third party. The arguably most efficient variant of UE is ciphertext-independent UE as the key rotation does not depend on the outsourced ciphertexts which makes it particularly interesting in scenarios where access to (information of the) ciphertexts is not possible during key rotation. Available security notions cannot guarantee any form of _forward security_ (i.e., old ciphertexts are in danger after key leakage). Counter-intuitively, forward security would violate correctness, as ciphertexts should be updatable ad-infinitum given the update token. In this work, we investigate if we can have at least some form of "controlled" forward security to mitigate the following shortcoming: an adversary would record available information (i.e., some ciphertexts, all update tokens) and simply would wait for a single key leakage to decrypt all data ever encrypted. Our threefold contribution is as follows: a) First, we introduce an epoch-based UE CPA security notion to allow fine-grained updatability. It covers the concept of expiry epochs, i.e., ciphertexts can lose the ability of being updatable via a token after a certain epoch has passed. This captures the above mentioned shortcoming as the encrypting party can decide how long a ciphertext can be updatable (and, hence, decryptable). b) Second, we introduce a novel approach of constructing UE which significantly departs from previous ones and in particular views UE from the perspective of puncturable encryption (Green and Miers, S&P'15). We define tag-inverse puncturable encryption as a new variant that generalizes UE and may be of independent interest. c) Lastly, we present and prove secure the first UE scheme with the aforementioned properties. It is constructed via tag-inverse puncturable encryption and instantiated from standard assumptions. As it turned out, constructing such puncturing schemes is not straightforward and we require adapted proof techniques. Surprisingly, as a special case, this yields the first backwards-leak UE scheme with sub-linear ciphertexts from standard assumptions (an open problem posted in two recent works by Jiang Galteland and Pan & Miao et al., PKC'23).},
   editor       = {Guy N. Rothblum and
                   Hoeteck Wee},
   title        = {Revisiting Updatable Encryption: Controlled Forward Security, Constructions
@@ -172,7 +191,11 @@
   doi          = {10.1007/978-3-031-48618-0\_8},
   timestamp    = {Sun, 10 Dec 2023 00:00:00 +0100},
   biburl       = {https://dblp.org/rec/conf/tcc/SlamanigS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+    url       = {https://tcc.iacr.org/2023/},
+  eprint    = {https://eprint.iacr.org/2021/268.pdf},
+  talk      = {https://youtu.be/iCRVm7MSQcc?feature=shared&t=2420},
+  slides    = {https://iacr.org/submit/files/slides/2023/tcc/tcc2023/30/slides.pdf}
 }
 
 @inproceedings{DBLP:conf/pkc/HaqueKSS22,
@@ -453,6 +476,8 @@
                   Tibor Jager and
                   Daniel Slamanig and
                   Christoph Striecks},
+  abstract  = {Forward secrecy is considered an essential design goal of modern key establishment (KE) protocols, such as TLS 1.3, for example. Furthermore, efficiency considerations such as zero round-trip time (0-RTT), where a client is able to send cryptographically protected pay- load data along with the very first KE message, are motivated by the practical demand for secure low-latency communication. For a long time, it was unclear whether protocols that simultaneously achieve 0-RTT and full forward secrecy exist. Only recently, the first forward-secret 0-RTT protocol was described by Günther et al. (Euro- crypt 2017). It is based on Puncturable Encryption. Forward secrecy is achieved by “puncturing” the secret key after each decryption operation, such that a given ciphertext can only be decrypted once (cf. also Green and Miers, S&P 2015). Unfortunately, their scheme is completely impractical, since one puncturing operation takes between 30 seconds and several minutes for reasonable security and deployment parameters, such that this solution is only a first feasibility result, but not efficient enough to be deployed in practice. In this paper, we introduce a new primitive that we term Bloom Filter Encryption (BFE), which is derived from the probabilistic Bloom filter data structure. We describe different constructions of BFE schemes, and show how these yield new puncturable encryption mechanisms with extremely efficient puncturing. Most importantly, a puncturing operation only involves a small number of very efficient computations, plus the deletion of certain parts of the secret key, which outperforms previous constructions by orders of magnitude. This gives rise to the first forward-secret 0-RTT protocols that are efficient enough to be deployed in practice. We believe that BFE will find applications beyond forward- secret 0-RTT protocols.},
+  url       = {https://doi.org/10.1007/978-3-319-78372-7\_14},
   editor       = {Jesper Buus Nielsen and
                   Vincent Rijmen},
   title        = {Bloom Filter Encryption and Applications to Efficient Forward-Secret
@@ -469,7 +494,13 @@
   doi          = {10.1007/978-3-319-78372-7\_14},
   timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
   biburl       = {https://dblp.org/rec/conf/eurocrypt/DerlerJSS18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  bibsource    = {dblp computer science bibliography, https://dblp.org},
+  selected = {true},
+    url       = {https://doi.org/10.1007/978-3-319-78372-7\_14},
+  pdf       = {https://www.iacr.org/archive/eurocrypt2018/10822239/10822239.pdf},
+  eprint    = {https://eprint.iacr.org/2018/199.pdf},
+  talkrwc   = {https://www.youtube.com/watch?v=TAPBu-jMKkg},
+  talkec    = {https://www.youtube.com/watch?v=JhoeGnHKY2c}
 }
 
 @inproceedings{DBLP:conf/pkc/DerlerKLRSS18,
