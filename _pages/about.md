@@ -56,7 +56,7 @@ News and activities:
 
 Recent research visits: 
 <ul>
- <li>Friedrich-Alexander-Universität Erlangen-Nürnberg (<a href="https://www.chaac.tf.fau.eu" target="_blank" rel="noopener">Prof. Dominique Schröder</a>, now at TU Vienna, 12/2022)</li>
+ <li>Friedrich-Alexander-Universität Erlangen-Nürnberg (<a href="https://informatics.tuwien.ac.at/people/dominique-schroeder" target="_blank" rel="noopener">Prof. Dominique Schröder</a>, now at TU Vienna, 12/2022)</li>
  <li>ETH Zurich (<a href="https://foc.ethz.ch" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a>, 09/2022)</li>
  <li>Royal Holloway, University of London (<a href="https://malb.io" target="_blank" rel="noopener">Prof. Martin R. Albrecht</a>, now at King's College London and SandboxAQ, 10/2018)</li>
  <li>Paderborn University (<a href="https://itsc.uni-wuppertal.de/en/group-members/prof-dr-ing-tibor-jager/" target="_blank" rel="noopener">Prof. Tibor Jager</a>, now at Bergische Universität Wuppertal, 03/2017)</li>
