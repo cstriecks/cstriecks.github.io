@@ -23,8 +23,10 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
- <li>Sep. 2024: I recently gave a series of webinars on authentication in large quantum-safe networks under the umbrella of the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>
- <li>Jul. 2024: I will serve as a program committee member of the <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2024</a>.</li>
+ <li>Oct. 2024: Presentation of an invited webinar on hybrid key exchanges for the <a href="https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/communications-networks-content-and-technology_en" target="_blank" rel="noopener">European Commission</a> under the umbrella of the <a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> project.</li>
+ <li>Oct. 2024: Happy to serve as a program committee member in "Track 3: Security in the Quantum Age" of the <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">International Conference on Quantum Communications, Networking, and Computing (QCNC 2025)</a>.</li>
+ <li>Sep. 2024: Presentation of a series of webinars on authentication in large quantum-safe networks under the umbrella of the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>
+ <li>Jul. 2024: Happy to serve as a program committee member of the <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2024</a>.</li>
  <li>May 2024: Attended the <a href="https://skechworkshop.github.io" target="_blank" rel="noopener">SKECH Workshop 2024</a>.</li>
  <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li>
  <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
@@ -64,8 +66,8 @@ Recent research visits:
 
 Program committees: 
 <ul>
+ <li>QCNC <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
  <li>CANS <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
- <li>QCNC <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li>
  <li>Security Standardisation Research Conference <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">2024</a>, <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2025</a>, <a href="https://icissp.scitevents.org/?y=2024" target="_blank" rel="noopener">2024</a></li>
@@ -97,6 +99,7 @@ Current projects:
  <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
+ <li><a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> (HORIZON-RIA 2023-2026)</li>
 </ul>
 
 Completed projects: 
@@ -115,6 +118,7 @@ Completed projects:
 Selected invited talks and activities:
 
 <ul>
+ <li>Invited webinar on Quantum-Secure Hybrid Key Exchanges (European Commission, 2024)</li> 
  <li>Invited talk on Hybrid Authenticated Key Exchanges (NXP, 2023)</li>
  <li>Invited talk on Forward Security (ETH Zurich, 2022)</li>
  <li>Invited talk on Forward Security (FAU Nürnberg-Erlangen, 2022)</li>
