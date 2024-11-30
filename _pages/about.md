@@ -13,9 +13,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a cryptographer with a professional focus on secure technologies (mainly, key exchange and encryption, secure data access control, and authentication). Moreover, I have particularly worked on hybridization techniques for defense-in-depth approaches in large quantum-safe networks and on long-term security (e.g., see talks on <a href="{{ '/talks/' | relative_url }}">hybrid cryptography</a> and blog post on <a href="{{ '/blog/2021/PE/' | relative_url }}">forward secrecy</a>).
+I am a senior scientist with a professional focus on secure communcation and cryptography (mainly, key exchange and encryption, secure data access control, and authentication). Particularly, I have worked on quantum-classical hybridization techniques and on long-term security (e.g., see talks on <a href="{{ '/talks/' | relative_url }}">hybrid cryptography</a> and blog post on <a href="{{ '/blog/2021/PE/' | relative_url }}">forward secrecy</a>).
 
-Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization (RTO) – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
+Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
 In 2015, I received my PhD (Dr. rer. nat.) in cryptography from KIT under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> (now at ETH Zurich) on scalable advanced cryptographic building blocks. Teaching activities included Algorithms I (lab, ST 2015) and IT security (lab, ST 2013), encompassed by several seminars and labs.
 
@@ -23,6 +23,7 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>Nov. 2024: Had a successful <a href="https://www.ait.ac.at/en/news-events/single-view/detail/8582?cHash=95e94e77a25c99f7740075a7bf263364" target="_blank" rel="noopener">senior-promotion hearing at AIT</a>; the new position will be held from 1st December 2024 onwards.</li>
  <li>Oct. 2024: Presentation of an invited webinar (with Ludovic Perret) on hybrid key exchanges for the <a href="https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/communications-networks-content-and-technology_en" target="_blank" rel="noopener">European Commission</a> under the umbrella of the <a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> project. The slides of the technical part are available <a href="assets/pdf/2024-10-02-Hybrid-Key-Exchange-Striecks-Perret-Part-1.pdf" target="_blank" rel="noopener">here</a>.</li>
  <li>Oct. 2024: Happy to serve as a program committee member in "Track 3: Security in the Quantum Age" of the <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">International Conference on Quantum Communications, Networking, and Computing (QCNC 2025)</a>.</li>
  <li>Sep. 2024: Presentation of a series of webinars on authentication in large quantum-safe networks under the umbrella of the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>
@@ -93,7 +94,7 @@ Selected external reviewing activities:
  <!-- <li>EuroS&P <a href="http://www.ieee-security.org/TC/EuroSP2018/" target="_blank" rel="noopener">2018</a></li>-->
 </ul>
 
-Current projects: 
+Main current projects: 
 
 <ul>
  <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
