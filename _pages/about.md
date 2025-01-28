@@ -23,6 +23,7 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>Jan. 2025: I am currently co-organizing a <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">workshop on Quantum-Safe Hybrid Cryptography</a> (under the umbrella of <a href="http://acns2025.fordaysec.de" target="_blank" rel="noopener">ACNS'25</a>).</li>
  <li>Dec. 2024: I gave an invited talk on hybrid cryptography in the <a href="https://indico.math.cnrs.fr/event/5778/" target="_blank" rel="noopener">Quantum Technologies for Cryptography</a> workshop at the <a href="https://www.ihp.fr/en" target="_blank" rel="noopener">Institut Henri Poincaré</a>.</li>
  <li>Nov. 2024: Had a successful <a href="https://www.ait.ac.at/en/news-events/single-view/detail/8582?cHash=95e94e77a25c99f7740075a7bf263364" target="_blank" rel="noopener">senior-promotion hearing at AIT</a>; the new position will be held from 1st December 2024 onwards.</li>
  <li>Oct. 2024: Presentation of an invited webinar (with Ludovic Perret) on hybrid key exchanges for the <a href="https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/communications-networks-content-and-technology_en" target="_blank" rel="noopener">European Commission</a> under the umbrella of the <a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> project. The slides of the technical part are available <a href="assets/pdf/2024-10-02-Hybrid-Key-Exchange-Striecks-Perret-Part-1.pdf" target="_blank" rel="noopener">here</a>.</li>
@@ -66,6 +67,11 @@ Recent research visits:
  <li>Paderborn University (<a href="https://itsc.uni-wuppertal.de/en/group-members/prof-dr-ing-tibor-jager/" target="_blank" rel="noopener">Prof. Tibor Jager</a>, now at Bergische Universität Wuppertal, 03/2017)</li>
 </ul>
 
+Organizing activities: 
+<ul>
+ <li><a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">Quantum-Safe Hybrid Cryptography 2025</a> (co-organizing)</li> 
+</ul>
+
 Program committees: 
 <ul>
  <li>QCNC <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
@@ -98,10 +104,10 @@ Selected external reviewing activities:
 Main current projects: 
 
 <ul>
+ <li><a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> (HORIZON-RIA 2023-2026)</li>
  <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
- <li><a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> (HORIZON-RIA 2023-2026)</li>
 </ul>
 
 Completed projects: 
