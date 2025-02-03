@@ -23,6 +23,7 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>Jan. 2025: Accepted paper on malleable SNARKs and their applications at <a href="https://eurocrypt.iacr.org/2025/" target="_blank" rel="noopener">Eurocrypt 2025</a>.</li>
  <li>Jan. 2025: I am currently co-organizing a <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">workshop on Quantum-Safe Hybrid Cryptography</a> (under the umbrella of <a href="http://acns2025.fordaysec.de" target="_blank" rel="noopener">ACNS'25</a>).</li>
  <li>Dec. 2024: I gave an invited talk on hybrid cryptography in the <a href="https://indico.math.cnrs.fr/event/5778/" target="_blank" rel="noopener">Quantum Technologies for Cryptography</a> workshop at the <a href="https://www.ihp.fr/en" target="_blank" rel="noopener">Institut Henri Poincaré</a>.</li>
  <li>Nov. 2024: Had a successful <a href="https://www.ait.ac.at/en/news-events/single-view/detail/8582?cHash=95e94e77a25c99f7740075a7bf263364" target="_blank" rel="noopener">senior-promotion hearing at AIT</a>; the new position will be held from 1st December 2024 onwards.</li>
@@ -32,7 +33,7 @@ News and activities:
  <li>Jul. 2024: Happy to serve as a program committee member of the <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2024</a>.</li>
  <li>May 2024: Attended the <a href="https://skechworkshop.github.io" target="_blank" rel="noopener">SKECH Workshop 2024</a>.</li>
  <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li>
- <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
+ <!-- <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>Sep. 2023: Accepted paper on forward-secure 0-RTT key exchange at <a href="https://ccsw.io" target="_blank" rel="noopener">The ACM Cloud Computing Security Workshop 2023</a>.</li>
  <li>Aug. 2023: Accepted papers on forward security in updatable encryption at <a href="https://tcc.iacr.org/2023/" target="_blank" rel="noopener">TCC 2023</a> and on functional encryption with updatable ciphertexts in the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>Aug. 2023: (Virtual) presentation at <a href="https://pqcrypto2023.umiacs.io" target="_blank" rel="noopener">PQCrypto 2023</a> on hybrid authenticated key exchange.</li>
@@ -45,6 +46,7 @@ News and activities:
  <li>Oct. 2022: I will serve as a program committee member of the <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2023</a>.</li>
  <li>Sep. 2022: From 19 to 23 September, I visited <a href="https://foc.ethz.ch" target="_blank" rel="noopener">Dennis Hofheinz' group</a> at <a href="https://ethz.ch" target="_blank" rel="noopener">ETH Zurich</a> and held a talk on Puncturable Encryption.</li>
  <li>Apr. 2022: I attended <a href="https://rwc.iacr.org/2022" target="_blank" rel="noopener">Real World Crypto Symposium 2022</a> in Amsterdam and gave a contributed talk on <a href="https://iacr.org/submit/files/slides/2022/rwc/rwc2022/51/slides.pdf" target="_blank" rel="noopener">Puncturable Encryption</a> for forward security.</li>
+-->
 </ul>
 
 <div class="publications">
@@ -75,7 +77,7 @@ Organizing activities:
 Program committees: 
 <ul>
  <li>QCNC <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
- <li>CANS <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
+ <li>CANS <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" target="_blank" rel="noopener">2025</a>, <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
  <li>Security Standardisation Research Conference <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">2024</a>, <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2025</a>, <a href="https://icissp.scitevents.org/?y=2024" target="_blank" rel="noopener">2024</a></li>
