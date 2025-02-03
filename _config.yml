@@ -40,7 +40,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 dblp_link: https://dblp.org/pid/128/5113.html
 github_username: cstriecks # your GitHub user name
-twitter_username: cstriecks # your Twitter handle
+twitter_username: # your Twitter handle
 linkedin_username: christophstriecks # your LinkedIn user name
 scholar_userid: XenLk9gAAAAJ # your Google Scholar ID
 orcid_id: 0000-0003-4724-8022 # your ORCID ID
