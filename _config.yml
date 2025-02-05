@@ -8,7 +8,7 @@ middle_name:
 last_name: Striecks
 email: Christoph.Striecks@ait.ac.at
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Researcher in cryptography in the Cyber Security Group at AIT Austrian Institute of Technology, Vienna.
+  Senior scientist in cryptography at AIT Austrian Institute of Technology, Vienna.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

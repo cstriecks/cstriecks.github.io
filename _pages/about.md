@@ -99,8 +99,8 @@ Selected external reviewing activities:
  <li>IEEE Transactions on Information Forensics and Security <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank" rel="noopener">2022</a></li>
  <li>IEEE Transactions on Dependable and Secure Computing <a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858" target="_blank" rel="noopener">2022</a>, <a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858" target="_blank" rel="noopener">2021</a></li>
  <li>Designs, Codes and Cryptography <a href="https://www.springer.com/journal/10623/" target="_blank" rel="noopener">2022</a></li>
- <!-- <li>CT-RSA <a href="https://sites.google.com/site/ctrsa2021/" target="_blank" rel="noopener">2021</a></li>-->
- <!-- <li>EuroS&P <a href="http://www.ieee-security.org/TC/EuroSP2018/" target="_blank" rel="noopener">2018</a></li>-->
+ <li>CT-RSA <a href="https://sites.google.com/site/ctrsa2021/" target="_blank" rel="noopener">2021</a></li>
+ <li>EuroS&P <a href="http://www.ieee-security.org/TC/EuroSP2018/" target="_blank" rel="noopener">2018</a></li>
 </ul>
 
 Main current projects: 
@@ -125,19 +125,15 @@ Completed projects:
  <li><a href="https://credential.eu/" target="_blank" rel="noopener">CREDENTIAL</a> (EU HORIZON 2020, 2015-2018)</li>
 </ul>
 
-Selected invited talks and activities:
+(Recent) selected invited talks and activities:
 
 <ul>
  <li>Invited webinar on Quantum-Secure Hybrid Key Exchanges (European Commission, 2024)</li> 
  <li>Invited talk on Hybrid Authenticated Key Exchanges (NXP, 2023)</li>
- <li>Invited talk on Forward Security (ETH Zurich, 2022)</li>
- <li>Invited talk on Forward Security (FAU Nürnberg-Erlangen, 2022)</li>
- <li>Invited lecture on Redactable Blockchains (with Daniel Slamanig, TU Vienna, 2021)</li>
+ <li>Invited talk on Forward Security (ETH Zurich & FAU Nürnberg-Erlangen, 2022)</li>
  <li>Invited talk on Attribute-Based Encryption for Strong Access Control (ETSI Security Week, 2020)</li>
  <li>Invited lectures on Advanced Public-Key Encryption (TU Vienna, 2020 & 2019)</li>
  <li>Invited talk on Security, Safety, and Privacy-by-Design (Austrian Standards, 2020, press coverage in <a href="https://futurezone.at/b2b/design-standards-muessen-von-anfang-an-mitgedacht-werden/401088141" target="_blank" rel="noopener">futurezone</a> and <a href="https://www.austrian-standards.at/de/themengebiete/digitalisierung-datensicherheit/iot-fachkongress-nachbericht-2020" target="_blank" rel="noopener">Austrian Standards</a>)</li>
- <li>Invited talk on Attribute-Based Encryption for strong access control (Graz Security Days for Industry, 2019)</li>
- <li>Invited talk on Forward Security (Royal Holloway, University of London, 2018)</li>
  <li>Involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> on standardizing Attribute-Based Encryption (press release from <a href="https://www.etsi.org/newsroom/press-releases/1328-2018-08-press-etsi-releases-cryptographic-standards-for-secure-access-control" target="_blank" rel="noopener">ETSI</a>)</li>
 </ul>
 
@@ -148,4 +144,4 @@ Selected teaching & supervision:
  <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
  <li>Interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021)</li>
  <li>Diploma theses: Christian Matt (KIT, 2011), Alexander Mai (KIT, 2014)</li>
- </ul>
+</ul>
