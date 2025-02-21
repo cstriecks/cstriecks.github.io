@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Cryptography researcher at AIT Austrian Institute of Technology, Vienna; PhD in cryptography from Karlsruhe Institute of Technology, Germany.
+description: Senior Scientist in cryptography at AIT Austrian Institute of Technology, Vienna; PhD in cryptography from Karlsruhe Institute of Technology, Germany.
 profile:
   align: right
   image: img-profile-cs-2024.jpg
@@ -28,8 +28,8 @@ News and activities:
  <li>Dec. 2024: I gave an invited talk on hybrid cryptography in the <a href="https://indico.math.cnrs.fr/event/5778/" target="_blank" rel="noopener">Quantum Technologies for Cryptography</a> workshop at the <a href="https://www.ihp.fr/en" target="_blank" rel="noopener">Institut Henri Poincaré</a>.</li>
  <li>Nov. 2024: Had a successful <a href="https://www.ait.ac.at/en/news-events/single-view/detail/8582?cHash=95e94e77a25c99f7740075a7bf263364" target="_blank" rel="noopener">senior-promotion hearing at AIT</a>; the new position will be held from 1st December 2024 onwards.</li>
  <li>Oct. 2024: Presentation of an invited webinar (with Ludovic Perret) on hybrid key exchanges for the <a href="https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/communications-networks-content-and-technology_en" target="_blank" rel="noopener">European Commission</a> under the umbrella of the <a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> project. The slides of the technical part are available <a href="assets/pdf/2024-10-02-Hybrid-Key-Exchange-Striecks-Perret-Part-1.pdf" target="_blank" rel="noopener">here</a>.</li>
- <li>Oct. 2024: Happy to serve as a program committee member in "Track 3: Security in the Quantum Age" of the <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">International Conference on Quantum Communications, Networking, and Computing (QCNC 2025)</a>.</li>
- <li>Sep. 2024: Presentation of a series of webinars on authentication in large quantum-safe networks under the umbrella of the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>
+ <!-- <li>Oct. 2024: Happy to serve as a program committee member in "Track 3: Security in the Quantum Age" of the <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">International Conference on Quantum Communications, Networking, and Computing (QCNC 2025)</a>.</li>
+ <li>Sep. 2024: Presentation of a series of webinars on authentication in large quantum-safe networks under the umbrella of the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>-->
  <li>Jul. 2024: Happy to serve as a program committee member of the <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2024</a>.</li>
  <li>May 2024: Attended the <a href="https://skechworkshop.github.io" target="_blank" rel="noopener">SKECH Workshop 2024</a>.</li>
  <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li>
@@ -92,15 +92,15 @@ Selected external reviewing activities:
  <li>EUROCRYPT <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">2023</a>, <a href="https://eurocrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a></li>
  <li>ASIACRYPT <a href="https://asiacrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://asiacrypt.iacr.org/2021/" target="_blank" rel="noopener">2021</a>, <a href="https://www.iacr.org/conferences/asiacrypt2016/www.asiacrypt2016.org/index.html" target="_blank" rel="noopener">2016</a>, <a href="https://www.math.auckland.ac.nz/~sgal018/AC2015/index.html" target="_blank" rel="noopener">2015</a></li>
  <li>ACM CCS <a href="https://www.sigsac.org/ccs/CCS2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.sigsac.org/ccs/CCS2022/" target="_blank" rel="noopener">2022</a>, <a href="https://www.sigsac.org/ccs/CCS2020/" target="_blank" rel="noopener">2020</a></li>
- <li>USENIX Security <a href="https://www.usenix.org/conference/usenixsecurity21" target="_blank" rel="noopener">2021</a></li>
- <li>IEEE Symposium on Security and Privacy <a href="https://www.ieee-security.org/TC/SP2022/cfpapers.html" target="_blank" rel="noopener">2022</a></li>
+ <!-- <li>USENIX Security <a href="https://www.usenix.org/conference/usenixsecurity21" target="_blank" rel="noopener">2021</a></li>-->
+ <!-- <li>IEEE Symposium on Security and Privacy <a href="https://www.ieee-security.org/TC/SP2022/cfpapers.html" target="_blank" rel="noopener">2022</a></li>-->
  <li>ICALP <a href="https://icalp2022.irif.fr" target="_blank" rel="noopener">2022</a></li>
  <li>PKC <a href="https://pkc.iacr.org/2023/" target="_blank" rel="noopener">2023</a>, <a href="https://pkc.iacr.org/2020/" target="_blank" rel="noopener">2020</a>, <a href="https://pkc.iacr.org/2018/" target="_blank" rel="noopener">2018</a>, <a href="https://www.iacr.org/workshops/pkc2017/" target="_blank" rel="noopener">2017</a>, <a href="https://troll.iis.sinica.edu.tw/pkc16/" target="_blank" rel="noopener">2016</a></li>
  <li>IEEE Transactions on Information Forensics and Security <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank" rel="noopener">2022</a></li>
  <li>IEEE Transactions on Dependable and Secure Computing <a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858" target="_blank" rel="noopener">2022</a>, <a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858" target="_blank" rel="noopener">2021</a></li>
- <li>Designs, Codes and Cryptography <a href="https://www.springer.com/journal/10623/" target="_blank" rel="noopener">2022</a></li>
- <li>CT-RSA <a href="https://sites.google.com/site/ctrsa2021/" target="_blank" rel="noopener">2021</a></li>
- <li>EuroS&P <a href="http://www.ieee-security.org/TC/EuroSP2018/" target="_blank" rel="noopener">2018</a></li>
+ <!-- <li>Designs, Codes and Cryptography <a href="https://www.springer.com/journal/10623/" target="_blank" rel="noopener">2022</a></li>-->
+ <!-- <li>CT-RSA <a href="https://sites.google.com/site/ctrsa2021/" target="_blank" rel="noopener">2021</a></li>-->
+ <!-- <li>EuroS&P <a href="http://www.ieee-security.org/TC/EuroSP2018/" target="_blank" rel="noopener">2018</a></li>-->
 </ul>
 
 Main current projects: 
