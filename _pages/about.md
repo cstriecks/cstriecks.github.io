@@ -88,7 +88,7 @@ Program committees:
 
 Selected external reviewing activities: 
 <ul>
- <li>CRYPTO <a href="https://crypto.iacr.org/2024/" target="_blank" rel="noopener">2024</a>, <a href="https://crypto.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://crypto.iacr.org/2019/" target="_blank" rel="noopener">2019</a></li> 
+ <li>CRYPTO <a href="https://crypto.iacr.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://crypto.iacr.org/2024/" target="_blank" rel="noopener">2024</a>, <a href="https://crypto.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://crypto.iacr.org/2019/" target="_blank" rel="noopener">2019</a></li> 
  <li>EUROCRYPT <a href="https://eurocrypt.iacr.org/2023/" target="_blank" rel="noopener">2023</a>, <a href="https://eurocrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a></li>
  <li>ASIACRYPT <a href="https://asiacrypt.iacr.org/2022/" target="_blank" rel="noopener">2022</a>, <a href="https://asiacrypt.iacr.org/2021/" target="_blank" rel="noopener">2021</a>, <a href="https://www.iacr.org/conferences/asiacrypt2016/www.asiacrypt2016.org/index.html" target="_blank" rel="noopener">2016</a>, <a href="https://www.math.auckland.ac.nz/~sgal018/AC2015/index.html" target="_blank" rel="noopener">2015</a></li>
  <li>ACM CCS <a href="https://www.sigsac.org/ccs/CCS2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.sigsac.org/ccs/CCS2022/" target="_blank" rel="noopener">2022</a>, <a href="https://www.sigsac.org/ccs/CCS2020/" target="_blank" rel="noopener">2020</a></li>
@@ -96,7 +96,7 @@ Selected external reviewing activities:
  <!-- <li>IEEE Symposium on Security and Privacy <a href="https://www.ieee-security.org/TC/SP2022/cfpapers.html" target="_blank" rel="noopener">2022</a></li>-->
  <li>ICALP <a href="https://icalp2022.irif.fr" target="_blank" rel="noopener">2022</a></li>
  <li>PKC <a href="https://pkc.iacr.org/2023/" target="_blank" rel="noopener">2023</a>, <a href="https://pkc.iacr.org/2020/" target="_blank" rel="noopener">2020</a>, <a href="https://pkc.iacr.org/2018/" target="_blank" rel="noopener">2018</a>, <a href="https://www.iacr.org/workshops/pkc2017/" target="_blank" rel="noopener">2017</a>, <a href="https://troll.iis.sinica.edu.tw/pkc16/" target="_blank" rel="noopener">2016</a></li>
- <li>IEEE Transactions on Information Forensics and Security <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank" rel="noopener">2022</a></li>
+ <li>IEEE Transactions on Information Forensics and Security <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank" rel="noopener">2025</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206" target="_blank" rel="noopener">2022</a></li>
  <li>IEEE Transactions on Dependable and Secure Computing <a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858" target="_blank" rel="noopener">2022</a>, <a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8858" target="_blank" rel="noopener">2021</a></li>
  <!-- <li>Designs, Codes and Cryptography <a href="https://www.springer.com/journal/10623/" target="_blank" rel="noopener">2022</a></li>-->
  <!-- <li>CT-RSA <a href="https://sites.google.com/site/ctrsa2021/" target="_blank" rel="noopener">2021</a></li>-->
@@ -106,6 +106,7 @@ Selected external reviewing activities:
 Main current projects: 
 
 <ul>
+ <!-- <li><a href="" target="_blank" rel="noopener">QSCS</a> (ETSI 2025-2027)</li> -->
  <li><a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> (HORIZON-RIA 2023-2026)</li>
  <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
@@ -137,11 +138,12 @@ Completed projects:
  <li>Involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> on standardizing Attribute-Based Encryption (press release from <a href="https://www.etsi.org/newsroom/press-releases/1328-2018-08-press-etsi-releases-cryptographic-standards-for-secure-access-control" target="_blank" rel="noopener">ETSI</a>)</li>
 </ul>
 
-Selected teaching & supervision:
+Teaching & supervision:
 
 <ul>
- <li>Teaching: Redactable Blockchains (invited lecture, WT 2021 at TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2020 at TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019 at TU Vienna), Algorithms I (TA, ST 2015 at KIT), IT security (TA, ST 2013 at KIT)</li> 
+ <li>Teaching: Redactable Blockchains (invited lecture, WT 2021, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
  <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
+ <!-- <li>Students: Augustine Bugler (University of Vienna, 2025)</li>-->
  <li>Interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021)</li>
  <li>Diploma theses: Christian Matt (KIT, 2011), Alexander Mai (KIT, 2014)</li>
 </ul>
