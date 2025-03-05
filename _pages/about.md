@@ -143,7 +143,7 @@ Teaching & supervision:
 <ul>
  <li>Teaching: Redactable Blockchains (invited lecture, WT 2021, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
  <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
- <!-- <li>Students: Augustine Bugler (University of Vienna, 2025)</li>-->
+ <li>Students: Augustine Bugler (University of Vienna, Mar. 2025-)</li>
  <li>Interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021)</li>
  <li>Diploma theses: Christian Matt (KIT, 2011), Alexander Mai (KIT, 2014)</li>
 </ul>
