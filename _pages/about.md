@@ -23,6 +23,7 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>Apr. 2025: Accepted talk on hybrid authenticated key establishment at <a href="https://www.etsi.org/events/2450-etsi-iqc-quantum-safe-cryptography-conference-2025" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2025</a> in Madrid in June.</li>
  <li>Jan. 2025: Accepted paper on malleable SNARKs and their applications at <a href="https://eurocrypt.iacr.org/2025/" target="_blank" rel="noopener">Eurocrypt 2025</a>.</li>
  <li>Jan. 2025: I am currently co-organizing a <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">workshop on Quantum-Safe Hybrid Cryptography</a> (under the umbrella of <a href="http://acns2025.fordaysec.de" target="_blank" rel="noopener">ACNS'25</a>).</li>
  <li>Dec. 2024: I gave an invited talk on hybrid cryptography in the <a href="https://indico.math.cnrs.fr/event/5778/" target="_blank" rel="noopener">Quantum Technologies for Cryptography</a> workshop at the <a href="https://www.ihp.fr/en" target="_blank" rel="noopener">Institut Henri Poincaré</a>.</li>
@@ -59,15 +60,6 @@ News and activities:
   
   <ul>{% bibliography -f cs-talks -q @*[selected=true]* %}</ul>-->
 </div>
-
-
-Recent research visits: 
-<ul>
- <li>Friedrich-Alexander-Universität Erlangen-Nürnberg (<a href="https://informatics.tuwien.ac.at/people/dominique-schroeder" target="_blank" rel="noopener">Prof. Dominique Schröder</a>, now at TU Vienna, 12/2022)</li>
- <li>ETH Zurich (<a href="https://foc.ethz.ch" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a>, 09/2022)</li>
- <li>Royal Holloway, University of London (<a href="https://malb.io" target="_blank" rel="noopener">Prof. Martin R. Albrecht</a>, now at King's College London and SandboxAQ, 10/2018)</li>
- <li>Paderborn University (<a href="https://itsc.uni-wuppertal.de/en/group-members/prof-dr-ing-tibor-jager/" target="_blank" rel="noopener">Prof. Tibor Jager</a>, now at Bergische Universität Wuppertal, 03/2017)</li>
-</ul>
 
 Organizing activities: 
 <ul>
@@ -106,7 +98,7 @@ Selected external reviewing activities:
 Main current projects: 
 
 <ul>
- <!-- <li><a href="" target="_blank" rel="noopener">QSCS</a> (ETSI 2025-2027)</li> -->
+ <li><a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">QSCS</a> (ETSI 2025-2027)</li>
  <li><a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> (HORIZON-RIA 2023-2026)</li>
  <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
@@ -124,6 +116,14 @@ Completed projects:
  <li><a href="https://www.iot4cps.at" target="_blank" rel="noopener">IoT4CPS</a> (FFG and BMK, ICT of the Future, 2017-2020)</li>
  <li><a href="https://prismacloud.eu/" target="_blank" rel="noopener">PRISMACLOUD</a> (EU HORIZON 2020, 2015-2018)</li>
  <li><a href="https://credential.eu/" target="_blank" rel="noopener">CREDENTIAL</a> (EU HORIZON 2020, 2015-2018)</li>
+</ul>
+
+Research visits: 
+<ul>
+ <li>Friedrich-Alexander-Universität Erlangen-Nürnberg (<a href="https://informatics.tuwien.ac.at/people/dominique-schroeder" target="_blank" rel="noopener">Prof. Dominique Schröder</a>, now at TU Vienna, 12/2022)</li>
+ <li>ETH Zurich (<a href="https://foc.ethz.ch" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a>, 09/2022)</li>
+ <li>Royal Holloway, University of London (<a href="https://malb.io" target="_blank" rel="noopener">Prof. Martin R. Albrecht</a>, now at King's College London and SandboxAQ, 10/2018)</li>
+ <li>Paderborn University (<a href="https://itsc.uni-wuppertal.de/en/group-members/prof-dr-ing-tibor-jager/" target="_blank" rel="noopener">Prof. Tibor Jager</a>, now at Bergische Universität Wuppertal, 03/2017)</li>
 </ul>
 
 (Recent) selected invited talks and activities:
