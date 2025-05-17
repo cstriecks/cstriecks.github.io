@@ -41,9 +41,11 @@
       title={Malleable SNARKs and Their Applications}, 
       author={Suvradip Chakraborty and Dennis Hofheinz and Roman Langrehr and Jesper Buus Nielsen and Christoph Striecks and Daniele Venturi},
       year={2025},
-      journal={Eurocrypt 2025 (accepted)},
+      journal={EUROCRYPT 2025, May 4–8 (Slides by R. Langrehr)},
       abstract={Succinct non-interactive arguments of knowledge (SNARKs) are variants of non-interactive zero-knowledge proofs (NIZKs) in which complex statements can be proven in a compact way. SNARKs have had tremendous impact in several areas of cryptography, including verifiable computing, blockchains, and anonymous communication. A recurring concept in many applications is the concept of recursive SNARKs, in which a proof references a previous proof to show an evolved statement. In this work, we investigate malleable SNARKs, a generalization of this concept of recursion. An adaptation of the existing concept of malleable NIZKs, malleable SNARKs allow to modify SNARK proofs to show related statements, but such that such mauled proofs are indistinguishable from “properly generated” fresh proofs of the related statement. We show how to instantiate malleable SNARKs for universal languages and relations, and give a number of applications: the first post-quantum RCCA-secure rerandomizable and updatable encryption schemes, a generic construction of reverse firewalls, and an unlinkable (i.e., computation-hiding) targeted malleable homomorphic encryption scheme. Technically, our malleable SNARK construction relies on recursive proofs, but with a twist: in order to support the strong indistinguishability properties of mauled and fresh SNARK proofs, we need to allow an unbounded recursion depth. To still allow for a reasonable notion of extractability in this setting (and in particular to guarantee that extraction eventually finishes with a “proper” witness that does not refer to a previous SNARK proof), we rely on a new and generic computational primitive called adversarial one-way function (AOWF) that may be of independent interest. We give an AOWF candidate and prove it secure in the random oracle model.},
+      lncs={https://link.springer.com/chapter/10.1007/978-3-031-91134-7_7},
       eprint={https://eprint.iacr.org/2025/311.pdf},
+      slides={https://iacr.org/submit/files/slides/2025/eurocrypt/eurocrypt2025/628/628_slides.pdf}
 }
 
 -- 2024
@@ -69,14 +71,8 @@
   number       = {2},
   pages        = {12},
   year         = {2024},
-  url          = {https://doi.org/10.1007/s00145-024-09496-4},
-  doi          = {10.1007/S00145-024-09496-4},
-  timestamp    = {Sat, 08 Jun 2024 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/joc/HofheinzKS24.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
   abstract  = {We construct an identity-based encryption (IBE) scheme that is tightly secure in a very strong sense. Specifically, we consider a setting with many instances of the scheme and many encryptions per instance. In this setting, we reduce the security of our scheme to a variant of a simple assumption used for a similar purpose by Chen and Wee (Crypto 2013). The security loss of our reduction is O(k)(where k is the security parameter). Our scheme is the first IBE scheme to achieve this strong flavor of tightness under a simple assumption. Technically, our scheme is a variation of the IBE scheme by Chen and Wee. However, in order to "lift" their results to the multi-instance, multi-ciphertext case, we need to develop new ideas. In particular, while we build on (and extend) their high-level proof strategy, we deviate significantly in the low-level proof steps.},
-  pdf={http://eprint.iacr.org/2015/123.pdf},
-  html={https://link.springer.com/article/10.1007/s00145-024-09496-4},
+  lncs={https://link.springer.com/article/10.1007/s00145-024-09496-4},
   bibtex_show={true},
   eprint    = {http://eprint.iacr.org/2015/123.pdf},
 }
@@ -96,15 +92,8 @@
   number       = {1},
   pages        = {8},
   year         = {2024},
-  url          = {https://doi.org/10.1007/s00145-023-09486-y},
-  doi          = {10.1007/S00145-023-09486-Y},
-  timestamp    = {Fri, 08 Mar 2024 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/journals/joc/CiniRSST24.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-  pdf={https://eprint.iacr.org/2022/1284.pdf},
-  html={https://link.springer.com/article/10.1007/s00145-023-09486-y},
   bibtex_show={true},
-    url       = {https://link.springer.com/article/10.1007/s00145-023-09486-y},
+    lncs       = {https://link.springer.com/article/10.1007/s00145-023-09486-y},
   eprint    = {https://eprint.iacr.org/2022/1284.pdf}
 }
 
@@ -154,13 +143,7 @@
   pages        = {55--68},
   publisher    = {{ACM}},
   year         = {2023},
-  url          = {https://doi.org/10.1145/3605763.3625246},
-  doi          = {10.1145/3605763.3625246},
-  timestamp    = {Sun, 10 Dec 2023 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/conf/ccsw-ws/GothRSSTZ23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-    url       = {https://ccsw.io},
-  pdf       = {https://dl.acm.org/doi/10.1145/3605763.3625246},
+  url          = {https://doi.org/10.1145/3605763.3625246}
 }
 
 @inproceedings{DBLP:conf/pqcrypto/BrucknerRS23,
@@ -180,14 +163,8 @@
   pages        = {601--633},
   publisher    = {Springer},
   year         = {2023},
-  url          = {https://doi.org/10.1007/978-3-031-40003-2\_22},
-  doi          = {10.1007/978-3-031-40003-2\_22},
-  timestamp    = {Fri, 18 Aug 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/pqcrypto/BrucknerRS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
   selected={true},
-  url       = {https://pqcrypto2023.umiacs.io},
-  pdf       = {https://doi.org/10.1007/978-3-031-40003-2_22},
+  url       = {https://doi.org/10.1007/978-3-031-40003-2_22},
   eprint    = {https://eprint.iacr.org/2023/653.pdf},
   slides    = {https://pqcrypto2023.umiacs.io/slides/5.3.pdf},
   talk      = {https://www.youtube.com/watch?v=xyB59tzFlGU}
@@ -212,13 +189,7 @@
   publisher    = {Springer},
   year         = {2023},
   url          = {https://doi.org/10.1007/978-3-031-30589-4\_1},
-  doi          = {10.1007/978-3-031-30589-4\_1},
-  timestamp    = {Wed, 17 May 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/eurocrypt/RoslerSS23.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
-    url       = {https://eurocrypt.iacr.org/2023/},
-  eprint    = {https://eprint.iacr.org/2023/248.pdf},
-  pdf       = {https://link.springer.com/chapter/10.1007/978-3-031-30589-4_1}
+  eprint    = {https://eprint.iacr.org/2023/248.pdf}
 }
 
 -- 2022
@@ -243,10 +214,6 @@
   publisher    = {Springer},
   year         = {2022},
   url          = {https://doi.org/10.1007/978-3-030-97131-1\_15},
-  doi          = {10.1007/978-3-030-97131-1\_15},
-  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/pkc/HaqueKSS22.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 -- 2021
@@ -265,11 +232,7 @@
   number       = {2},
   pages        = {13},
   year         = {2021},
-  url          = {https://doi.org/10.1007/s00145-021-09374-3},
-  doi          = {10.1007/S00145-021-09374-3},
-  timestamp    = {Mon, 28 Aug 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/joc/DerlerGJSS21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/s00145-021-09374-3}
 }
 
 @inproceedings{DBLP:conf/esorics/ChvojkaJSS21,
@@ -292,10 +255,6 @@
   publisher    = {Springer},
   year         = {2021},
   url          = {https://doi.org/10.1007/978-3-030-88428-4\_4},
-  doi          = {10.1007/978-3-030-88428-4\_4},
-  timestamp    = {Tue, 17 Oct 2023 10:41:56 +0200},
-  biburl       = {https://dblp.org/rec/conf/esorics/ChvojkaJSS21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
 @inproceedings{DBLP:conf/safecomp/MarkoTSBSMVKHSL21,
@@ -326,11 +285,7 @@
   pages        = {39--51},
   publisher    = {Springer},
   year         = {2021},
-  url          = {https://doi.org/10.1007/978-3-030-83906-2\_3},
-  doi          = {10.1007/978-3-030-83906-2\_3},
-  timestamp    = {Thu, 14 Oct 2021 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/safecomp/MarkoTSBSMVKHSL21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-030-83906-2\_3}
 }
 
 @inproceedings{DBLP:conf/pkc/CiniRSST21,
@@ -350,11 +305,7 @@
   pages        = {691--723},
   publisher    = {Springer},
   year         = {2021},
-  url          = {https://doi.org/10.1007/978-3-030-75245-3\_25},
-  doi          = {10.1007/978-3-030-75245-3\_25},
-  timestamp    = {Sat, 30 Sep 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/pkc/CiniRSST21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-030-75245-3\_25}
 }
 
 @inproceedings{DBLP:conf/fc/DerlerRSS21,
@@ -375,11 +326,7 @@
   pages        = {499--519},
   publisher    = {Springer},
   year         = {2021},
-  url          = {https://doi.org/10.1007/978-3-662-64331-0\_26},
-  doi          = {10.1007/978-3-662-64331-0\_26},
-  timestamp    = {Thu, 16 Mar 2023 14:52:53 +0100},
-  biburl       = {https://dblp.org/rec/conf/fc/DerlerRSS21.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-662-64331-0\_26}
 }
 
 -- 2020
@@ -402,11 +349,7 @@
   pages        = {159--190},
   publisher    = {Springer},
   year         = {2020},
-  url          = {https://doi.org/10.1007/978-3-030-64837-4\_6},
-  doi          = {10.1007/978-3-030-64837-4\_6},
-  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/asiacrypt/CiniRSS20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-030-64837-4\_6}
 }
 
 @inproceedings{DBLP:conf/ccs/BobolzEKSS20,
@@ -426,11 +369,7 @@
   pages        = {319--333},
   publisher    = {{ACM}},
   year         = {2020},
-  url          = {https://doi.org/10.1145/3320269.3384769},
-  doi          = {10.1145/3320269.3384769},
-  timestamp    = {Thu, 14 Oct 2021 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/ccs/BobolzEKSS20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1145/3320269.3384769}
 }
 
 @inproceedings{DBLP:conf/safecomp/MarkoVS20,
@@ -453,11 +392,7 @@
   pages        = {36--53},
   publisher    = {Springer},
   year         = {2020},
-  url          = {https://doi.org/10.1007/978-3-030-55583-2\_3},
-  doi          = {10.1007/978-3-030-55583-2\_3},
-  timestamp    = {Wed, 26 Aug 2020 16:28:48 +0200},
-  biburl       = {https://dblp.org/rec/conf/safecomp/MarkoVS20.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-030-55583-2\_3}
 }
 
 -- 2019
@@ -474,11 +409,7 @@
   pages        = {10:1--10:10},
   publisher    = {{ACM}},
   year         = {2019},
-  url          = {https://doi.org/10.1145/3339252.3339256},
-  doi          = {10.1145/3339252.3339256},
-  timestamp    = {Thu, 23 Sep 2021 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/IEEEares/KrennSS19.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1145/3339252.3339256}
 }
 
 @inproceedings{DBLP:conf/ndss/DerlerSSS19,
@@ -493,10 +424,7 @@
                   2019, San Diego, California, USA, February 24-27, 2019},
   publisher    = {The Internet Society},
   year         = {2019},
-  url          = {https://www.ndss-symposium.org/ndss-paper/fine-grained-and-controlled-rewriting-in-blockchains-chameleon-hashing-gone-attribute-based/},
-  timestamp    = {Thu, 23 Sep 2021 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/ndss/DerlerSSS19.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://www.ndss-symposium.org/ndss-paper/fine-grained-and-controlled-rewriting-in-blockchains-chameleon-hashing-gone-attribute-based/}
 }
 
 -- 2018
@@ -522,13 +450,8 @@
   publisher    = {Springer},
   year         = {2018},
   url          = {https://doi.org/10.1007/978-3-319-78372-7\_14},
-  doi          = {10.1007/978-3-319-78372-7\_14},
-  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/eurocrypt/DerlerJSS18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org},
   selected = {true},
     url       = {https://doi.org/10.1007/978-3-319-78372-7\_14},
-  pdf       = {https://www.iacr.org/archive/eurocrypt2018/10822239/10822239.pdf},
   eprint    = {https://eprint.iacr.org/2018/199.pdf},
   talkrwc   = {https://www.youtube.com/watch?v=TAPBu-jMKkg},
   talkec    = {https://www.youtube.com/watch?v=JhoeGnHKY2c}
@@ -554,11 +477,7 @@
   pages        = {219--250},
   publisher    = {Springer},
   year         = {2018},
-  url          = {https://doi.org/10.1007/978-3-319-76578-5\_8},
-  doi          = {10.1007/978-3-319-76578-5\_8},
-  timestamp    = {Tue, 21 Mar 2023 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/conf/pkc/DerlerKLRSS18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-319-76578-5\_8}
 }
 
 @article{DBLP:journals/ercim/KrennLS18,
@@ -570,10 +489,7 @@
   volume       = {2018},
   number       = {113},
   year         = {2018},
-  url          = {https://ercim-news.ercim.eu/en113/r-i/engineering-cryptography-for-security-and-privacy-in-the-cloud},
-  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/ercim/KrennLS18.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://ercim-news.ercim.eu/en113/r-i/engineering-cryptography-for-security-and-privacy-in-the-cloud}
 }
 
 -- 2017
@@ -595,11 +511,7 @@
   pages        = {179--202},
   publisher    = {Springer},
   year         = {2017},
-  url          = {https://doi.org/10.1007/978-3-030-02641-7\_9},
-  doi          = {10.1007/978-3-030-02641-7\_9},
-  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/cans/KrennLSS17.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-030-02641-7\_9}
 }
 
 @inproceedings{DBLP:conf/primelife/ChiaroFGKLGMRSS17,
@@ -627,11 +539,7 @@
   pages        = {153--169},
   publisher    = {Springer},
   year         = {2017},
-  url          = {https://doi.org/10.1007/978-3-319-92925-5\_10},
-  doi          = {10.1007/978-3-319-92925-5\_10},
-  timestamp    = {Mon, 26 Jun 2023 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/primelife/ChiaroFGKLGMRSS17.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-319-92925-5\_10}
 }
 
 @article{DBLP:journals/ei/LorunserKSL17,
@@ -645,11 +553,7 @@
   number       = {7},
   pages        = {364--369},
   year         = {2017},
-  url          = {https://doi.org/10.1007/s00502-017-0519-x},
-  doi          = {10.1007/S00502-017-0519-X},
-  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/ei/LorunserKSL17.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/s00502-017-0519-x}
 }
 
 @inproceedings{DBLP:conf/icissp/KrennLS17,
@@ -667,11 +571,7 @@
   pages        = {303--311},
   publisher    = {SciTePress},
   year         = {2017},
-  url          = {https://doi.org/10.5220/0006133003030311},
-  doi          = {10.5220/0006133003030311},
-  timestamp    = {Sun, 02 Oct 2022 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/conf/icissp/KrennLS17.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.5220/0006133003030311}
 }
 
 -- 2016
@@ -697,11 +597,7 @@
   volume       = {498},
   pages        = {76--91},
   year         = {2016},
-  url          = {https://doi.org/10.1007/978-3-319-55783-0\_7},
-  doi          = {10.1007/978-3-319-55783-0\_7},
-  timestamp    = {Tue, 12 Sep 2023 07:57:22 +0200},
-  biburl       = {https://dblp.org/rec/conf/primelife/KaregarSKHLF16.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-319-55783-0\_7}
 }
 
 -- 2015
@@ -711,11 +607,7 @@
   title        = {On Cryptographic Building Blocks and Transformations},
   school       = {Karlsruhe Institute of Technology},
   year         = {2015},
-  url          = {http://digbib.ubka.uni-karlsruhe.de/volltexte/1000050195},
-  urn          = {urn:nbn:de:swb:90-501959},
-  timestamp    = {Thu, 23 Sep 2021 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/phd/dnb/Striecks15.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {http://digbib.ubka.uni-karlsruhe.de/volltexte/1000050195}
 }
 
 @article{DBLP:journals/joc/BohlHJKS15,
@@ -731,11 +623,7 @@
   number       = {1},
   pages        = {176--208},
   year         = {2015},
-  url          = {https://doi.org/10.1007/s00145-014-9183-z},
-  doi          = {10.1007/S00145-014-9183-Z},
-  timestamp    = {Thu, 23 Sep 2021 01:00:00 +0200},
-  biburl       = {https://dblp.org/rec/journals/joc/BohlHJKS15.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/s00145-014-9183-z}
 }
 
 @inproceedings{DBLP:conf/pkc/HofheinzKS15,
@@ -754,11 +642,7 @@
   pages        = {799--822},
   publisher    = {Springer},
   year         = {2015},
-  url          = {https://doi.org/10.1007/978-3-662-46447-2\_36},
-  doi          = {10.1007/978-3-662-46447-2\_36},
-  timestamp    = {Fri, 01 May 2020 18:32:25 +0200},
-  biburl       = {https://dblp.org/rec/conf/pkc/HofheinzKS15.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-662-46447-2\_36}
 }
 
 -- 2014
@@ -777,11 +661,7 @@
   pages        = {48--63},
   publisher    = {Springer},
   year         = {2014},
-  url          = {https://doi.org/10.1007/978-3-319-04852-9\_3},
-  doi          = {10.1007/978-3-319-04852-9\_3},
-  timestamp    = {Tue, 14 May 2019 10:00:52 +0200},
-  biburl       = {https://dblp.org/rec/conf/ctrsa/HofheinzS14.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-319-04852-9\_3}
 }
 
 -- 2013
@@ -802,11 +682,7 @@
   pages        = {513--530},
   publisher    = {Springer},
   year         = {2013},
-  url          = {https://doi.org/10.1007/978-3-642-40041-4\_28},
-  doi          = {10.1007/978-3-642-40041-4\_28},
-  timestamp    = {Wed, 22 Dec 2021 00:00:00 +0100},
-  biburl       = {https://dblp.org/rec/conf/crypto/FreireHPS13.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-642-40041-4\_28}
 }
 
 @inproceedings{DBLP:conf/eurocrypt/BohlHJKSS13,
@@ -828,9 +704,5 @@
   pages        = {461--485},
   publisher    = {Springer},
   year         = {2013},
-  url          = {https://doi.org/10.1007/978-3-642-38348-9\_28},
-  doi          = {10.1007/978-3-642-38348-9\_28},
-  timestamp    = {Tue, 14 May 2019 10:00:53 +0200},
-  biburl       = {https://dblp.org/rec/conf/eurocrypt/BohlHJKSS13.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  url          = {https://doi.org/10.1007/978-3-642-38348-9\_28}
 }

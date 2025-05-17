@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a senior scientist with a professional focus on secure communcation and cryptography (mainly, key exchange and encryption, secure data access control, and authentication). Particularly, I have worked on quantum-classical hybridization techniques and on long-term security (e.g., see talks on <a href="{{ '/talks/' | relative_url }}">hybrid cryptography</a> and blog post on <a href="{{ '/blog/2021/PE/' | relative_url }}">forward secrecy</a>).
+I am a senior scientist with a professional focus on secure communcation and cryptography (mainly, key exchange and encryption, secure data access control, and authentication). Particularly, I have worked on quantum-classical hybridisation techniques and on long-term security (e.g., see talks on <a href="{{ '/talks/' | relative_url }}">hybrid cryptography</a> and blog post on <a href="{{ '/blog/2021/PE/' | relative_url }}">forward secrecy</a>).
 
 Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
@@ -23,6 +23,7 @@ In 2010, I received my Diploma in computer science from the <a href="https://www
 
 News and activities: 
 <ul>
+ <li>May 2025: I gave a presentation on quantum-safe hybrid key establishment at the <a href="https://cryptull.webs.ull.es/QuRCry/" target="_blank" rel="noopener">Workshop on Quantum-Resistant Cryptography – an EUROCRYPT 2025 affiliated event</a>.</li>
  <li>Apr. 2025: Accepted talk on hybrid authenticated key establishment at <a href="https://www.etsi.org/events/2450-etsi-iqc-quantum-safe-cryptography-conference-2025" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2025</a> in Madrid in June.</li>
  <li>Jan. 2025: Accepted paper on malleable SNARKs and their applications at <a href="https://eurocrypt.iacr.org/2025/" target="_blank" rel="noopener">Eurocrypt 2025</a>.</li>
  <li>Jan. 2025: I am currently co-organizing a <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">workshop on Quantum-Safe Hybrid Cryptography</a> (under the umbrella of <a href="http://acns2025.fordaysec.de" target="_blank" rel="noopener">ACNS'25</a>).</li>
@@ -66,6 +67,29 @@ Organizing activities:
  <li><a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">Quantum-Safe Hybrid Cryptography 2025</a> (co-organizing)</li> 
 </ul>
 
+Current projects: 
+
+<ul>
+ <li><a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">QSCS</a> (ETSI 2025-2027)</li>
+ <li><a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> (HORIZON-RIA 2023-2026)</li>
+ <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
+ <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
+ <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
+</ul>
+
+Completed projects: 
+
+<ul>
+ <li><a href="https://teamaware.eu" target="_blank" rel="noopener">TeamAware</a> (EU HORIZON 2020, 2021-2024)</li>
+ <li><a href="https://www.kiras.at/gefoerderte-projekte/detail/qkd4gov" target="_blank" rel="noopener">QKD4GOV</a> (KIRAS, 2021-2023)</li>
+ <li><a href="https://profet.at/" target="_blank" rel="noopener">PROFET</a> (FWF, netidee SCIENCE, 2019-2023)</li>
+ <li><a href="https://www.comp4drones.eu/" target="_blank" rel="noopener">COMP4DRONES</a> (EU HORIZON 2020, ECSEL, 2019-2023)</li>
+ <li><a href="https://www.secredas-project.eu" target="_blank" rel="noopener">SECREDAS</a> (EU HORIZON 2020, ECSEL, 2018-2021)</li>
+ <li><a href="https://www.iot4cps.at" target="_blank" rel="noopener">IoT4CPS</a> (FFG and BMK, ICT of the Future, 2017-2020)</li>
+ <li><a href="https://prismacloud.eu/" target="_blank" rel="noopener">PRISMACLOUD</a> (EU HORIZON 2020, 2015-2018)</li>
+ <li><a href="https://credential.eu/" target="_blank" rel="noopener">CREDENTIAL</a> (EU HORIZON 2020, 2015-2018)</li>
+</ul>
+
 Program committees: 
 <ul>
  <li>QCNC <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
@@ -93,29 +117,6 @@ Selected external reviewing activities:
  <!-- <li>Designs, Codes and Cryptography <a href="https://www.springer.com/journal/10623/" target="_blank" rel="noopener">2022</a></li>-->
  <!-- <li>CT-RSA <a href="https://sites.google.com/site/ctrsa2021/" target="_blank" rel="noopener">2021</a></li>-->
  <!-- <li>EuroS&P <a href="http://www.ieee-security.org/TC/EuroSP2018/" target="_blank" rel="noopener">2018</a></li>-->
-</ul>
-
-Main current projects: 
-
-<ul>
- <li><a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">QSCS</a> (ETSI 2025-2027)</li>
- <li><a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> (HORIZON-RIA 2023-2026)</li>
- <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
- <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
- <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
-</ul>
-
-Completed projects: 
-
-<ul>
- <li><a href="https://teamaware.eu" target="_blank" rel="noopener">TeamAware</a> (EU HORIZON 2020, 2021-2024)</li>
- <li><a href="https://www.kiras.at/gefoerderte-projekte/detail/qkd4gov" target="_blank" rel="noopener">QKD4GOV</a> (KIRAS, 2021-2023)</li>
- <li><a href="https://profet.at/" target="_blank" rel="noopener">PROFET</a> (FWF, netidee SCIENCE, 2019-2023)</li>
- <li><a href="https://www.comp4drones.eu/" target="_blank" rel="noopener">COMP4DRONES</a> (EU HORIZON 2020, ECSEL, 2019-2023)</li>
- <li><a href="https://www.secredas-project.eu" target="_blank" rel="noopener">SECREDAS</a> (EU HORIZON 2020, ECSEL, 2018-2021)</li>
- <li><a href="https://www.iot4cps.at" target="_blank" rel="noopener">IoT4CPS</a> (FFG and BMK, ICT of the Future, 2017-2020)</li>
- <li><a href="https://prismacloud.eu/" target="_blank" rel="noopener">PRISMACLOUD</a> (EU HORIZON 2020, 2015-2018)</li>
- <li><a href="https://credential.eu/" target="_blank" rel="noopener">CREDENTIAL</a> (EU HORIZON 2020, 2015-2018)</li>
 </ul>
 
 Research visits: 
