@@ -37,6 +37,15 @@
 
 -- 2025
 
+@article{ARXIV2025,
+      title={Versatile Quantum-Safe Hybrid Key Exchange and Its Application to MACsec}, 
+      author={*Jaime S. Buruaga and Augustine Bugler and Juan P. Brito and Vicente Martin and Christoph Striecks},
+      journal={Preprint arXiv},
+      abstract={Advancements in quantum computing pose a significant threat to most of the cryptography currently deployed. Fortunately, cryptographic building blocks to mitigate the threat are already available; mostly based on post-quantum and quantum cryptography, but also on symmetric cryptography techniques. Notably, quantum-safe building blocks must be deployed as soon as possible due to the ``harvest-now decrypt-later'' attack scenario, which is already challenging our sensitive and encrypted data today. Following an agile defense-in-depth approach, Hybrid Authenticated Key Exchange (HAKE) protocols have recently been gaining significant attention. Such protocols modularly combine conventional, post-quantum, and quantum cryptography to achieve confidentiality, authenticity, and integrity guarantees for network channels. Unfortunately, only a few protocols have yet been proposed (mainly Muckle and Muckle+) with different flexibility guarantees. Looking at available standards in the network domain (especially at the Media Access Control Security (MACsec) standard), we believe that HAKE protocols could already bring strong security benefits to MACsec today. MACsec is a standard designed to secure communication at the data link layer in Ethernet networks by providing security for all traffic between adjacent entities. In addition, MACsec establishes secure channels within a Local Area Network (LAN), ensuring that data remain protected from eavesdropping, tampering, and unauthorized access, while operating transparently to higher layer protocols. Currently, MACsec does not offer enough protection in the event of cryptographically relevant quantum computers. In this work, we tackle the challenge and propose a new versatile HAKE protocol, dubbed VMuckle, which is sufficiently flexible for the use in MACsec to provide LAN participants with hybrid key material ensuring secure communication.},
+      year={2025},
+      arxiv={2505.14162}
+}
+
 @article{EC2025,
       title={Malleable SNARKs and Their Applications}, 
       author={Suvradip Chakraborty and Dennis Hofheinz and Roman Langrehr and Jesper Buus Nielsen and Christoph Striecks and Daniele Venturi},
@@ -56,7 +65,7 @@
       year={2024},
       journal={Preprint arXiv},
       abstract  = {Authenticated Key Exchange (AKE) between any two entities is one of the most important security protocols available for securing our digital networks and infrastructures. In PQCrypto 2023, Bruckner, Ramacher and Striecks proposed a novel hybrid AKE (HAKE) protocol, dubbed Muckle+, that is particularly useful in large quantum-safe networks consisting of a large number of nodes. Their protocol is hybrid in the sense that it allows key material from conventional and post-quantum primitives, as well as from quantum key distribution, to be incorporated into a single end-to-end shared key. To achieve the desired authentication properties, Muckle+ utilizes post-quantum digital signatures. However, available instantiations of such signatures schemes are not yet efficient enough compared to their post-quantum key-encapsulation mechanism (KEM) counterparts, particularly in large networks with potentially several connections in a short period of time. To mitigate this gap, we propose Muckle# that pushes the efficiency boundaries of currently known HAKE constructions. Muckle# uses post-quantum key-encapsulating mechanisms for implicit authentication inspired by recent works done in the area of Transport Layer Security (TLS) protocols, particularly, in KEMTLS (CCS'20). We port those ideas to the HAKE framework and develop novel proof techniques on the way. Due to our novel KEM-based approach, the resulting protocol has a slightly different message flow compared to prior work that we carefully align with the HAKE framework and which makes our changes to the Muckle+ non-trivial.},
-      arxiv={https://arxiv.org/pdf/2411.04030},
+      arxiv={2411.04030},
 }
 
 @article{DBLP:journals/joc/HofheinzKS24,

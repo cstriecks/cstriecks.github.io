@@ -34,7 +34,7 @@ News and activities:
  <li>Sep. 2024: Presentation of a series of webinars on authentication in large quantum-safe networks under the umbrella of the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>-->
  <li>Jul. 2024: Happy to serve as a program committee member of the <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2024</a>.</li>
  <li>May 2024: Attended the <a href="https://skechworkshop.github.io" target="_blank" rel="noopener">SKECH Workshop 2024</a>.</li>
- <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li>
+ <!--  <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li> -->
  <!-- <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>Sep. 2023: Accepted paper on forward-secure 0-RTT key exchange at <a href="https://ccsw.io" target="_blank" rel="noopener">The ACM Cloud Computing Security Workshop 2023</a>.</li>
  <li>Aug. 2023: Accepted papers on forward security in updatable encryption at <a href="https://tcc.iacr.org/2023/" target="_blank" rel="noopener">TCC 2023</a> and on functional encryption with updatable ciphertexts in the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
