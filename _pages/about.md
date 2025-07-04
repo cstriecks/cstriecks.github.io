@@ -27,6 +27,7 @@ News and activities:
     <ul>
       <li>I gave a presentation on the transition to quantum-safe networks at the <a href="https://express.converia.de/frontend/index.php?page_id=44432&v=List&do=15&day=5732&ses=38665#anker_session_38665" target="_blank" rel="noopener">World of Quantum Application Panel "Quantum-Safe Communication"</a>.</li>
       <li>We are happy to announce that the <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">Workshop on Quantum-Safe Hybrid Cryptography</a> concluded <a href="https://www.linkedin.com/posts/christophstriecks_quantumcryptography-postquantumcryptography-activity-7343933788277604354-FcKV?utm_source=share&utm_medium=member_desktop&rcm=ACoAABk2UfUBZhoh3urLr032aRfyX2EJN2aab4M" target="_blank" rel="noopener">successfully</a>.</li>
+      <li>Accepted paper on versatile quantum-safe hybrid cryptography in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal. A preprint is available <a href="https://arxiv.org/abs/2505.14162" target="_blank" rel="noopener">here</a>.</li>
       <li>I gave a presentation on quantum-safe hybrid authenticated key exchanges at the <a href="https://www.etsi.org/events/2450-etsi-iqc-quantum-safe-cryptography-conference-2025" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2025</a>.</li>
     </ul>
   </li>
