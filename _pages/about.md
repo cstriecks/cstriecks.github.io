@@ -25,7 +25,7 @@ News and activities:
 <ul>
   <li>June 2025: 
     <ul>
-      <li>I gave a presentation on the transition to quantum-safe networks at the <a href="https://express.converia.de/frontend/index.php?page_id=44432&v=List&do=15&day=5732&ses=38665#anker_session_38665" target="_blank" rel="noopener">World of Quantum Application Panel "Quantum-Safe Communication"</a>.</li>
+      <li>I gave an invited presentation on the transition to quantum-safe networks at the <a href="https://express.converia.de/frontend/index.php?page_id=44432&v=List&do=15&day=5732&ses=38665#anker_session_38665" target="_blank" rel="noopener">World of Quantum Application Panel "Quantum-Safe Communication"</a>.</li>
       <li>We are happy to announce that the <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">Workshop on Quantum-Safe Hybrid Cryptography</a> concluded <a href="https://www.linkedin.com/posts/christophstriecks_quantumcryptography-postquantumcryptography-activity-7343933788277604354-FcKV?utm_source=share&utm_medium=member_desktop&rcm=ACoAABk2UfUBZhoh3urLr032aRfyX2EJN2aab4M" target="_blank" rel="noopener">successfully</a>.</li>
       <li>Accepted paper on versatile quantum-safe hybrid cryptography in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal. A preprint is available <a href="https://arxiv.org/abs/2505.14162" target="_blank" rel="noopener">here</a>.</li>
       <li>I gave a presentation on quantum-safe hybrid authenticated key exchanges at the <a href="https://www.etsi.org/events/2450-etsi-iqc-quantum-safe-cryptography-conference-2025" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2025</a>.</li>
@@ -109,10 +109,9 @@ Research visits:
 Teaching & supervision:
 
 <ul>
- <li>Teaching: Redactable Blockchains (invited lecture, WT 2021, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
+ <li>Teaching: Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
  <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
- <li>Students: Augustine Bugler (University of Vienna, Mar. 2025-)</li>
- <li>Interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021)</li>
+ <li>Students & interns: Augustine Bugler (University of Vienna, Mar. 2025-), Augustine Bugler (University of Vienna, Jul.-Sep. 2024), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021)</li>
  <li>Diploma theses: Christian Matt (KIT, 2011), Alexander Mai (KIT, 2014)</li>
 </ul>
 
@@ -145,14 +144,13 @@ Selected external reviewing activities:
  <!-- <li>EuroS&P <a href="http://www.ieee-security.org/TC/EuroSP2018/" target="_blank" rel="noopener">2018</a></li>-->
 </ul>
 
-(Recent) selected invited talks and activities:
+(Recent) selected invited talks and standardisation activities:
 
 <ul>
- <li>Invited webinar on Quantum-Secure Hybrid Key Exchanges (European Commission, 2024)</li> 
- <li>Invited talk on Hybrid Authenticated Key Exchanges (NXP, 2023)</li>
- <li>Invited talk on Forward Security (ETH Zurich & FAU Nürnberg-Erlangen, 2022)</li>
- <li>Invited talk on Attribute-Based Encryption for Strong Access Control (ETSI Security Week, 2020)</li>
- <li>Invited lectures on Advanced Public-Key Encryption (TU Vienna, 2020 & 2019)</li>
- <li>Invited talk on Security, Safety, and Privacy-by-Design (Austrian Standards, 2020, press coverage in <a href="https://futurezone.at/b2b/design-standards-muessen-von-anfang-an-mitgedacht-werden/401088141" target="_blank" rel="noopener">futurezone</a> and <a href="https://www.austrian-standards.at/de/themengebiete/digitalisierung-datensicherheit/iot-fachkongress-nachbericht-2020" target="_blank" rel="noopener">Austrian Standards</a>)</li>
+ <li>On the Transition to Quantum-Safe Networks (World of Quantum Application Panel, 2025)</li>
+ <li>On Quantum-Secure Hybrid Key Exchanges (European Commission, 2024)</li> 
+ <li>On Forward Security (ETH Zurich & FAU Nürnberg-Erlangen, 2022)</li>
+ <li>On Attribute-Based Encryption for Strong Access Control (ETSI Security Week, 2020)</li>
+ <li>On Security, Safety, and Privacy-by-Design (Austrian Standards, 2020, press coverage in <a href="https://futurezone.at/b2b/design-standards-muessen-von-anfang-an-mitgedacht-werden/401088141" target="_blank" rel="noopener">futurezone</a> and <a href="https://www.austrian-standards.at/de/themengebiete/digitalisierung-datensicherheit/iot-fachkongress-nachbericht-2020" target="_blank" rel="noopener">Austrian Standards</a>)</li>
  <li>Involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> on standardizing Attribute-Based Encryption (press release from <a href="https://www.etsi.org/newsroom/press-releases/1328-2018-08-press-etsi-releases-cryptographic-standards-for-secure-access-control" target="_blank" rel="noopener">ETSI</a>)</li>
 </ul>
