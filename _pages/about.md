@@ -5,7 +5,7 @@ permalink: /
 description: Senior Scientist in cryptography at AIT Austrian Institute of Technology, Vienna; PhD in cryptography from Karlsruhe Institute of Technology, Germany.
 profile:
   align: right
-  image: img-profile-cs-2024.jpg
+  image: img-profile-cs-2025.jpg
   address: # >
     # <p>AIT Austrian Institute of Technology, Cyber Security, Giefinggasse 4, 1220 Vienna, Austria, first name dot last name at ait dot ac dot at</p>
 news: false # includes a list of news items
