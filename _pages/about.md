@@ -13,13 +13,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a senior scientist with a professional focus on secure communcation and cryptography (mainly, key exchange and encryption, secure data access control, and authentication). Particularly, I have worked on quantum-classical hybridisation techniques and on long-term security (e.g., see talks on <a href="{{ '/talks/' | relative_url }}">hybrid cryptography</a> and blog post on <a href="{{ '/blog/2021/PE/' | relative_url }}">forward security</a>).
+I am a senior scientist specialising in secure communication and cryptography, with a focus on key exchange, encryption, data access control and authentication. Specifically, I have been involved in the development of quantum-safe hybrid cryptography techniques to create communication systems with long-term security (see my recent <a href="{{ '/publications/' | relative_url }}">publications</a>, <a href="{{ '/talks/' | relative_url }}">talks</a>, and current projects below for further details).
 
-Before joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> – Austria’s largest Research and Technology Organization – in 2016, I held a post-doc position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
+Moreover, I have been or am currently engaged in standardisation activities, including my past involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> on standardising Attribute-Based Encryption and my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> on standardising quantum-safe Hybrid Authenticated Key Exchange.
 
-In 2015, I received my PhD (Dr. rer. nat.) in cryptography from KIT under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> (now at ETH Zurich) on scalable advanced cryptographic building blocks. Teaching activities included Algorithms I (lab, ST 2015) and IT security (lab, ST 2013), encompassed by several seminars and labs.
+Prior to joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> — Austria's largest research and technology organisation — in 2016, I held a postdoctoral position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
-In 2010, I received my Diploma in computer science from the <a href="https://www.tu-braunschweig.de/en/" target="_blank" rel="nooppener">Technical University of Braunschweig</a> in Germany with a major in cryptography and software engineering. From March to September 2008, I worked as a software-development intern for <a href="https://www.siemens.com/us/en.html" target="_blank" rel="nooppener">Siemens USA</a> in Princeton, New Jersey.
+In 2015, I received my PhD (Dr. rer. nat.) in cryptography from KIT under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> (now at ETH Zurich) on advanced cryptographic building blocks with strong security guarantees. Main teaching activities included Algorithms I (lab, 2015) and IT security (lab, 2013), encompassed by several seminars and further labs.
+
+In 2010, I received my Diploma in Computer Science from the <a href="https://www.tu-braunschweig.de/en/" target="_blank" rel="nooppener">Technical University of Braunschweig</a> in Germany with a major in cryptography and software engineering. I worked as a software-development intern for <a href="https://www.siemens.com/us/en.html" target="_blank" rel="nooppener">Siemens USA</a> in Princeton, New Jersey, from March to September 2008.
 
 News and activities: 
 <ul>
@@ -89,7 +91,6 @@ Completed projects:
 
 <ul>
  <li><a href="https://teamaware.eu" target="_blank" rel="noopener">TeamAware</a> (EU HORIZON 2020, 2021-2024)</li>
- <li><a href="https://www.kiras.at/gefoerderte-projekte/detail/qkd4gov" target="_blank" rel="noopener">QKD4GOV</a> (KIRAS, 2021-2023)</li>
  <li><a href="https://profet.at/" target="_blank" rel="noopener">PROFET</a> (FWF, netidee SCIENCE, 2019-2023)</li>
  <li><a href="https://www.comp4drones.eu/" target="_blank" rel="noopener">COMP4DRONES</a> (EU HORIZON 2020, ECSEL, 2019-2023)</li>
  <li><a href="https://www.secredas-project.eu" target="_blank" rel="noopener">SECREDAS</a> (EU HORIZON 2020, ECSEL, 2018-2021)</li>
@@ -111,8 +112,7 @@ Teaching & supervision:
 <ul>
  <li>Teaching: Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
  <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
- <li>Students & interns: Augustine Bugler (University of Vienna, Mar. 2025-), Augustine Bugler (University of Vienna, Jul.-Sep. 2024), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021)</li>
- <li>Diploma theses: Christian Matt (KIT, 2011), Alexander Mai (KIT, 2014)</li>
+ <li>Students & interns: Augustine Bugler (University of Vienna, Mar. 2025-), Augustine Bugler (University of Vienna, Jul.-Sep. 2024), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021), Christian Matt (KIT, 2011), Alexander Mai (KIT, 2014)</li>
 </ul>
 
 Program committees: 
@@ -144,6 +144,8 @@ Selected external reviewing activities:
  <!-- <li>EuroS&P <a href="http://www.ieee-security.org/TC/EuroSP2018/" target="_blank" rel="noopener">2018</a></li>-->
 </ul>
 
+
+<!-- 
 (Recent) selected invited talks and standardisation activities:
 
 <ul>
@@ -154,3 +156,4 @@ Selected external reviewing activities:
  <li>On Security, Safety, and Privacy-by-Design (Austrian Standards, 2020, press coverage in <a href="https://futurezone.at/b2b/design-standards-muessen-von-anfang-an-mitgedacht-werden/401088141" target="_blank" rel="noopener">futurezone</a> and <a href="https://www.austrian-standards.at/de/themengebiete/digitalisierung-datensicherheit/iot-fachkongress-nachbericht-2020" target="_blank" rel="noopener">Austrian Standards</a>)</li>
  <li>Involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> on standardizing Attribute-Based Encryption (press release from <a href="https://www.etsi.org/newsroom/press-releases/1328-2018-08-press-etsi-releases-cryptographic-standards-for-secure-access-control" target="_blank" rel="noopener">ETSI</a>)</li>
 </ul>
+-->
