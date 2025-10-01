@@ -25,6 +25,7 @@ In 2010, I received my Diploma in Computer Science from the <a href="https://www
 
 News and activities: 
 <ul>
+  <li>Sep. 2025: Accepted paper on efficient authenticated key exchange in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal. A preprint is available <a href="https://arxiv.org/abs/2411.04030" target="_blank" rel="noopener">here</a>.</li>
   <li>June 2025: 
     <ul>
       <li>I gave an invited presentation on the transition to quantum-safe networks at the <a href="https://express.converia.de/frontend/index.php?page_id=44432&v=List&do=15&day=5732&ses=38665#anker_session_38665" target="_blank" rel="noopener">World of Quantum Application Panel "Quantum-Safe Communication"</a>.</li>
