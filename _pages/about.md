@@ -13,17 +13,19 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a senior scientist specialising in secure communication and cryptography, with a focus on key exchange, encryption, data access control and authentication. Specifically, I have been involved in the development of quantum-safe hybrid cryptography techniques to create communication systems with long-term security (see my recent <a href="{{ '/publications/' | relative_url }}">publications</a>, <a href="{{ '/talks/' | relative_url }}">talks</a>, and current projects below for further details).
+I am a senior scientist specializing in the design and analysis of <b>secure communication systems</b>, with a focus on cryptographic protocols -- particularly key exchange, encryption, data access control, and authentication. My work centers on advancing <b>quantum-safe hybrid cryptography</b>, ensuring long-term security for next-generation communication infrastructures.
 
-Moreover, I have been or am currently engaged in standardisation activities, including my past involvement in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> on standardising Attribute-Based Encryption and my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> on standardising quantum-safe Hybrid Authenticated Key Exchange.
+I actively contribute to <b>standardization efforts</b>, including my past role in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> (standardizing Attribute-Based Encryption) and my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> (standardizing Quantum-Safe Hybrid Authenticated Key Exchange). My research and collaborations are detailed in my <a href="{{ '/publications/' | relative_url }}">publications</a>, <a href="{{ '/talks/' | relative_url }}">talks</a>, and ongoing projects below.
 
-Prior to joining the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a> — Austria's largest research and technology organisation — in 2016, I held a postdoctoral position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
+<b>Academic & professional background</b>
 
-In 2015, I received my PhD (Dr. rer. nat.) in cryptography from KIT under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> (now at ETH Zurich) on advanced cryptographic building blocks with strong security guarantees. Main teaching activities included Algorithms I (lab, 2015) and IT security (lab, 2013), encompassed by several seminars and further labs.
+Since 2016, I have been a (senior) scientist at the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a>, Austria’s largest research and technology organization. Prior to this, I held a postdoctoral position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
-In 2010, I received my Diploma in Computer Science from the <a href="https://www.tu-braunschweig.de/en/" target="_blank" rel="nooppener">Technical University of Braunschweig</a> in Germany with a major in cryptography and software engineering. I worked as a software-development intern for <a href="https://www.siemens.com/us/en.html" target="_blank" rel="nooppener">Siemens USA</a> in Princeton, New Jersey, from March to September 2008.
+I earned my PhD (Dr. rer. nat.) in Cryptography from KIT in 2015, under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> (now at ETH Zurich). My doctoral research focused on advanced cryptographic building blocks with an emphasis on <b>security proofs</b>. During my time at KIT, I also contributed to teaching, including Algorithms I (lab, 2015) and IT Security (lab, 2013), alongside organizing seminars and additional lab sessions.
 
-News and activities: 
+In 2010, I completed my Diploma in Computer Science at the <a href="https://www.tu-braunschweig.de/en/" target="_blank" rel="nooppener">Technical University of Braunschweig</a>, specializing in cryptography and software engineering. Earlier in my career, I gained practical experience as a software development intern at <a href="https://www.siemens.com/us/en.html" target="_blank" rel="nooppener">Siemens USA</a> in Princeton, New Jersey (2008).
+
+<b>News & activities</b>
 <ul>
   <li>Sep. 2025: Accepted paper on efficient authenticated key exchange in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal. A preprint is available <a href="https://arxiv.org/abs/2411.04030" target="_blank" rel="noopener">here</a>.</li>
   <li>June 2025: 
