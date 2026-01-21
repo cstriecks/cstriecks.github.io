@@ -40,17 +40,19 @@
 @article{battarbee2025quantumsafehybridkeyexchanges,
       title={Quantum-Safe Hybrid Key Exchanges with KEM-Based Authentication}, 
       author={*Christopher Battarbee and Christoph Striecks and Ludovic Perret and Sebastian Ramacher and Kevin Verhaeghe},
+      journal={(Q1 SJR Rank) EPJ Quantum Technologies 12, Article number: 128 (2025)},
+      abstract={Authenticated Key Exchange (AKE) between any two entities is one of the most important security protocols available for securing our digital networks and infrastructures. In PQCrypto 2023, Bruckner, Ramacher and Striecks proposed a novel hybrid AKE (HAKE) protocol, dubbed Muckle+, that is particularly useful in large quantum-safe networks consisting of a large number of nodes. Their protocol is hybrid in the sense that it allows key material from conventional and post-quantum primitives, as well as from quantum key distribution, to be incorporated into a single end-to-end shared key. To achieve the desired authentication properties, Muckle+ utilizes post-quantum digital signatures. However, available instantiations of such signatures schemes are not yet efficient enough compared to their post-quantum key-encapsulation mechanism (KEM) counterparts, particularly in large networks with potentially several connections in a short period of time. To mitigate this gap, we propose Muckle# that pushes the efficiency boundaries of currently known HAKE constructions. Muckle# uses post-quantum key-encapsulating mechanisms for implicit authentication inspired by recent works done in the area of Transport Layer Security (TLS) protocols, particularly, in KEMTLS (CCS'20). We port those ideas to the HAKE framework and develop novel proof techniques on the way. Due to our novel KEM-based approach, the resulting protocol has a slightly different message flow compared to prior work that we carefully align with the HAKE framework and which makes our changes to the Muckle+ non-trivial.},
       year={2025},
-      journal={EPJ Quantum Technologies XX, Article number: XX (20XX) (accepted)},
-      abstract  = {Authenticated Key Exchange (AKE) between any two entities is one of the most important security protocols available for securing our digital networks and infrastructures. In PQCrypto 2023, Bruckner, Ramacher and Striecks proposed a novel hybrid AKE (HAKE) protocol, dubbed Muckle+, that is particularly useful in large quantum-safe networks consisting of a large number of nodes. Their protocol is hybrid in the sense that it allows key material from conventional and post-quantum primitives, as well as from quantum key distribution, to be incorporated into a single end-to-end shared key. To achieve the desired authentication properties, Muckle+ utilizes post-quantum digital signatures. However, available instantiations of such signatures schemes are not yet efficient enough compared to their post-quantum key-encapsulation mechanism (KEM) counterparts, particularly in large networks with potentially several connections in a short period of time. To mitigate this gap, we propose Muckle# that pushes the efficiency boundaries of currently known HAKE constructions. Muckle# uses post-quantum key-encapsulating mechanisms for implicit authentication inspired by recent works done in the area of Transport Layer Security (TLS) protocols, particularly, in KEMTLS (CCS'20). We port those ideas to the HAKE framework and develop novel proof techniques on the way. Due to our novel KEM-based approach, the resulting protocol has a slightly different message flow compared to prior work that we carefully align with the HAKE framework and which makes our changes to the Muckle+ non-trivial.},
+      url={https://link.springer.com/article/10.1140/epjqt/s40507-025-00425-3},
       arxiv={2411.04030},
-      eprint={https://eprint.iacr.org/2025/1228}
+      eprint={https://eprint.iacr.org/2025/1228},
+      selected={true}
 }
 
 @article{BBBMS2025,
       title={Versatile Quantum-Safe Hybrid Key Exchange and Its Application to MACsec}, 
       author={*Jaime S. Buruaga and Augustine Bugler and Juan P. Brito and Vicente Martin and Christoph Striecks},
-      journal={EPJ Quantum Technologies 12, Article number: 84 (2025)},
+      journal={(Q1 SJR Rank) EPJ Quantum Technologies 12, Article number: 84 (2025)},
       abstract={Advancements in quantum computing pose a significant threat to most of the cryptography currently deployed. Fortunately, cryptographic building blocks to mitigate the threat are already available; mostly based on post-quantum and quantum cryptography, but also on symmetric cryptography techniques. Notably, quantum-safe building blocks must be deployed as soon as possible due to the ``harvest-now decrypt-later'' attack scenario, which is already challenging our sensitive and encrypted data today. Following an agile defense-in-depth approach, Hybrid Authenticated Key Exchange (HAKE) protocols have recently been gaining significant attention. Such protocols modularly combine conventional, post-quantum, and quantum cryptography to achieve confidentiality, authenticity, and integrity guarantees for network channels. Unfortunately, only a few protocols have yet been proposed (mainly Muckle and Muckle+) with different flexibility guarantees. Looking at available standards in the network domain (especially at the Media Access Control Security (MACsec) standard), we believe that HAKE protocols could already bring strong security benefits to MACsec today. MACsec is a standard designed to secure communication at the data link layer in Ethernet networks by providing security for all traffic between adjacent entities. In addition, MACsec establishes secure channels within a Local Area Network (LAN), ensuring that data remain protected from eavesdropping, tampering, and unauthorized access, while operating transparently to higher layer protocols. Currently, MACsec does not offer enough protection in the event of cryptographically relevant quantum computers. In this work, we tackle the challenge and propose a new versatile HAKE protocol, dubbed VMuckle, which is sufficiently flexible for the use in MACsec to provide LAN participants with hybrid key material ensuring secure communication.},
       year={2025},
       url={https://epjquantumtechnology.springeropen.com/articles/10.1140/epjqt/s40507-025-00382-x},
@@ -62,7 +64,7 @@
       title={Malleable SNARKs and Their Applications}, 
       author={Suvradip Chakraborty and Dennis Hofheinz and Roman Langrehr and Jesper Buus Nielsen and Christoph Striecks and Daniele Venturi},
       year={2025},
-      journal={EUROCRYPT 2025, May 4–8 (Slides by R. Langrehr)},
+      journal={(A* Core Rank) EUROCRYPT 2025, May 4–8 (Slides by R. Langrehr)},
       abstract={Succinct non-interactive arguments of knowledge (SNARKs) are variants of non-interactive zero-knowledge proofs (NIZKs) in which complex statements can be proven in a compact way. SNARKs have had tremendous impact in several areas of cryptography, including verifiable computing, blockchains, and anonymous communication. A recurring concept in many applications is the concept of recursive SNARKs, in which a proof references a previous proof to show an evolved statement. In this work, we investigate malleable SNARKs, a generalization of this concept of recursion. An adaptation of the existing concept of malleable NIZKs, malleable SNARKs allow to modify SNARK proofs to show related statements, but such that such mauled proofs are indistinguishable from “properly generated” fresh proofs of the related statement. We show how to instantiate malleable SNARKs for universal languages and relations, and give a number of applications: the first post-quantum RCCA-secure rerandomizable and updatable encryption schemes, a generic construction of reverse firewalls, and an unlinkable (i.e., computation-hiding) targeted malleable homomorphic encryption scheme. Technically, our malleable SNARK construction relies on recursive proofs, but with a twist: in order to support the strong indistinguishability properties of mauled and fresh SNARK proofs, we need to allow an unbounded recursion depth. To still allow for a reasonable notion of extractability in this setting (and in particular to guarantee that extraction eventually finishes with a “proper” witness that does not refer to a previous SNARK proof), we rely on a new and generic computational primitive called adversarial one-way function (AOWF) that may be of independent interest. We give an AOWF candidate and prove it secure in the random oracle model.},
       lncs={https://link.springer.com/chapter/10.1007/978-3-031-91134-7_7},
       eprint={https://eprint.iacr.org/2025/311.pdf},
@@ -78,7 +80,7 @@
                   Christoph Striecks},
   title        = {Identity-Based Encryption with (Almost) Tight Security in the Multi-instance,
                   Multi-ciphertext Setting},
-  journal      = {Journal of Cryptology, Vol. 37, Num. 2, 2024},
+  journal      = {(A* Core Rank) Journal of Cryptology, Vol. 37, Num. 2, 2024},
   volume       = {37},
   number       = {2},
   pages        = {12},
@@ -99,7 +101,7 @@
   title        = {(Inner-Product) Functional Encryption with Updatable Ciphertexts},
   abstract  = {We propose a novel variant of functional encryption which supports ciphertext updates, dubbed ciphertext updatable functional encryption (CUFE). Such a feature further broadens the practical applicability of the functional encryption paradigm and is carried out via so-called update tokens. However, allowing update tokens requires some care for the security definition as we want that updates can be done by any semi-trusted third party and only on ciphertexts. Our contribution is three-fold: a) We define our new primitive with a security notion in the indistinguishability setting. Within CUFE, functional decryption keys and ciphertexts are labeled with tags such that only if the tag of the decryption key and the ciphertext match, then decryption succeeds. Furthermore, we allow ciphertexts to switch their tags to any other tag via update tokens. Such tokens are generated by the holder of the main secret key and can only be used in the desired direction. b) We present a generic construction of CUFE for any functionality as well as predicates different from equality testing on tags, which relies on the existence of (probabilistic) indistinguishability obfuscation (iO). c) We present a practical construction of CUFE for the inner-product functionality from standard assumptions (i.e., LWE) in the random-oracle model. On the technical level, we build on the recent functional encryption schemes with fine-grained access control and linear operations on encrypted data (Abdalla et al., AC'20) and introduce an additional ciphertext updatability feature. Proving security for such a construction turned out to be non-trivial, particularly when revealing keys for the updated challenge ciphertext is allowed. Overall, such construction enriches the set of known inner-product functional-encryption schemes with the additional updatability feature of ciphertexts.},
   booktitle = {Journal of Cryptology.},
-  journal      = {Journal of Cryptology, Volume 37, Num. 1, 2024},
+  journal      = {(A* Core Rank) Journal of Cryptology, Volume 37, Num. 1, 2024},
   volume       = {37},
   number       = {1},
   pages        = {8},
@@ -120,7 +122,7 @@
                   Hoeteck Wee},
   title        = {Revisiting Updatable Encryption: Controlled Forward Security, Constructions
                   and a Puncturable Perspective},
-  booktitle    = {Theory of Cryptography - 21st International Conference, {TCC} 2023,
+  booktitle    = {(B Core Rank) Theory of Cryptography - 21st International Conference, {TCC} 2023,
                   Taipei, Taiwan, November 29 - December 2, 2023, Proceedings, Part
                   {II}},
   series       = {Lecture Notes in Computer Science},
@@ -168,7 +170,7 @@
   editor       = {Thomas Johansson and
                   Daniel Smith{-}Tone},
   title        = {Muckle+: End-to-End Hybrid Authenticated Key Exchanges},
-  booktitle    = {Post-Quantum Cryptography - 14th International Workshop, PQCrypto
+  booktitle    = {(C Core Rank) Post-Quantum Cryptography - 14th International Workshop, PQCrypto
                   2023, College Park, MD, USA, August 16-18, 2023, Proceedings},
   series       = {Lecture Notes in Computer Science},
   volume       = {14154},
@@ -192,7 +194,7 @@
                   Martijn Stam},
   title        = {Unique-Path Identity Based Encryption with Applications to Strongly
                   Secure Messaging},
-  booktitle    = {Advances in Cryptology - {EUROCRYPT} 2023 - 42nd Annual International
+  booktitle    = {(A* Core Rank) Advances in Cryptology - {EUROCRYPT} 2023 - 42nd Annual International
                   Conference on the Theory and Applications of Cryptographic Techniques,
                   Lyon, France, April 23-27, 2023, Proceedings, Part {V}},
   series       = {Lecture Notes in Computer Science},
@@ -217,7 +219,7 @@
                   Yohei Watanabe},
   title        = {Logarithmic-Size (Linkable) Threshold Ring Signatures in the Plain
                   Model},
-  booktitle    = {Public-Key Cryptography - {PKC} 2022 - 25th {IACR} International Conference
+  booktitle    = {(B Core Rank) Public-Key Cryptography - {PKC} 2022 - 25th {IACR} International Conference
                   on Practice and Theory of Public-Key Cryptography, Virtual Event,
                   March 8-11, 2022, Proceedings, Part {II}},
   series       = {Lecture Notes in Computer Science},
@@ -239,7 +241,7 @@
                   Christoph Striecks},
   title        = {Bloom Filter Encryption and Applications to Efficient Forward-Secret
                   0-RTT Key Exchange},
-  journal      = {Journal of Cryptology},
+  journal      = {(A* Core Rank) Journal of Cryptology},
   volume       = {34},
   number       = {2},
   pages        = {13},
@@ -258,7 +260,7 @@
                   Michael Waidner},
   title        = {Versatile and Sustainable Timed-Release Encryption and Sequential
                   Time-Lock Puzzles (Extended Abstract)},
-  booktitle    = {Computer Security - {ESORICS} 2021 - 26th European Symposium on Research
+  booktitle    = {(A Core Rank) Computer Security - {ESORICS} 2021 - 26th European Symposium on Research
                   in Computer Security, Darmstadt, Germany, October 4-8, 2021, Proceedings,
                   Part {II}},
   series       = {Lecture Notes in Computer Science},
@@ -309,7 +311,7 @@
                   Erkan Tairi},
   editor       = {Juan A. Garay},
   title        = {Updatable Signatures and Message Authentication Codes},
-  booktitle    = {Public-Key Cryptography - {PKC} 2021 - 24th {IACR} International Conference
+  booktitle    = {(B Core Rank) Public-Key Cryptography - {PKC} 2021 - 24th {IACR} International Conference
                   on Practice and Theory of Public Key Cryptography, Virtual Event,
                   May 10-13, 2021, Proceedings, Part {I}},
   series       = {Lecture Notes in Computer Science},
@@ -330,7 +332,7 @@
                   Claudia D{\'{\i}}az},
   title        = {Fine-Grained Forward Secrecy: Allow-List/Deny-List Encryption and
                   Applications},
-  booktitle    = {Financial Cryptography and Data Security - 25th International Conference,
+  booktitle    = {(A Core Rank) Financial Cryptography and Data Security - 25th International Conference,
                   {FC} 2021, Virtual Event, March 1-5, 2021, Revised Selected Papers,
                   Part {II}},
   series       = {Lecture Notes in Computer Science},
@@ -353,7 +355,7 @@
                   Huaxiong Wang},
   title        = {CCA-Secure (Puncturable) KEMs from Encryption with Non-Negligible
                   Decryption Errors},
-  booktitle    = {Advances in Cryptology - {ASIACRYPT} 2020 - 26th International Conference
+  booktitle    = {(A Core Rank) Advances in Cryptology - {ASIACRYPT} 2020 - 26th International Conference
                   on the Theory and Application of Cryptology and Information Security,
                   Daejeon, South Korea, December 7-11, 2020, Proceedings, Part {I}},
   series       = {Lecture Notes in Computer Science},
@@ -432,7 +434,7 @@
                   Christoph Striecks},
   title        = {Fine-Grained and Controlled Rewriting in Blockchains: Chameleon-Hashing
                   Gone Attribute-Based},
-  booktitle    = {26th Annual Network and Distributed System Security Symposium, {NDSS}
+  booktitle    = {(A* Core Rank) 26th Annual Network and Distributed System Security Symposium, {NDSS}
                   2019, San Diego, California, USA, February 24-27, 2019},
   publisher    = {The Internet Society},
   year         = {2019},
@@ -453,7 +455,7 @@
                   Vincent Rijmen},
   title        = {Bloom Filter Encryption and Applications to Efficient Forward-Secret
                   0-RTT Key Exchange},
-  booktitle    = {Advances in Cryptology - {EUROCRYPT} 2018 - 37th Annual International
+  booktitle    = {(A* Core Rank) Advances in Cryptology - {EUROCRYPT} 2018 - 37th Annual International
                   Conference on the Theory and Applications of Cryptographic Techniques,
                   Tel Aviv, Israel, April 29 - May 3, 2018 Proceedings, Part {III}},
   series       = {Lecture Notes in Computer Science},
@@ -481,7 +483,7 @@
                   Ricardo Dahab},
   title        = {Revisiting Proxy Re-encryption: Forward Secrecy, Improved Security,
                   and Applications},
-  booktitle    = {Public-Key Cryptography - {PKC} 2018 - 21st {IACR} International Conference
+  booktitle    = {(B Core Rank) Public-Key Cryptography - {PKC} 2018 - 21st {IACR} International Conference
                   on Practice and Theory of Public-Key Cryptography, Rio de Janeiro,
                   Brazil, March 25-29, 2018, Proceedings, Part {I}},
   series       = {Lecture Notes in Computer Science},
@@ -515,7 +517,7 @@
   editor       = {Srdjan Capkun and
                   Sherman S. M. Chow},
   title        = {Towards Attribute-Based Credentials in the Cloud},
-  booktitle    = {Cryptology and Network Security - 16th International Conference, {CANS}
+  booktitle    = {(B Core Rank) Cryptology and Network Security - 16th International Conference, {CANS}
                   2017, Hong Kong, China, November 30 - December 2, 2017, Revised Selected
                   Papers},
   series       = {Lecture Notes in Computer Science},
@@ -630,7 +632,7 @@
                   Jessica Koch and
                   Christoph Striecks},
   title        = {Confined Guessing: New Signatures From Standard Assumptions},
-  journal      = {Journal of Cryptology},
+  journal      = {(A* Core Rank) Journal of Cryptology},
   volume       = {28},
   number       = {1},
   pages        = {176--208},
@@ -646,7 +648,7 @@
   editor       = {Jonathan Katz},
   title        = {Identity-Based Encryption with (Almost) Tight Security in the Multi-instance,
                   Multi-ciphertext Setting},
-  booktitle    = {Public-Key Cryptography - {PKC} 2015 - 18th {IACR} International Conference
+  booktitle    = {(B Core Rank) Public-Key Cryptography - {PKC} 2015 - 18th {IACR} International Conference
                   on Practice and Theory in Public-Key Cryptography, Gaithersburg, MD,
                   USA, March 30 - April 1, 2015, Proceedings},
   series       = {Lecture Notes in Computer Science},
@@ -665,7 +667,7 @@
                   Christoph Striecks},
   editor       = {Josh Benaloh},
   title        = {A Generic View on Trace-and-Revoke Broadcast Encryption Schemes},
-  booktitle    = {Topics in Cryptology - {CT-RSA} 2014 - The Cryptographer's Track at
+  booktitle    = {(B Core Rank) Topics in Cryptology - {CT-RSA} 2014 - The Cryptographer's Track at
                   the {RSA} Conference 2014, San Francisco, CA, USA, February 25-28,
                   2014. Proceedings},
   series       = {Lecture Notes in Computer Science},
@@ -687,7 +689,7 @@
   editor       = {Ran Canetti and
                   Juan A. Garay},
   title        = {Programmable Hash Functions in the Multilinear Setting},
-  booktitle    = {Advances in Cryptology - {CRYPTO} 2013 - 33rd Annual Cryptology Conference,
+  booktitle    = {(A* Core Rank)  in Cryptology - {CRYPTO} 2013 - 33rd Annual Cryptology Conference,
                   Santa Barbara, CA, USA, August 18-22, 2013. Proceedings, Part {I}},
   series       = {Lecture Notes in Computer Science},
   volume       = {8042},
@@ -708,7 +710,7 @@
   editor       = {Thomas Johansson and
                   Phong Q. Nguyen},
   title        = {Practical Signatures from Standard Assumptions},
-  booktitle    = {Advances in Cryptology - {EUROCRYPT} 2013, 32nd Annual International
+  booktitle    = {(A* Core Rank) Advances in Cryptology - {EUROCRYPT} 2013, 32nd Annual International
                   Conference on the Theory and Applications of Cryptographic Techniques,
                   Athens, Greece, May 26-30, 2013. Proceedings},
   series       = {Lecture Notes in Computer Science},

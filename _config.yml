@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Dr. # the website title (if blank, full name will be used instead)
 first_name: Christoph
 middle_name: 
 last_name: Striecks
-email: Christoph.Striecks@ait.ac.at
+email: Christoph.Striecks@posteo.net
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Senior scientist in cryptography at AIT Austrian Institute of Technology, Vienna.
 footer_text: >
