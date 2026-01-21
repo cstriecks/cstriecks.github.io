@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a senior scientist specializing in the design and analysis of <b>secure communication systems</b>, with a focus on cryptographic protocols and primitives -- particularly key exchange, encryption, data access control, and authentication. My most recent work centers on advancing <b>hybrid quantum-classical cryptography</b>, ensuring long-term security for next-generation communication infrastructures.
+I am a senior scientist specializing in the design and analysis of <b>secure communication systems</b>, with a focus on cryptographic protocols and primitives -- particularly key exchange, encryption, data access control, and authentication. My most recent work centers on advancing <b>hybrid quantum-safe cryptography</b>, ensuring long-term security for next-generation communication infrastructures.
 
 I contribute to <b>standardization efforts</b> at ETSI and CEN/CENELEC -- including my past role in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> (standardizing Attribute-Based Encryption) and my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> (standardizing Quantum-Safe Hybrid Authenticated Key Exchange). My research and collaborations are detailed in my <a href="{{ '/publications/' | relative_url }}">publications</a>, <a href="{{ '/talks/' | relative_url }}">talks</a>, and ongoing projects below.
 
@@ -84,16 +84,16 @@ Organizing activities:
 Current projects: 
 
 <ul>
- <li><a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684 "Quantum-Safe Cryptographic Solutions (QSCS)"</a> (EU & ETSI 2025-2027)</li>
- <li><a href="https://qsnp.eu" target="_blank" rel="noopener">Quantum Secure Networks Partnership</a> (EU HORIZON-RIA 2023-2026)</li>
- <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2025)</li>
- <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
- <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
+ <li><a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684: Quantum-Safe Cryptographic Solutions (QSCS)</a> (EU & ETSI 2025-2027)</li>
+ <li><a href="https://qsnp.eu" target="_blank" rel="noopener">Quantum Secure Networks Partnership (QSNP)</a> (EU HORIZON-RIA 2023-2026)</li>
+ <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2026)</li>
 </ul>
 
 Completed projects: 
 
 <ul>
+ <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
+ <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
  <li><a href="https://teamaware.eu" target="_blank" rel="noopener">TeamAware</a> (EU HORIZON 2020, 2021-2024)</li>
  <li><a href="https://profet.at/" target="_blank" rel="noopener">PROFET</a> (FWF, netidee SCIENCE, 2019-2023)</li>
  <li><a href="https://www.comp4drones.eu/" target="_blank" rel="noopener">COMP4DRONES</a> (EU HORIZON 2020, ECSEL, 2019-2023)</li>
@@ -121,8 +121,8 @@ Teaching & supervision:
 
 Program committees: 
 <ul>
- <li>International Conference on Quantum Communications, Networking, and Computing (QCNC 2025) <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
- <li>International Conference on Cryptology and Network Security (CANS)<a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" target="_blank" rel="noopener">2025</a>, <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
+ <li>International Conference on Quantum Communications, Networking, and Computing (QCNC) <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
+ <li>International Conference on Cryptology and Network Security (CANS) <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" target="_blank" rel="noopener">2025</a>, <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
  <li>Security Standardisation Research Conference <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">2024</a>, <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2025</a>, <a href="https://icissp.scitevents.org/?y=2024" target="_blank" rel="noopener">2024</a></li>
