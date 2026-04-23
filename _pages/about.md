@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 
 I am a senior scientist specializing in the design and analysis of <b>secure communication systems</b>, with a focus on cryptographic protocols and primitives -- particularly key exchange, encryption, data access control, and authentication. My most recent work is on advancing <b>hybrid quantum-safe cryptography</b> to achieve long-term security for next-generation communication infrastructures.
 
-I contribute to <b>standardization efforts</b> at ETSI and CEN/CENELEC -- including my past role in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> (standardizing Attribute-Based Encryption) and my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> (standardizing Quantum-Safe Hybrid Authenticated Key Exchange).
+I actively contribute to <b>standardization efforts</b> at ETSI and CEN/CENELEC -- including my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> (standardizing Quantum-Safe Hybrid Authenticated Key Exchange) and my past role in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> (standardizing Attribute-Based Access Control).
 
 <b>Academic & professional background</b>
 
@@ -27,6 +27,7 @@ In 2010, I completed my Diploma in Computer Science at the <a href="https://www.
 
 <b>News & activities</b>
 <ul>
+  <li>Apr. 2026: I contributed to a <a href="https://kpmgimpulse.podbean.eu/e/134-quantencomputing-chancen-und-herausforderungen-dieser-technologie-im-talk-mit-christoph-striecks-ait/" target="_blank" rel="noopener">podcast on the challenges of quantum computing</a> (recording from 2025 in German).</li>
   <li>Jan. 2026: I will give an invited talk at the workshop <a href="https://qprep.eu/the-athens-workshop-2026/" target="_blank" rel="noopener">Q-PrEP 2026: Quantum Readiness in Practice</a> in Athens on 5 February 2026.</li>
   <li>Sep. 2025: Accepted paper on hybrid key exchange with KEM-based authentication in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal. A preprint is available <a href="https://arxiv.org/abs/2411.04030" target="_blank" rel="noopener">here</a>.</li>
   <li>June 2025: 
@@ -40,15 +41,15 @@ In 2010, I completed my Diploma in Computer Science at the <a href="https://www.
  <li>May 2025: I gave a presentation on quantum-safe hybrid key establishment at the <a href="https://cryptull.webs.ull.es/QuRCry/" target="_blank" rel="noopener">Workshop on Quantum-Resistant Cryptography – an EUROCRYPT 2025 affiliated event</a>.</li>
  <li>Apr. 2025: Accepted talk on hybrid authenticated key establishment at <a href="https://www.etsi.org/events/2450-etsi-iqc-quantum-safe-cryptography-conference-2025" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2025</a> in Madrid in June.</li>
  <li>Jan. 2025: Accepted paper on malleable SNARKs and their applications at <a href="https://eurocrypt.iacr.org/2025/" target="_blank" rel="noopener">Eurocrypt 2025</a>.</li>
- <li>Jan. 2025: I am currently co-organizing a <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">workshop on Quantum-Safe Hybrid Cryptography</a> (under the umbrella of <a href="http://acns2025.fordaysec.de" target="_blank" rel="noopener">ACNS'25</a>).</li>
+ <!-- <li>Jan. 2025: I am currently co-organizing a <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">workshop on Quantum-Safe Hybrid Cryptography</a> (under the umbrella of <a href="http://acns2025.fordaysec.de" target="_blank" rel="noopener">ACNS'25</a>).</li>
  <li>Dec. 2024: I gave an invited talk on hybrid cryptography in the <a href="https://indico.math.cnrs.fr/event/5778/" target="_blank" rel="noopener">Quantum Technologies for Cryptography</a> workshop at the <a href="https://www.ihp.fr/en" target="_blank" rel="noopener">Institut Henri Poincaré</a>.</li>
  <li>Nov. 2024: Had a successful <a href="https://www.ait.ac.at/en/news-events/single-view/detail/8582?cHash=95e94e77a25c99f7740075a7bf263364" target="_blank" rel="noopener">senior-promotion hearing at AIT</a>; the new position will be held from 1st December 2024 onwards.</li>
  <li>Oct. 2024: Presentation of an invited webinar (with Ludovic Perret) on hybrid key exchanges for the <a href="https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/communications-networks-content-and-technology_en" target="_blank" rel="noopener">European Commission</a> under the umbrella of the <a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> project. The slides of the technical part are available <a href="assets/pdf/2024-10-02-Hybrid-Key-Exchange-Striecks-Perret-Part-1.pdf" target="_blank" rel="noopener">here</a>.</li>
- <!-- <li>Oct. 2024: Happy to serve as a program committee member in "Track 3: Security in the Quantum Age" of the <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">International Conference on Quantum Communications, Networking, and Computing (QCNC 2025)</a>.</li>
+ <li>Oct. 2024: Happy to serve as a program committee member in "Track 3: Security in the Quantum Age" of the <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">International Conference on Quantum Communications, Networking, and Computing (QCNC 2025)</a>.</li>
  <li>Sep. 2024: Presentation of a series of webinars on authentication in large quantum-safe networks under the umbrella of the <a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> project.</li>-->
- <li>Jul. 2024: Happy to serve as a program committee member of the <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2024</a>.</li>
+ <!-- <li>Jul. 2024: Happy to serve as a program committee member of the <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">Security Standardisation Research Conference 2024</a>.</li>
  <li>May 2024: Attended the <a href="https://skechworkshop.github.io" target="_blank" rel="noopener">SKECH Workshop 2024</a>.</li>
- <!--  <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li> -->
+ <li>Jan. 2024: Talk on source authentication in quantum-safe networks at <a href="https://qci-cat.at/qci-days-event/" target="_blank" rel="noopener">QCI Days Vienna 2024</a>.</li> -->
  <!-- <li>Oct. 2023: An extended version of our PKC'15 paper was accepted to the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
  <li>Sep. 2023: Accepted paper on forward-secure 0-RTT key exchange at <a href="https://ccsw.io" target="_blank" rel="noopener">The ACM Cloud Computing Security Workshop 2023</a>.</li>
  <li>Aug. 2023: Accepted papers on forward security in updatable encryption at <a href="https://tcc.iacr.org/2023/" target="_blank" rel="noopener">TCC 2023</a> and on functional encryption with updatable ciphertexts in the <a href="https://www.springer.com/journal/145" target="_blank" rel="noopener">Journal of Cryptology</a>.</li>
@@ -84,14 +85,15 @@ Organizing activities:
 Current projects: 
 
 <ul>
+ <li><a href="https://www.ait.ac.at/news-events/single-view?tx_ttnews%5Btt_news%5D=9253&cHash=346f525e0dde2c40f4f7aac6b981dd70" target="_blank" rel="noopener">MOZART</a> (Project lead, KIRAS/K-PASS 2026-2028)</li>
  <li><a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684: Quantum-Safe Cryptographic Solutions (QSCS)</a> (EU & ETSI 2025-2027)</li>
  <li><a href="https://qsnp.eu" target="_blank" rel="noopener">Quantum Secure Networks Partnership (QSNP)</a> (EU HORIZON-RIA 2023-2026)</li>
- <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2026)</li>
 </ul>
 
 Completed projects: 
 
 <ul>
+ <li><a href="https://qci-cat.at" target="_blank" rel="noopener">QCI-CAT</a> (Digital European Program, 2022-2026)</li>
  <li><a href="https://petrus-euroqci.eu" target="_blank" rel="noopener">PETRUS</a> (Digital European Program, 2022-2025)</li>
  <li><a href="https://defence-industry-space.ec.europa.eu/system/files/2023-01/Factsheet_EDF21_EDOCC.pdf" target="_blank" rel="noopener">EDOCC</a> (European Defence Fund, 2022-2025)</li>
  <li><a href="https://teamaware.eu" target="_blank" rel="noopener">TeamAware</a> (EU HORIZON 2020, 2021-2024)</li>
@@ -116,11 +118,13 @@ Teaching & supervision:
 <ul>
  <li>Teaching: Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
  <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
- <li>Recent students & interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024, Mar. 2025-), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022), Denis Jahic (TU Vienna, Jul.-Sep. 2021)</li>
+ <li>Master students: Augustine Bugler (University of Vienna, Mar.-Jun. 2026)</li>
+ <li>Recent students & interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024, Mar. 2025 - Feb. 2026), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022)</li>
 </ul>
 
 Program committees: 
 <ul>
+ <li> International Conference on Practice and Theory in Public Key Cryptography (PKC) <a href="https://pkc.iacr.org/2027/" target="_blank" rel="noopener">2027</a></li> 
  <li>International Conference on Quantum Communications, Networking, and Computing (QCNC) <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
  <li>International Conference on Cryptology and Network Security (CANS) <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" target="_blank" rel="noopener">2025</a>, <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
  <li>Security Standardisation Research Conference <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">2024</a>, <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
