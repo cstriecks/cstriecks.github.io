@@ -107,6 +107,7 @@ Completed projects:
 
 Research visits: 
 <ul>
+ <li>Sorbonne Université/CNRS (<a href="https://www.lre.epita.fr/members/ludovic-perret/" target="_blank" rel="noopener">Prof. Ludovic Perret</a>, now at EPITA, 12/2024)</li>
  <li>Friedrich-Alexander-Universität Erlangen-Nürnberg (<a href="https://informatics.tuwien.ac.at/people/dominique-schroeder" target="_blank" rel="noopener">Prof. Dominique Schröder</a>, now at TU Vienna, 12/2022)</li>
  <li>ETH Zurich (<a href="https://foc.ethz.ch" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a>, 09/2022)</li>
  <li>Royal Holloway, University of London (<a href="https://malb.io" target="_blank" rel="noopener">Prof. Martin R. Albrecht</a>, now at King's College London and SandboxAQ, 10/2018)</li>
