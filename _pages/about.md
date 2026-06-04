@@ -13,20 +13,21 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a senior scientist specializing in the design and analysis of <b>secure communication systems</b>, with a focus on cryptographic protocols and primitives -- particularly key exchange, encryption, data access control, and authentication. My most recent work is on advancing <b>hybrid quantum-safe cryptography</b> to achieve long-term security for next-generation communication infrastructures.
+I am a senior scientist specialising in the design and analysis of <b>secure communication systems</b>, with a focus on cryptographic protocols and primitives -- particularly key exchange, encryption, data access control, and authentication. My most recent work is on advancing <b>quantum-safe hybrid cryptography</b> to achieve long-term security for next-generation communication infrastructures.
 
-I actively contribute to <b>standardization efforts</b> at ETSI and CEN/CENELEC -- including my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> (standardizing Quantum-Safe Hybrid Authenticated Key Exchange) and my past role in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> (standardizing Attribute-Based Access Control).
+Moreover, I actively contribute to <b>standardisation efforts</b> at ETSI and CEN/CENELEC -- including my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> (standardising quantum-safe hybrid authenticated key exchange) and my past role in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> (standardising attribute-based cryptography).
 
 <b>Academic & professional background</b>
 
-In 2016, I joined the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a>, Austria’s largest research and technology organization. Before, I held a postdoctoral position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
+In 2016, I joined the <a href="https://www.ait.ac.at" target="_blank" rel="noopener">AIT Austrian Institute of Technology</a>, Austria’s largest research and technology organisation. Before, I held a postdoctoral position at the <a href="https://kit.edu" target="_blank" rel="nooppener">Karlsruhe Institute of Technology (KIT)</a> in Germany.
 
 In 2015, I earned my PhD (Dr. rer. nat.) in Cryptography from KIT under the supervision of <a href="https://people.inf.ethz.ch/dhofheinz" target="_blank" rel="noopener">Prof. Dennis Hofheinz</a> (now at ETH Zurich). My PhD research focused on advanced cryptographic building blocks with an emphasis on <b>security proofs</b>. During my time at KIT, I also contributed to teaching, including Algorithms I (lab, 2015) and IT Security (lab, 2013), as well as seminars and additional lab sessions.
 
-In 2010, I completed my Diploma in Computer Science at the <a href="https://www.tu-braunschweig.de/en/" target="_blank" rel="nooppener">Technical University of Braunschweig</a>, with a focus on cryptography and software engineering. During my studies, I had the opportunity to particpate in an internship with <a href="https://www.siemens.com/us/en.html" target="_blank" rel="nooppener">Siemens USA</a> in Princeton, New Jersey (2008).
+In 2010, I completed my Diploma (Dipl.-Inf.) in Computer Science at the <a href="https://www.tu-braunschweig.de/en/" target="_blank" rel="nooppener">Technical University of Braunschweig</a>, with a focus on cryptography and software engineering. During my studies, I had the opportunity to particpate in an internship with <a href="https://www.siemens.com/us/en.html" target="_blank" rel="nooppener">Siemens USA</a> in Princeton (2008).
 
 <b>News & activities</b>
 <ul>
+  <li>May 2026: Accepted paper on quantum-safe hybrid key exchange assessment for dual-use applications in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal.</li>
   <li>Apr. 2026: I contributed to a <a href="https://kpmgimpulse.podbean.eu/e/134-quantencomputing-chancen-und-herausforderungen-dieser-technologie-im-talk-mit-christoph-striecks-ait/" target="_blank" rel="noopener">podcast on the challenges of quantum computing</a> (recording from 2025 in German).</li>
   <li>Jan. 2026: I will give an invited talk at the workshop <a href="https://qprep.eu/the-athens-workshop-2026/" target="_blank" rel="noopener">Q-PrEP 2026: Quantum Readiness in Practice</a> in Athens on 5 February 2026.</li>
   <li>Sep. 2025: Accepted paper on hybrid key exchange with KEM-based authentication in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal. A preprint is available <a href="https://arxiv.org/abs/2411.04030" target="_blank" rel="noopener">here</a>.</li>
@@ -77,9 +78,9 @@ In 2010, I completed my Diploma in Computer Science at the <a href="https://www.
   <ul>{% bibliography -f cs-talks -q @*[selected=true]* %}</ul>-->
 </div>
 
-Organizing activities: 
+Organising activities: 
 <ul>
- <li><a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">Quantum-Safe Hybrid Cryptography 2025</a> (co-organizing)</li> 
+ <li><a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">Quantum-Safe Hybrid Cryptography 2025</a> (co-organising)</li> 
 </ul>
 
 Current projects: 
@@ -114,16 +115,16 @@ Research visits:
  <li>Paderborn University (<a href="https://itsc.uni-wuppertal.de/en/group-members/prof-dr-ing-tibor-jager/" target="_blank" rel="noopener">Prof. Tibor Jager</a>, now at Bergische Universität Wuppertal, 03/2017)</li>
 </ul>
 
-Teaching & supervision:
+ Supervision & teaching:
 
 <ul>
- <li>Teaching: Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
  <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
  <li>Master students: Augustine Bugler (University of Vienna, Mar.-Jun. 2026)</li>
  <li>Recent students & interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024, Mar. 2025 - Feb. 2026), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022)</li>
+ <li>Teaching: Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
 </ul>
 
-Program committees: 
+Recent program committees: 
 <ul>
  <li> International Conference on Practice and Theory in Public Key Cryptography (PKC) <a href="https://pkc.iacr.org/2027/" target="_blank" rel="noopener">2027</a></li> 
  <li>International Conference on Quantum Communications, Networking, and Computing (QCNC) <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
@@ -132,8 +133,8 @@ Program committees:
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2025</a>, <a href="https://icissp.scitevents.org/?y=2024" target="_blank" rel="noopener">2024</a></li>
  <li>GI SICHERHEIT <a href="https://sicherheit2024.ztt.hs-worms.de" target="_blank" rel="noopener">2024</a>, <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> &amp; <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
- <li>ARES Workshops <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> &amp; <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a></li>
- <li>IFIP Summer School on Privacy and Identity Management <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2019</a> &amp; <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2018</a></li>
+ <!--<li>ARES Workshops <a href="https://www.ares-conference.eu/secpid-2023/" target="_blank" rel="noopener">2023</a>, <a href="https://2022.ares-conference.eu/workshops-eu-symposium/secpid-2022/index.html" target="_blank" rel="noopener">2022</a> &amp; <a href="https://2020.ares-conference.eu/workshops/wisi-2020/index.html" target="_blank" rel="noopener">2020</a></li>
+ <li>IFIP Summer School on Privacy and Identity Management <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2019</a> &amp; <a href="https://www.ifip-summerschool.org" target="_blank" rel="noopener">2018</a></li>-->
 </ul>
 
 Selected external reviewing activities: 
