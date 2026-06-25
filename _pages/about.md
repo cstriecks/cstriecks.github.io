@@ -27,6 +27,7 @@ In 2010, I completed my Diploma (Dipl.-Inf.) in Computer Science at the <a href=
 
 <b>News & activities</b>
 <ul>
+  <li>Jun. 2026: I gave a talk on "Developing quantum-safe hybrid cryptographic standards" at the <a href="https://qprep.eu/the-athens-workshop-2026/" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2026</a> in Ottawa on 17 June 2026.</li>
   <li>May 2026: Accepted paper on quantum-safe hybrid key exchange assessment for dual-use applications in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal.</li>
   <li>Apr. 2026: I contributed to a <a href="https://kpmgimpulse.podbean.eu/e/134-quantencomputing-chancen-und-herausforderungen-dieser-technologie-im-talk-mit-christoph-striecks-ait/" target="_blank" rel="noopener">podcast on the challenges of quantum computing</a> (recording from 2025 in German).</li>
   <li>Jan. 2026: I will give an invited talk at the workshop <a href="https://qprep.eu/the-athens-workshop-2026/" target="_blank" rel="noopener">Q-PrEP 2026: Quantum Readiness in Practice</a> in Athens on 5 February 2026.</li>
