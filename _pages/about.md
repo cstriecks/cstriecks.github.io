@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Senior Scientist in cryptography at AIT Austrian Institute of Technology, Vienna; PhD in cryptography from Karlsruhe Institute of Technology, Germany.
+description: Senior Scientist in cryptography at AIT Austrian Institute of Technology, Vienna; PhD in cryptography from Karlsruhe Institute of Technology (KIT), Germany.
 profile:
   align: right
   image: img-profile-cs-2025.jpg
@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a senior scientist specialising in the design and analysis of <b>secure communication systems</b>, with a focus on cryptographic protocols and primitives -- particularly key exchange, encryption, data access control, and authentication. My most recent work is on advancing <b>quantum-safe hybrid cryptography</b> to achieve long-term security for next-generation communication infrastructures.
+I am a senior scientist specialising in the design and analysis of <b>secure communication systems</b>, with a focus on cryptographic protocols and primitives -- particularly key exchange, encryption, data access control, and authentication. My most recent work centers around advancing <b>quantum-safe hybrid cryptography</b> to achieve long-term security for next-generation communication infrastructures.
 
 Moreover, I actively contribute to <b>standardisation efforts</b> at ETSI and CEN/CENELEC -- including my current involvement in <a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684</a> (standardising quantum-safe hybrid authenticated key exchange) and my past role in <a href="https://portal.etsi.org/STF/STFs/STFHomePages/STF529" target="_blank" rel="noopener">ETSI STF 529</a> (standardising attribute-based cryptography).
 
@@ -27,6 +27,7 @@ In 2010, I completed my Diploma (Dipl.-Inf.) in Computer Science at the <a href=
 
 <b>News & activities</b>
 <ul>
+  <li>Jul. 2026: I am happy to serve on the <a href="https://pkc.iacr.org/2027/" target="_blank" rel="noopener">PKC 2027</a> program committee.</li>
   <li>Jun. 2026: I gave a talk on "Developing quantum-safe hybrid cryptographic standards" at the <a href="https://qprep.eu/the-athens-workshop-2026/" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2026</a> in Ottawa on 17 June 2026.</li>
   <li>May 2026: Accepted paper on quantum-safe hybrid key exchange assessment for dual-use applications in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal.</li>
   <li>Apr. 2026: I contributed to a <a href="https://kpmgimpulse.podbean.eu/e/134-quantencomputing-chancen-und-herausforderungen-dieser-technologie-im-talk-mit-christoph-striecks-ait/" target="_blank" rel="noopener">podcast on the challenges of quantum computing</a> (recording from 2025 in German).</li>
@@ -43,8 +44,8 @@ In 2010, I completed my Diploma (Dipl.-Inf.) in Computer Science at the <a href=
  <li>May 2025: I gave a presentation on quantum-safe hybrid key establishment at the <a href="https://cryptull.webs.ull.es/QuRCry/" target="_blank" rel="noopener">Workshop on Quantum-Resistant Cryptography – an EUROCRYPT 2025 affiliated event</a>.</li>
  <li>Apr. 2025: Accepted talk on hybrid authenticated key establishment at <a href="https://www.etsi.org/events/2450-etsi-iqc-quantum-safe-cryptography-conference-2025" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2025</a> in Madrid in June.</li>
  <li>Jan. 2025: Accepted paper on malleable SNARKs and their applications at <a href="https://eurocrypt.iacr.org/2025/" target="_blank" rel="noopener">Eurocrypt 2025</a>.</li>
- <!-- <li>Jan. 2025: I am currently co-organizing a <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">workshop on Quantum-Safe Hybrid Cryptography</a> (under the umbrella of <a href="http://acns2025.fordaysec.de" target="_blank" rel="noopener">ACNS'25</a>).</li>
- <li>Dec. 2024: I gave an invited talk on hybrid cryptography in the <a href="https://indico.math.cnrs.fr/event/5778/" target="_blank" rel="noopener">Quantum Technologies for Cryptography</a> workshop at the <a href="https://www.ihp.fr/en" target="_blank" rel="noopener">Institut Henri Poincaré</a>.</li>
+ <li>Jan. 2025: I am currently co-organizing a <a href="https://sites.google.com/view/qshc25" target="_blank" rel="noopener">workshop on Quantum-Safe Hybrid Cryptography</a> (under the umbrella of <a href="http://acns2025.fordaysec.de" target="_blank" rel="noopener">ACNS'25</a>).</li>
+ <!--<li>Dec. 2024: I gave an invited talk on hybrid cryptography in the <a href="https://indico.math.cnrs.fr/event/5778/" target="_blank" rel="noopener">Quantum Technologies for Cryptography</a> workshop at the <a href="https://www.ihp.fr/en" target="_blank" rel="noopener">Institut Henri Poincaré</a>.</li>
  <li>Nov. 2024: Had a successful <a href="https://www.ait.ac.at/en/news-events/single-view/detail/8582?cHash=95e94e77a25c99f7740075a7bf263364" target="_blank" rel="noopener">senior-promotion hearing at AIT</a>; the new position will be held from 1st December 2024 onwards.</li>
  <li>Oct. 2024: Presentation of an invited webinar (with Ludovic Perret) on hybrid key exchanges for the <a href="https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/communications-networks-content-and-technology_en" target="_blank" rel="noopener">European Commission</a> under the umbrella of the <a href="https://qsnp.eu" target="_blank" rel="noopener">QSNP</a> project. The slides of the technical part are available <a href="assets/pdf/2024-10-02-Hybrid-Key-Exchange-Striecks-Perret-Part-1.pdf" target="_blank" rel="noopener">here</a>.</li>
  <li>Oct. 2024: Happy to serve as a program committee member in "Track 3: Security in the Quantum Age" of the <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">International Conference on Quantum Communications, Networking, and Computing (QCNC 2025)</a>.</li>
@@ -87,8 +88,9 @@ Organising activities:
 Current projects: 
 
 <ul>
- <li><a href="https://www.ait.ac.at/news-events/single-view?tx_ttnews%5Btt_news%5D=9253&cHash=346f525e0dde2c40f4f7aac6b981dd70" target="_blank" rel="noopener">MOZART</a> (Project lead, KIRAS/K-PASS 2026-2028)</li>
- <li><a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684: Quantum-Safe Cryptographic Solutions (QSCS)</a> (EU & ETSI 2025-2027)</li>
+ <li><a href="" target="_blank" rel="noopener">HarmoniQCI</a> (Project coordinator, Digital Europe Program 2026-2029)</li>
+ <li><a href="https://www.ait.ac.at/news-events/single-view?tx_ttnews%5Btt_news%5D=9253&cHash=346f525e0dde2c40f4f7aac6b981dd70" target="_blank" rel="noopener">MOZART</a> (Project coordinator, KIRAS/K-PASS 2026-2028)</li>
+ <li><a href="https://portal.etsi.org/xtfs/#/xTF/684" target="_blank" rel="noopener">ETSI STF 684: Quantum-Safe Cryptographic Solutions (QSCS)</a> (ETSI 2025-2027)</li>
  <li><a href="https://qsnp.eu" target="_blank" rel="noopener">Quantum Secure Networks Partnership (QSNP)</a> (EU HORIZON-RIA 2023-2026)</li>
 </ul>
 
