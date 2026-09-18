@@ -27,7 +27,8 @@ In 2010, I completed my Diploma (Dipl.-Inf.) in Computer Science at the <a href=
 
 <b>News & activities</b>
 <ul>
-  <li>Jul. 2026: I am happy to serve on the <a href="https://pkc.iacr.org/2027/" target="_blank" rel="noopener">PKC 2027</a> program committee.</li>
+  <li>Sept. 2026: I am honered to have been part of the PhD Thesis Defense Committees of Rafael Juan Vicente García (07/26) and Rubén David Brito Méndez (09/26) from the Universidad Politécnica de Madrid. Moreover, I acted as an external reviewer for their theses.</li>
+  <li>Jul. 2026: I am happy to serve on the <a href="https://pkc.iacr.org/2027/" target="_blank" rel="noopener">PKC 2027</a>, <a href="https://qcnc.org/2027/" target="_blank" rel="noopener">QCNC 2027</a>, and <a href="https://ssresearch26.umbc.edu" target="_blank" rel="noopener">SSR 2026</a> program committees.</li>
   <li>Jun. 2026: I gave a talk on "Developing quantum-safe hybrid cryptographic standards" at the <a href="https://qprep.eu/the-athens-workshop-2026/" target="_blank" rel="noopener">ETSI/IQC Quantum Safe Cryptography Conference 2026</a> in Ottawa on 17 June 2026.</li>
   <li>May 2026: Accepted paper on quantum-safe hybrid key exchange assessment for dual-use applications in the <a href="https://epjquantumtechnology.springeropen.com" target="_blank" rel="noopener">EPJ Quantum Technolgies</a> journal.</li>
   <li>Apr. 2026: I contributed to a <a href="https://kpmgimpulse.podbean.eu/e/134-quantencomputing-chancen-und-herausforderungen-dieser-technologie-im-talk-mit-christoph-striecks-ait/" target="_blank" rel="noopener">podcast on the challenges of quantum computing</a> (recording from 2025 in German).</li>
@@ -121,8 +122,10 @@ Research visits:
  Supervision & teaching:
 
 <ul>
+ <li>PhD defense committees: Rafael Juan Vicente García (Technical University of Madrid, Sept. 2026), Rubén David Brito Méndez (Technical University of Madrid, Jul. 2026)</li>
+ <li>PhD external reviewer: Rafael Juan Vicente García (Technical University of Madrid, Sept. 2026), Rubén David Brito Méndez (Technical University of Madrid, Jul. 2026)</li>
  <li>PhD visitor: Jaime S. Buruaga (Technical University of Madrid, Jul.-Oct. 2024)</li>
- <li>Master students: Augustine Bugler (University of Vienna, Mar.-Jun. 2026)</li>
+ <li>Master student: Augustine Bugler (University of Vienna, Mar.-Jun. 2026)</li>
  <li>Recent students & interns: Augustine Bugler (University of Vienna, Jul.-Sep. 2024, Mar. 2025 - Feb. 2026), Kevin Verhaeghe (ETH Zurich, Jul.-Sep. 2024), Alexander Zikulnig (TU Vienna, Aug.-Sep. 2022)</li>
  <li>Teaching: Advanced Public-Key Encryption (invited lecture, WT 2020, TU Vienna), Advanced Public-Key Encryption (invited lecture, WT 2019, TU Vienna), Algorithms I (TA, ST 2015, KIT), Gems of Theoretical Computer Science (ST 2014, KIT), IT security (TA, ST 2013, KIT), Software Development (WTs 2010-2012, KIT), Traitor Tracing (WT 2011, KIT), Identity-Based Encryption (ST 2011, KIT), Practical Cryptography (ST 2011, KIT), Lattice-Based Cryptography (WT 2010, KIT), TA programming and cryptography/IT security (until WT 09, Braunschweig University of Technology)</li> 
 </ul>
@@ -130,9 +133,9 @@ Research visits:
 Recent program committees: 
 <ul>
  <li> International Conference on Practice and Theory in Public Key Cryptography (PKC) <a href="https://pkc.iacr.org/2027/" target="_blank" rel="noopener">2027</a></li> 
- <li>International Conference on Quantum Communications, Networking, and Computing (QCNC) <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
+ <li>International Conference on Quantum Communications, Networking, and Computing (QCNC) <a href="https://qcnc.org/2027/" target="_blank" rel="noopener">2027</a>, <a href="https://www.ieee-qcnc.org/2025/" target="_blank" rel="noopener">2025</a>, <a href="https://www.ieee-qcnc.org/2024/" target="_blank" rel="noopener">2024</a></li> 
  <li>International Conference on Cryptology and Network Security (CANS) <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" target="_blank" rel="noopener">2025</a>, <a href="https://2024.cansconference.org" target="_blank" rel="noopener">2024</a>, <a href="https://www.augusta.edu/ccs/conferences/cans2023/" target="_blank" rel="noopener">2023</a>, <a href="https://www.cans2022.com" target="_blank" rel="noopener">2022</a></li>
- <li>Security Standardisation Research Conference <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">2024</a>, <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
+ <li>Security Standardisation Research Conference <a href="https://ssresearch26.umbc.edu" target="_blank" rel="noopener">2026</a>, <a href="https://www.uni-passau.de/ssr2025" target="_blank" rel="noopener">2025</a>, <a href="https://ssresearch24.github.io" target="_blank" rel="noopener">2024</a>, <a href="https://ssresearch2023.github.io" target="_blank" rel="noopener">2023</a></li>
  <li>IMA International Conference on Cryptography and Coding <a href="https://malb.io/imacc2019/" target="_blank" rel="noopener">2019</a></li>
  <li>ICISSP <a href="https://icissp.scitevents.org" target="_blank" rel="noopener">2025</a>, <a href="https://icissp.scitevents.org/?y=2024" target="_blank" rel="noopener">2024</a></li>
  <li>GI SICHERHEIT <a href="https://sicherheit2024.ztt.hs-worms.de" target="_blank" rel="noopener">2024</a>, <a href="https://www.sicherheit2022.kit.edu" target="_blank" rel="noopener">2022</a> &amp; <a href="https://www.uni-goettingen.de/de/603140.html" target="_blank" rel="noopener">2020</a></li>
